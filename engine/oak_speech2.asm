@@ -214,14 +214,48 @@ DisplayIntroNameTextBox:
 .namestring
 	db "NAME@"
 
-;joenote - set female trainer names
 IF DEF(_FPLAYER)
+
+IF DEF(_REDJP)
 DefaultNamesPlayerF:
 	db   "NEW NAME"
-	next "VIOLET"
-	next "CLAIRE"
-	next "JILL"
+	next "BLUE"
+	next "MINA"
+	next "JANE"
 	db   "@"
+ELIF DEF(_RED)
+DefaultNamesPlayerF:
+	db   "NEW NAME"
+	next "GREEN"
+	next "CASSIE"
+	next "JANE"
+	db   "@"
+ENDC
+
+IF DEF(_BLUEJP)
+DefaultNamesPlayerF:
+	db   "NEW NAME"
+	next "BLUE"
+	next "MINA"
+	next "JANE"
+	db   "@"
+ELIF DEF(_BLUE)
+DefaultNamesPlayerF:
+	db   "NEW NAME"
+	next "GREEN"
+	next "CASSIE"
+	next "JANE"
+	db   "@"
+ENDC
+
+IF DEF(_GREEN)
+DefaultNamesPlayerF:
+	db   "NEW NAME"
+	next "BLUE"
+	next "MINA"
+	next "JANE"
+	db   "@"
+ENDC
 ENDC
 
 IF DEF(_REDJP)
@@ -322,13 +356,43 @@ GetDefaultName:
 	ld bc, $14
 	jp CopyData
 
-;joenote - set female trainer names
 IF DEF(_FPLAYER)
+
+IF DEF(_REDJP)
 DefaultNamesPlayerListF:
 	db "NEW NAME@"
-	db "VIOLET@"
-	db "CLAIRE@"
-	db "JILL@"
+	db "BLUE@"
+	db "MINA@"
+	db "JANE@"
+ELIF DEF(_RED)
+DefaultNamesPlayerListF:
+	db "NEW NAME@"
+	db "GREEN@"
+	db "CASSIE@"
+	db "JANE@"
+ENDC
+
+IF DEF(_BLUEJP)
+DefaultNamesPlayerListF:
+	db "NEW NAME@"
+	db "BLUE@"
+	db "MINA@"
+	db "JANE@"
+ELIF DEF(_BLUE)
+DefaultNamesPlayerListF:
+	db   "NEW NAME@"
+	db "GREEN@"
+	db "CASSIE@"
+	db "JANE@"
+ENDC
+
+IF DEF(_GREEN)
+DefaultNamesPlayerListF:
+	db "NEW NAME@"
+	db "BLUE@"
+	db "MINA@"
+	db "JANE@"
+ENDC
 ENDC
 
 IF DEF(_REDJP)
