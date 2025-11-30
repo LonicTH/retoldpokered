@@ -156,6 +156,7 @@ charmap "<:L>", $DE
 charmap "<SHINY>", $DF
 
 charmap "<pkmn>", $4A ; PkMn
+charmap "<PKMN>", $4A ; PkMn
 charmap "@", $50
 charmap "<PLAYER>", $52
 charmap "<RIVAL>", $53
@@ -240,6 +241,22 @@ charmap "'l", $BC
 charmap "'s", $BD
 charmap "'t", $BE
 charmap "'v", $BF
+
+charmap "Á", $C0
+charmap "É", $C1
+charmap "Í", $C2
+charmap "Ó", $C3
+charmap "Ú", $C4
+charmap "Ü", $C5
+charmap "Ñ", $C6
+charmap "á", $C7
+charmap "í", $C8
+charmap "ó", $C9
+charmap "ú", $CA
+charmap "ü", $CB
+charmap "ñ", $CC
+charmap "¿", $CD
+charmap "¡", $CE
 
 charmap "'", $E0
 
