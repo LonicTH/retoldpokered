@@ -2422,7 +2422,7 @@ DisplayBattleMenu:
 	ld a, $2 ; select the "ITEM" menu
 	jp .upperLeftMenuItemWasNotSelected
 .oldManName
-	db "OLD MAN@"
+	db "ANCIANO@"
 .handleBattleMenuInput
 	ld a, [wBattleAndStartSavedMenuItem]
 	ld [wCurrentMenuItem], a
@@ -3140,7 +3140,7 @@ MoveDisabledText:
 	db "@"
 
 WhichTechniqueString:
-	db "WHICH TECHNIQUE?@"
+	db "¿QUÉ TÉCNICA?@"
 
 SelectMenuItem_CursorUp:
 	ld a, [wCurrentMenuItem]
@@ -3367,10 +3367,10 @@ PrintMenuItem:
 	jp Delay3
 
 DisabledText:
-	db "disabled!@"
+	db "¡desactivado!@"
 
 TypeText:
-	db "TYPE@"
+	db "TIPO@"
 
 SelectEnemyMove:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -7936,15 +7936,21 @@ LoadGhostPic:
 	ld [hli], a   ; write front sprite pointer
 	ld [hl], b
 	ld hl, wEnemyMonNick  ; set name to "GHOST"
-	ld a, "G"
+	ld a, "F"
 	ld [hli], a
-	ld a, "H"
+	ld a, "A"
 	ld [hli], a
-	ld a, "O"
+	ld a, "N"
+	ld [hli], a
+	ld a, "T"
+	ld [hli], a
+	ld a, "A"
 	ld [hli], a
 	ld a, "S"
 	ld [hli], a
-	ld a, "T"
+	ld a, "M"
+	ld [hli], a
+	ld a, "A"
 	ld [hli], a
 	ld [hl], "@"
 	ld a, [wcf91]
@@ -9117,12 +9123,12 @@ PrintStatText:
 	jp CopyData
 
 StatsTextStrings:
-	db "ATTACK@"
-	db "DEFENSE@"
-	db "SPEED@"
-	db "SPECIAL@"
-	db "ACCURACY@"
-	db "EVADE@"
+	db "ATAQUE@"
+	db "DEFENSA@"
+	db "VELOCIDAD@"
+	db "ESPECIAL@"
+	db "PRECISIÓN@"
+	db "EVASIÓN@"
 
 BideEffect:
 	ld hl, wPlayerBattleStatus1

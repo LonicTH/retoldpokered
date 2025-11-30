@@ -509,7 +509,7 @@ HandshakeList:
 	db $a
 	db $ff
 VersionText:
-	db "v1.25.0M@"
+	db "v1.25.0-LATAM"
 
 WhereWouldYouLikeText:
 	TX_FAR _WhereWouldYouLikeText
@@ -552,16 +552,16 @@ SpecialEnterMap:
 	jp EnterMap
 
 ContinueText:
-	db "CONTINUE", $4e
+	db "CONTINUAR", $4e
 
 NewGameText:
-	db   "NEW GAME"
-	next "OPTION@"
+	db   "NUEVO JUEGO"
+	next "OPCIONES@"
 
 CableClubOptionsText:
-	db   "TRADE CENTER"
-	next "COLOSSEUM"
-	next "CANCEL@"
+	db   "CENTRO INTER."
+	next "COLISEO"
+	next "CANCELAR@"
 
 DisplayContinueGameInfo:
 	xor a
@@ -648,10 +648,10 @@ PrintPlayTime_local:
 ;	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "PLAYER"
-	next "BADGES    "
-	next "#DEX    "
-	next "TIME@"
+	db   "JUGADOR"
+	next "MEDALLAS    "
+	next "POKÉDEX    "
+	next "TIEMPO@"
 
 DisplayOptionMenu:
 	call GBPalNormal	;joenote - fixes rock tunnel darkness affecting option menu
@@ -821,22 +821,22 @@ DisplayOptionMenu:
 	jp DisplayOptionMenu
 
 TextSpeedOptionText:
-	db   "TEXT SPEED"
-	next " FAST  MEDIUM SLOW@"
+	db   "VEL. TEXTO"
+	next " RÁPIDO MEDIO LENTO@"
 
 BattleAnimationOptionText:
-	db   "BATTLE ANIMATION"
-	next " ON       OFF@"
+	db   "ANIM. de BATALLA"
+	next " ENC      APA@"
 
 BattleStyleOptionText:
-	db   "BATTLE STYLE"
-	next " SHIFT    SET@"
+	db   "EST. de BATALLA"
+	next " CAMBIO   FIJO@"
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "CANCELAR@"
 
 OptionMenuSelectText:	;joenote - text for getting to extra options screen
-	db "SELECT",$E3,$ED,"@"
+	db "SELECCIONAR",$E3,$ED,"@"
 
 ; sets the options variable according to the current placement of the menu cursors in the options menu
 SetOptionsFromCursorPositions:

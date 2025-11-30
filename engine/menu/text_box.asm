@@ -218,13 +218,13 @@ TextBoxTextAndCoordTable:
 ; note that there is no terminator
 
 BuySellQuitText:
-	db   "BUY"
-	next "SELL"
-	next "QUIT@@"
+	db   "COMPRAR"
+	next "VENDER"
+	next "SALIR@@"
 
 UseTossText:
-	db   "USE"
-	next "TOSS@"
+	db   "USAR"
+	next "DESECHAR@"
 
 JapaneseSaveMessageText:
 	db   "きろく"
@@ -235,7 +235,7 @@ JapaneseSpeedOptionsText:
 	next "おそい@"
 
 MoneyText:
-	db "MONEY@"
+	db "DINERO@"
 
 JapaneseMochimonoText:
 	db "もちもの@"
@@ -245,17 +245,17 @@ JapaneseMainMenuText:
 	next "さいしょから@"
 
 BattleMenuText:
-	db   "FIGHT ",$E1,$E2
-	next "ITEM  RUN@"
+	db   "PELEA ",$E1,$E2
+	next "OBJ.  CORRER@"
 
 SafariZoneBattleMenuText:
-	db   "BALL×       BAIT"
-	next "THROW ROCK  RUN@"
+	db   "BOLA×       CEBO"
+	next "LANZAR ROCA  CORRER@"
 
 SwitchStatsCancelText:
-	db   "SWITCH"
-	next "STATS"
-	next "CANCEL@"
+	db   "CAMBIO"
+	next "ESTAD."
+	next "CANCELAR@"
 
 JapaneseAhText:
 	db "アッ!@"
@@ -551,29 +551,29 @@ ENDC
 
 .NoYesMenu
 	db   "NO"
-	next "YES@"
+	next "SÍ@"
 .YesNoMenu
-	db   "YES"
+	db   "SÍ"
 	next "NO@"
 .NorthWestMenu
-	db   "NORTH"
-	next "WEST@"
+	db   "NORTE"
+	next "OESTE@"
 .SouthEastMenu
-	db   "SOUTH"
-	next "EAST@"
+	db   "SUR"
+	next "ESTE@"
 .NorthEastMenu
-	db   "NORTH"
-	next "EAST@"
+	db   "NORTE"
+	next "ESTE@"
 .TradeCancelMenu
-	db   "TRADE"
-	next "CANCEL@"
+	db   "INTER."
+	next "CANCELAR@"
 .HealCancelMenu
-	db   "HEAL"
-	next "CANCEL@"
+	db   "CURAR"
+	next "CANCELAR@"
 IF DEF(_FPLAYER)	;joenote - text to ask if female trainer
 .BoyGirlMenu
-	db   "BOY"
-	next "GIRL@"	
+	db   "CHICO"
+	next "CHICA@"	
 ENDC
 
 DisplayFieldMoveMonMenu:
@@ -698,20 +698,20 @@ DisplayFieldMoveMonMenu:
 	jp PlaceString
 
 FieldMoveNames:
-	db "CUT@"
-	db "FLY@"
+	db "CORTE@"
+	db "VUELO@"
 	db "@"
 	db "SURF@"
-	db "STRENGTH@"
-	db "FLASH@"
-	db "DIG@"
-	db "TELEPORT@"
-	db "SOFTBOILED@"
+	db "FUERZA@"
+	db "DESTELLO@"
+	db "EXCAVAR@"
+	db "TELETRANSPORTE@"
+	db "OVOCURACIÓN@"
 
 PokemonMenuEntries:
-	db   "STATS"
-	next "SWITCH"
-	next "CANCEL@"
+	db   "ESTAD."
+	next "CAMBIO"
+	next "CANCELAR@"
 
 GetMonFieldMoves:
 	ld a, [wWhichPokemon]

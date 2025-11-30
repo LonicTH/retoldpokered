@@ -137,14 +137,14 @@ DisplayPCMainMenu::
 	ld [H_AUTOBGTRANSFERENABLED], a
 	ret
 
-SomeonesPCText:   db "SOMEONE's PC@"
-BillsPCText:      db "BILL's PC@"
-PlayersPCText:    db "'s PC@"
-OaksPCText:       db "PROF.OAK's PC@"
-PKMNLeaguePCText: db $4a, "LEAGUE@"
-LogOffPCText:     db "LOG OFF@"
+SomeonesPCText:   db "PC de ALGUIEN@"
+BillsPCText:      db "PC de BILL@"
+PlayersPCText:    db "PC de @"
+OaksPCText:       db "PC del PROF.OAK@"
+PKMNLeaguePCText: db $4a, "LIGA <pkmn>@"
+LogOffPCText:     db "CERRAR SESIÓN@"
 ;adding GB_PRINTER
-PrinterPCText:     db "PRINTER@"
+PrinterPCText:     db "IMPRIMIR@"
 
 BillsPC_::
 	ld hl, wd730

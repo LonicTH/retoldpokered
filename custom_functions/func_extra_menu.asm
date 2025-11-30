@@ -258,11 +258,11 @@ OptionMenuSoundText:
 OptionMenuMono:
 	db "     MONO@"
 OptionMenuEar1:
-	db "EARPHONE1@"
+	db "AUDÍFONO1@"
 OptionMenuEar2:
-	db "EARPHONE2@"
+	db "AUDÍDOFO2@"
 OptionMenuEar3:
-	db "EARPHONE3@"
+	db "AUDÍFONO3@"
 
 
 ;60fps - show the fps setting on the menu when activated
@@ -395,7 +395,7 @@ OptionMenuNoSwitch:
 OptionMenuNoSwitchON:
 	db "ORIG.@"
 OptionMenuNoSwitchOFF:
-	db "SMART@"
+	db "INTEL@"
 
 	
 ;joenote - for toggling the color correction
@@ -463,7 +463,7 @@ ShowBadgeCap:
 OptionMenuCapLevelText:
 	db "L:@"
 OptionMenu5SpacesOFF:
-	db "  OFF@"
+	db "  APA@"
 OptionMenu5Spaces:
 	db "     @"
 
@@ -513,20 +513,20 @@ TextAudio:
 TextFPS:
 	db " FPS@"
 TextInstant:
-	db " INST. TXT@"
+	db " TXT INST.@"
 TextHardMode:
-	db " HARD MODE@"
+	db " MODO DIF.@"
 TextAISwitch:
-	db " AI SWAPS@"
+	db " AI CAMB@"
 TextGamma:
 	db " Y SHADER@"
 TextEnhancedGBC:
 	db " ENH. COLOR@"
 TextBack:
-	db " BACK     SEL: OST@"
+	db " VOLVER   SEL: OST@"
 
 TextAILevelCap:
-	db " LVL CAP@"
+	db " LIT. NIV@"
 TextNuzlocke:
 	db " NUZLOCKE@"
 	
@@ -534,6 +534,6 @@ OptionMenuOnOffText:
 	dw OptionMenuTextON
 	dw OptionMenuTextOFF
 OptionMenuTextON:
-	db "ON @"
+	db "ENC@"
 OptionMenuTextOFF:
-	db "OFF@"
+	db "APA@"

@@ -267,10 +267,10 @@ RectifyKeyItems:
 
 
 PlayersPCMenuEntries:
-	db   "WITHDRAW ITEM"
-	next "DEPOSIT ITEM"
-	next "TOSS ITEM"
-	next "LOG OFF@"
+	db   "SACAR OBJETO"
+	next "GUARDAR OBJETO"
+	next "BOTAR OBJETO"
+	next "CERRAR SESIÓN@"
 
 TurnedOnPC2Text:
 	TX_FAR _TurnedOnPC2Text

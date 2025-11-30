@@ -855,9 +855,9 @@ CheckForBumpingSameMove:
 	
 ;joenote - make it so a message is printed if the level requirement for an item evolution is not met
 _NeededLevelText:
-	text "Level @"
+	text "¡Nivel @"
 	TX_NUM wCurEnemyLVL, 1, 3
-	text " needed!"
+	text " requerido!"
 	prompt
 
 INCLUDE "data/evos_moves.asm"

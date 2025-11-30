@@ -413,7 +413,8 @@ BoyGirlChoice::	;joenote - added this
 ENDC
 
 _PromptNewID:
-	text "Generate a new"
-	line "TRAINER ID?"
+	text "¿Generar un ID"
+	line "DE ENTRENADOR"
+	line "nuevo?"
 	done
 	db "@"

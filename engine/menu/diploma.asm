@@ -134,24 +134,24 @@ DiplomaTextPointersAndCoords:
 	dwCoord 9, 16
 
 MasterText:	;joenote - adding master text
-	db "<SHINY> #MON MASTER <SHINY>@"
+	db "<SHINY> MAESTRO POKÉMON <SHINY>@"
 
 DiplomaText:
 ;	db $70,"Diploma",$70,"@"
 	db $10,"Diploma",$10,"@"	;changing for GB_PRINTER diploma
 
 DiplomaPlayer:
-	db "Player@"
+	db "Jugador@"
 
 DiplomaEmptyText:
 	db "@"
 
 DiplomaCongrats:
-	db   "Congrats! This"
-	next "diploma certifies"
-	next "that you have"
-	next "completed your"
-	next "#DEX.@"
+	db   "¡Felicidades!"
+	next "Este diploma"
+	next "certifica que"
+	next "completó su"
+	next "POKÉDEX.@"
 
 DiplomaGameFreak:
 	db "GAME FREAK@"

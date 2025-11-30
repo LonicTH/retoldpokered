@@ -315,7 +315,7 @@ IF (DEF(_REDGREENJP) || DEF(_BLUEJP))
 ;nothing
 ELSE
 ToText:
-	db "To@"
+	db "A@"
 ENDC
 
 BuildFlyLocationsList:
@@ -444,18 +444,18 @@ DrawPlayerOrBirdSprite:
 
 ;joenote - added messages for immediate map check with the dex area function
 _DexAreaLand::
-	text "Detected nearby!"
-	line "Try WALKING."
+	text "¡Detectado cerca!"
+	line "Prueba CAMINAR."
 	done
 	db "@"
 _DexAreaSurf::
-	text "Detected nearby!"
-	line "Try SURFING."
+	text "¡Detectado cerca!"
+	line "Prueba SURFEAR."
 	done
 	db "@"
 _DexAreaSuperRod::
-	text "Detected nearby!"
-	line "Try a SUPER ROD."
+	text "¡Detectado cerca!"
+	line "Prueba SUPERCAÑA."
 	done
 	db "@"
 
@@ -541,7 +541,7 @@ DisplayWildLocations:
 	jp CopyData
 
 AreaUnknownText:
-	db " AREA UNKNOWN@"
+	db " ÁREA DESCONOCIDA@"
 
 TownMapCoordsToOAMCoords:
 ; in: lower nybble of a = x, upper nybble of a = y
