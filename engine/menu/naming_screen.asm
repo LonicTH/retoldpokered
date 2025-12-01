@@ -363,7 +363,7 @@ PrintAlphabet:
 	ld de, UpperCaseAlphabet
 .lowercase
 	coord hl, 2, 5
-	lb bc, 5, 9 ; 5 rows, 9 columns
+	lb bc, 6, 9 ; 5 rows, 9 columns
 .outerLoop
 	push bc
 .innerLoop
@@ -384,10 +384,10 @@ PrintAlphabet:
 	jp Delay3
 
 LowerCaseAlphabet:
-	db "abcdefghijklmnopqrstuvwxyz ×():;[]",$e1,$e2,"-?!♂♀/⠄,¥UPPER CASE@"
+	db "abcdefghijklmnopqrstuvwxyzñáéíóúü¿¡ ×():;[]",$e1,$e2,"-?!♂♀/⠄,¥UPPER CASE@"
 
 UpperCaseAlphabet:
-	db "ABCDEFGHIJKLMNOPQRSTUVWXYZ ×():;[]",$e1,$e2,"-?!♂♀/⠄,¥lower case@"
+	db "ABCDEFGHIJKLMNOPQRSTUVWXYZÑÁÉÍÓÚÜ¿¡ ×():;[]",$e1,$e2,"-?!♂♀/⠄,¥lower case@"
 
 PrintNicknameAndUnderscores:
 	call CalcStringLength
@@ -518,13 +518,13 @@ PrintNamingText:
 	jp PlaceString
 
 YourTextString:
-	db "YOUR @"
+	db "TU @"
 
 RivalsTextString:
-	db "RIVAL's @"
+	db "DE RIVAL @"
 
 NameTextString:
-	db "NAME?@"
+	db "¿NOMBRE?@"
 
 NicknameTextString:
-	db "NICKNAME?@"
+	db "¿APODO?@"
