@@ -1,63 +1,67 @@
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "¡Buenas! ¡Bien-"
+	line "venido al mundo"
+	cont "de Pokémon!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "¡Me llamo Oak!"
+	line "¡Pero la gente"
+	cont "me llama el"
+	cont "Prof. Pokémon!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@@"
+	text "¡Este mundo está"
+	line "inhabitado por"
+	cont "criaturas llama-"
+	cont "das Pokémon!@@"
 
 _OakSpeechText2B::
-	text $51,"For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	text $51,"Para algunos,"
+	line "los Pokémon son"
+	cont "mascotas. Otros"
+	cont "los usan para"
+	cont "pelear."
 
-	para "Myself..."
+	para "En mi caso..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "Estudio los Poké-"
+	line "mon como una"
+	cont "profesión."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Ahora, ¿cómo"
+	line "te llamas?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Este es mi nieto."
+	line "Él ha sido tu ri-"
+	cont "val desde que"
+	cont "eran pequeños."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Umm, ¿cómo era"
+	line "que se llamaba?"
 	prompt
 
 _OakSpeechText3::
-	text "<PLAYER>!"
+	text "¡<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "¡Tu propia leyen-"
+	line "da Pokémon está"
+	cont "por escribirse!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "¡Un mundo de sue-"
+	line "ños y aventuras"
+	cont "con los Pokémon"
+	cont "te espera!"
+	cont "¡Vamos!"
 	done
 
 ;joenote - ask if female trainer
 IF DEF(_FPLAYER)
 _AskIfGirlText::
-	text "Are you a boy or"
-	line "a girl?"
+	text "¿Eres un chico o"
+	line "una chica?"
 	done
 ENDC

@@ -650,7 +650,7 @@ ENDC
 	coord hl, 6, 9
 	ld de, TrainerInfo_BadgesText
 	call PlaceString
-	coord hl, 2, 2
+	coord hl, 1, 2
 	ld de, TrainerInfo_NameMoneyTimeText
 	call PlaceString
 	coord hl, 7, 2
@@ -678,8 +678,8 @@ TrainerInfo_FarCopyData:
 	jp FarCopyData2
 
 TrainerInfo_NameMoneyTimeText:
-	db   "NOMBRE/"
-	next "DINERO/"
+	db   "NOM./"
+	next "DINE./"
 	next "TIEMPO/@"
 
 ; $76 is a circle tile
