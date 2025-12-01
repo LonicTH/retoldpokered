@@ -105,7 +105,7 @@ DisplayNamingScreen:
 	call LoadEDTile
 	callba LoadMonPartySpriteGfx
 	coord hl, 0, 4
-	ld b, 9
+	ld b, 10
 	ld c, 18
 	call TextBoxBorder
 	call PrintNamingText
@@ -220,14 +220,14 @@ DisplayNamingScreen:
 
 .pressedA
 	ld a, [wCurrentMenuItem]
-	cp $5 ; "ED" row
+	cp $6 ; "ED" row
 	jr nz, .didNotPressED
 	ld a, [wTopMenuItemX]
 	cp $11 ; "ED" column
 	jr z, .pressedStart
 .didNotPressED
 	ld a, [wCurrentMenuItem]
-	cp $6 ; case switch row
+	cp $7 ; case switch row
 	jr nz, .didNotPressCaseSwtich
 	ld a, [wTopMenuItemX]
 	cp $1 ; case switch column
