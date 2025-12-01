@@ -105,7 +105,7 @@ DisplayNamingScreen:
 	call LoadEDTile
 	callba LoadMonPartySpriteGfx
 	coord hl, 0, 4
-	ld b, 10
+	ld b, 11
 	ld c, 18
 	call TextBoxBorder
 	call PrintNamingText
