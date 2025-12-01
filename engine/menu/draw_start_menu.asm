@@ -78,7 +78,7 @@ StartMenuExitText:
 	db "SALIR@"
 
 StartMenuOptionText:
-	db "OPCIONES@"
+	db "OPCIÓN@"
 
 PrintStartMenuItem:
 	push hl

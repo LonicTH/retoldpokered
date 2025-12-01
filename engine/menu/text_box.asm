@@ -246,11 +246,11 @@ JapaneseMainMenuText:
 
 BattleMenuText:
 	db   "PELEA ",$E1,$E2
-	next "OBJ.  CORRER@"
+	next "OBJ.  ESC@"
 
 SafariZoneBattleMenuText:
 	db   "BOLA×       CEBO"
-	next "LANZAR ROCA  CORRER@"
+	next "LAN. ROCA  ESC@"
 
 SwitchStatsCancelText:
 	db   "CAMBIO"
@@ -487,7 +487,7 @@ DisplayTwoOptionMenu:
 
 TwoOptionMenu_SaveScreenTiles:
 	ld de, wBuffer
-	lb bc, 5, 6
+	lb bc, 4, 6
 .loop
 	ld a, [hli]
 	ld [de], a
@@ -495,7 +495,7 @@ TwoOptionMenu_SaveScreenTiles:
 	dec c
 	jr nz, .loop
 	push bc
-	ld bc, SCREEN_WIDTH - 6
+	ld bc, SCREEN_WIDTH - 7
 	add hl, bc
 	pop bc
 	ld c, $6
@@ -505,7 +505,7 @@ TwoOptionMenu_SaveScreenTiles:
 
 TwoOptionMenu_RestoreScreenTiles:
 	ld de, wBuffer
-	lb bc, 5, 6
+	lb bc, 4, 6
 .loop
 	ld a, [de]
 	inc de
@@ -513,7 +513,7 @@ TwoOptionMenu_RestoreScreenTiles:
 	dec c
 	jr nz, .loop
 	push bc
-	ld bc, SCREEN_WIDTH - 6
+	ld bc, SCREEN_WIDTH - 7
 	add hl, bc
 	pop bc
 	ld c, 6
@@ -545,7 +545,7 @@ TwoOptionMenuStrings:
 	db 4,3,0
 	dw .NoYesMenu
 IF DEF(_FPLAYER)	;joenote - text to ask if female trainer
-	db 6,3,1
+	db 6,3,0
 	dw .BoyGirlMenu	
 ENDC
 
@@ -553,7 +553,7 @@ ENDC
 	db   "NO"
 	next "SÍ@"
 .YesNoMenu
-	db   "SÍ"
+	db   "SI"
 	next "NO@"
 .NorthWestMenu
 	db   "NORTE"

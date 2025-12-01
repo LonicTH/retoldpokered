@@ -218,116 +218,116 @@ IF DEF(_FPLAYER)
 
 IF DEF(_REDJP)
 DefaultNamesPlayerF:
-	db   "NUEVO N."
-	next "BLUE"
-	next "MINA"
-	next "JANE"
+	db   "Nuevo N."
+	next "Blue"
+	next "Mina"
+	next "Juana"
 	db   "@"
 ELIF DEF(_RED)
 DefaultNamesPlayerF:
-	db   "NUEVO N."
-	next "GREEN"
-	next "CASSIE"
-	next "JANE"
+	db   "Nuevo N."
+	next "Green"
+	next "Cassie"
+	next "Juana"
 	db   "@"
 ENDC
 
 IF DEF(_BLUEJP)
 DefaultNamesPlayerF:
-	db   "NUEVO N."
-	next "BLUE"
-	next "MINA"
-	next "JANE"
+	db   "Nuevo N."
+	next "Blue"
+	next "Mina"
+	next "Juana"
 	db   "@"
 ELIF DEF(_BLUE)
 DefaultNamesPlayerF:
-	db   "NUEVO N."
-	next "GREEN"
-	next "CASSIE"
-	next "JANE"
+	db   "Nuevo N."
+	next "Green"
+	next "Cassie"
+	next "Juana"
 	db   "@"
 ENDC
 
 IF DEF(_GREEN)
 DefaultNamesPlayerF:
-	db   "NUEVO N."
-	next "BLUE"
-	next "MINA"
-	next "JANE"
+	db   "Nuevo N."
+	next "Blue"
+	next "Mina"
+	next "Juana"
 	db   "@"
 ENDC
 ENDC
 
 IF DEF(_REDJP)
 DefaultNamesPlayer:
-	db   "NUEVO N."
-	next "RED"
-	next "SATOSHI"
-	next "JACOBO"
+	db   "Nuevo N."
+	next "Red"
+	next "Satoshi"
+	next "Jacobo"
 	db   "@"
 DefaultNamesRival:
-	db   "NUEVO N."
-	next "GREEN"
-	next "SHIGERU"
-	next "JUAN"
+	db   "Nuevo N."
+	next "Green"
+	next "Shigeru"
+	next "Juan"
 	db   "@"
 ELIF DEF(_RED)
 DefaultNamesPlayer:
-	db   "NUEVO N."
-	next "RED"
-	next "ASH"
-	next "JACOBO"
+	db   "Nuevo N."
+	next "Red"
+	next "Ash"
+	next "Jacobo"
 	db   "@"
 DefaultNamesRival:
-	db   "NUEVO N."
-	next "BLUE"
-	next "GARY"
-	next "JUAN"
+	db   "Nuevo N."
+	next "Blue"
+	next "Gary"
+	next "Juan"
 	db   "@"
 ENDC
 
 
 IF DEF(_BLUEJP)
 DefaultNamesPlayer:
-	db   "NUEVO N."
-	next "BLUE"
-	next "TSUNEKA"
-	next "JEAN"
+	db   "Nuevo N."
+	next "Blue"
+	next "Tsuneka"
+	next "Jean"
 	db   "@"
 DefaultNamesRival:
-	db   "NUEVO N."
-	next "RED"
-	next "GREEN"
-	next "HIROSHI"
+	db   "Nuevo N."
+	next "Red"
+	next "Green"
+	next "Hiroshi"
 	db   "@"
 ELIF DEF(_BLUE)
 DefaultNamesPlayer:
-	db   "NUEVO N."
-	next "BLUE"
-	next "GARY"
-	next "JUAN"
+	db   "Nuevo N."
+	next "Blue"
+	next "Gary"
+	next "Juan"
 	db   "@"
 DefaultNamesRival:
-	db   "NUEVO N."
-	next "RED"
-	next "ASH"
-	next "JACOBO"
+	db   "Nuevo N."
+	next "Red"
+	next "Ash"
+	next "Jacobo"
 	db   "@"
 ENDC
 
 
 IF DEF(_GREEN)
 DefaultNamesPlayer:
-	db   "NUEVO N."
-	next "GREEN"
-	next "SHIGERU"
-	next "JUAN"
+	db   "Nuevo N."
+	next "Green"
+	next "Shigeru"
+	next "Juan"
 	db   "@"
 DefaultNamesRival:
-	db   "NUEVO N."
-	next "RED"
-	next "SATOSHI"
-	next "JACOBO"
+	db   "Nuevo N."
+	next "Red"
+	next "Satoshi"
+	next "Jacobo"
 	db   "@"
 ENDC
 
@@ -360,102 +360,102 @@ IF DEF(_FPLAYER)
 
 IF DEF(_REDJP)
 DefaultNamesPlayerListF:
-	db "NUEVO N.@"
-	db "BLUE@"
-	db "MINA@"
-	db "JUANA@"
+	db "Nuevo N.@"
+	db "Blue@"
+	db "Mina@"
+	db "Juana@"
 ELIF DEF(_RED)
 DefaultNamesPlayerListF:
-	db "NUEVO N.@"
-	db "GREEN@"
-	db "CASSIE@"
-	db "JUANA@"
+	db "Nuevo N.@"
+	db "Green@"
+	db "Cassie@"
+	db "Juana@"
 ENDC
 
 IF DEF(_BLUEJP)
 DefaultNamesPlayerListF:
-	db "NUEVO N.@"
-	db "BLUE@"
-	db "MINA@"
-	db "JUANA@"
+	db "Nuevo N.@"
+	db "Blue@"
+	db "Mina@"
+	db "Juana@"
 ELIF DEF(_BLUE)
 DefaultNamesPlayerListF:
-	db   "NUEVO N.@"
-	db "GREEN@"
-	db "CASSIE@"
-	db "JUANA@"
+	db "Nuevo N.@"
+	db "Green@"
+	db "Cassie@"
+	db "Juana@"
 ENDC
 
 IF DEF(_GREEN)
 DefaultNamesPlayerListF:
-	db "NUEVO N.@"
-	db "BLUE@"
-	db "MINA@"
-	db "JUANA@"
+	db "Nuevo N.@"
+	db "Blue@"
+	db "Mina@"
+	db "Juana@"
 ENDC
 ENDC
 
 IF DEF(_REDJP)
 DefaultNamesPlayerList:
-	db "NUEVO N.@"
-	db "RED@"
-	db "SATOSHI@"
-	db "JACOBO@"
+	db "Nuevo N.@"
+	db "Red@"
+	db "Satoshi@"
+	db "Jacobo@"
 DefaultNamesRivalList:
-	db "NUEVO N.@"
-	db "GREEN@"
-	db "SHIGERU@"
-	db "JUAN@"
+	db "Nuevo N.@"
+	db "Green@"
+	db "Shigeru@"
+	db "Juan@"
 ELIF DEF(_RED)
 DefaultNamesPlayerList:
-	db "NUEVO N.@"
-	db "RED@"
-	db "ASH@"
-	db "JACOBO@"
+	db "Nuevo N.@"
+	db "Red@"
+	db "Ash@"
+	db "Jacobo@"
 DefaultNamesRivalList:
-	db "NUEVO N.@"
-	db "BLUE@"
-	db "GARY@"
-	db "JUAN@"
+	db "Nuevo N.@"
+	db "Blue@"
+	db "Gary@"
+	db "Juan@"
 ENDC
 
 
 IF DEF(_BLUEJP)
 DefaultNamesPlayerList:
-	db "NUEVO N.@"
-	db "BLUE@"
-	db "TSUNEKA@"
-	db "JEAN@"
+	db "Nuevo N.@"
+	db "Blue@"
+	db "Tsuneka@"
+	db "Jean@"
 DefaultNamesRivalList:
-	db "NUEVO N.@"
-	db "RED@"
-	db "GREEN@"
-	db "HIROSHI@"
+	db "Nuevo N.@"
+	db "Red@"
+	db "Green@"
+	db "Hiroshi@"
 ELIF DEF(_BLUE)
 DefaultNamesPlayerList:
-	db "NUEVO N.@"
-	db "BLUE@"
-	db "GARY@"
-	db "JUAN@"
+	db "Nuevo N.@"
+	db "Blue@"
+	db "Gary@"
+	db "Juan@"
 DefaultNamesRivalList:
-	db "NUEVO N.@"
-	db "RED@"
-	db "ASH@"
-	db "JACOBO@"
+	db "Nuevo N.@"
+	db "Red@"
+	db "Ash@"
+	db "Jacobo@"
 ENDC
 
 
 IF DEF(_GREEN)
 DefaultNamesPlayerList:
-	db "NUEVO N.@"
-	db "GREEN@"
-	db "SHIGERU@"
-	db "JUAN@"
+	db "Nuevo N.@"
+	db "Green@"
+	db "Shigeru@"
+	db "Juan@"
 DefaultNamesRivalList:
-	db "NUEVO N.@"
-	db "RED@"
-	db "SATOSHI@"
-	db "JACOBO@"
+	db "Nuevo N.@"
+	db "Red@"
+	db "Satoshi@"
+	db "Jacobo@"
 ENDC
 
 TextTerminator_6b20:

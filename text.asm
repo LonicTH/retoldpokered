@@ -1934,23 +1934,23 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "¡Cierto! Tu nom-"
+	line "bre es <PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "¡Así es! ¡Ya"
+	line "lo recordé! ¡Su"
+	cont "nombre es <RIVAL>!"
 	prompt
 
 _WillBeTradedText::
 	TX_RAM wNameOfPlayerMonToBeTraded
-	text " and"
+	text " y"
 	line "@"
 	TX_RAM wcd6d
-	text " will"
-	cont "be traded."
+	text " serán"
+	cont "intercambiados."
 	done
 
 _Char00Text::

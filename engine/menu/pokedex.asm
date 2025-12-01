@@ -668,11 +668,11 @@ ENDC
 
 HeightWeightText:
 IF DEF (_METRIC)
-	db   "HT  ?",".","??","m"
-	next "WT   ???kg@"
+	db   "AL  ?",".","??","m"
+	next "PE   ???kg@"
 ELSE
-	db   "HT  ?",$60,"??",$61
-	next "WT   ???lb@"
+	db   "AL  ?",$60,"??",$61
+	next "PE   ???lb@"
 ENDC
 ; XXX does anything point to this?
 PokeText:
