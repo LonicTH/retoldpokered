@@ -509,7 +509,7 @@ HandshakeList:
 	db $a
 	db $ff
 VersionText:
-	db "v1.25.0-LATAM"
+	db "v1.25.0-LATAM@"
 
 WhereWouldYouLikeText:
 	TX_FAR _WhereWouldYouLikeText
@@ -822,21 +822,21 @@ DisplayOptionMenu:
 
 TextSpeedOptionText:
 	db   "VEL. TEXTO"
-	next " RÁPIDO MEDIO LENTO@"
+	next " RÁPI. MEDIO  LEN.@"
 
 BattleAnimationOptionText:
 	db   "ANIM. de BATALLA"
 	next " ENC      APA@"
 
 BattleStyleOptionText:
-	db   "EST. de BATALLA"
+	db   "ESTILO de BATALLA"
 	next " CAMBIO   FIJO@"
 
 OptionMenuCancelText:
-	db "CANCELAR@"
+	db "SALIR@"
 
 OptionMenuSelectText:	;joenote - text for getting to extra options screen
-	db "SELECCIONAR",$E3,$ED,"@"
+	db "SELECT",$E3,$ED,"@"
 
 ; sets the options variable according to the current placement of the menu cursors in the options menu
 SetOptionsFromCursorPositions:

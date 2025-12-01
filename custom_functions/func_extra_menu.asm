@@ -260,7 +260,7 @@ OptionMenuMono:
 OptionMenuEar1:
 	db "AUDÍFONO1@"
 OptionMenuEar2:
-	db "AUDÍDOFO2@"
+	db "AUDÍFONO2@"
 OptionMenuEar3:
 	db "AUDÍFONO3@"
 
@@ -521,7 +521,7 @@ TextAISwitch:
 TextGamma:
 	db " Y SHADER@"
 TextEnhancedGBC:
-	db " ENH. COLOR@"
+	db " COLOR MEJ.@"
 TextBack:
 	db " VOLVER   SEL: OST@"
 

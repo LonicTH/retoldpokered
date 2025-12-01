@@ -545,7 +545,7 @@ TwoOptionMenuStrings:
 	db 4,3,0
 	dw .NoYesMenu
 IF DEF(_FPLAYER)	;joenote - text to ask if female trainer
-	db 5,3,0
+	db 6,3,1
 	dw .BoyGirlMenu	
 ENDC
 
@@ -566,7 +566,7 @@ ENDC
 	next "ESTE@"
 .TradeCancelMenu
 	db   "INTER."
-	next "CANCELAR@"
+	next "CANCEL.@"
 .HealCancelMenu
 	db   "CURAR"
 	next "CANCELAR@"
