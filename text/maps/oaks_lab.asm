@@ -1,626 +1,674 @@
 _OaksLabGaryText1::
-	text "<RIVAL>: Yo"
-	line "<PLAYER>! Gramps"
-	cont "isn't around!"
+	text "<RIVAL>: ¡Ey"
+	line "<PLAYER>! Mi"
+	cont "abuelo no está!"
 	done
 
 _OaksLabText40::
-	text "<RIVAL>: Heh, I"
-	line "don't need to be"
-	cont "greedy like you!"
+	text "<RIVAL>: ¡Je, no"
+	line "necesito ser tan"
+	cont "codicioso como"
+	cont "tú!"
 
-	para "Go ahead and"
-	line "choose, <PLAYER>!"
+	para "¡Vamos, <PLAYER>,"
+	line "escoge!"
 	done
 
 _OaksLabText41::
-	text "<RIVAL>: My"
-	line "#MON looks a"
-	cont "lot stronger."
+	text "<RIVAL>: Este"
+	line "Pokémon se ve"
+	cont "más fuerte."
 	done
 
 _OaksLabText39::
-	text "Those are #"
-	line "BALLs. They"
-	cont "contain #MON!"
+	text "Estas son unas"
+	line "Pokébolas."
+	cont "¡Tienen Pokémon"
+	cont "adentro!"
 	done
 
 _OaksLabCharmanderText::
-	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	text "¡Así que! ¿Quie-"
+	line "res a Charmander,"
+	cont "el Pokémon fuego?"
 	done
 
 _OaksLabSquirtleText::
-	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	text "¡Así que! ¿Quie-"
+	line "res a Squirtle,"
+	cont "el Pokémon agua?"
 	done
 
 _OaksLabBulbasaurText::
-	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	text "¡Así que! ¿Quie-"
+	line "res a Bulbasaur,"
+	cont "el Pokémon planta?"
 	done
 
 _OaksLabMonEnergeticText::
-	text "This #MON is"
-	line "really energetic!"
+	text "¡Este Pokémon es"
+	line "muy energético!"
 	prompt
 
 _OaksLabReceivedMonText::
-	text "<PLAYER> received"
+	text "¡<PLAYER> recibió"
 	line "a @"
 	TX_RAM wcd6d
 	text "!@@"
 
 _OaksLabLastMonText::
-	text "That's PROF.OAK's"
-	line "last #MON!"
+	text "¡Es el último"
+	line "Pokémon del Prof."
+	cont "Oak!"
 	done
 
 _OaksLabText_1d2f0::
-	text "OAK: Now, <PLAYER>,"
-	line "which #MON do"
-	cont "you want?"
+	text "Oak: Ahora, <PLAYER>."
+	line "¿Cuál Pokémon"
+	cont "quieres?"
 	done
 
 _OaksLabText_1d2f5::
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
+	text "Oak: Si un Pokémon"
+	line "salvaje aparece,"
+	cont "¡Usa tu Pokémon y"
+	cont "defiéndete!"
 	done
 
 _OaksLabText_1d2fa::
-	text "OAK: <PLAYER>,"
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	text "Oak: ¡<PLAYER>,"
+	line "has que tu Pokémon"
+	cont "pelee para que"
+	cont "crezca!"
 	done
 
 _OaksLabDeliverParcelText1::
-	text "OAK: Oh, <PLAYER>!"
+	text "Oak: ¡Oh, <PLAYER>!"
 
-	para "How is my old"
-	line "#MON?"
+	para "¿Cómo está mi"
+	line "viejo Pokémon?"
 
-	para "Well, it seems to"
-	line "like you a lot."
+	para "Bueno, parece que"
+	line "te quiere mucho."
 
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
+	para "¡Debes tener mucho"
+	line "talento como en-"
+	cont "trenador Pokémon!"
 
-	para "What? You have"
-	line "something for me?"
+	para "¿Cómo? ¿Que tienes"
+	line "algo para mí?"
 
-	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@@"
+	para "<PLAYER> entregó el"
+	line "Paquete de Oak.@@"
 
 _OaksLabDeliverParcelText2::
 	text ""
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thank you!"
+	para "¡Ah! ¡Es mi Poké-"
+	line "bola personalizada"
+	cont "qué ordené!"
+	cont "¡Gracias!"
 	done
 
 _OaksLabAroundWorldText::
-	text "#MON around the"
-	line "world wait for"
-	cont "you, <PLAYER>!"
+	text "Pokémon por todo"
+	line "el mundo esperan"
+	cont "por ti, <PLAYER>!"
 	done
 
 _OaksLabGivePokeballsText1::
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
-	cont "seeing them."
+	text "Oak: No puedes"
+	line "tener datos deta-"
+	cont "llados de un Poké-"
+	cont "mon con haberlo"
+	cont "visto."
 
-	para "You must catch"
-	line "them! Use these"
-	cont "to capture wild"
-	cont "#MON."
+	para "¡Tienes que atra-"
+	line "parlos! Usa esto"
+	cont "para atrapar Poké-"
+	cont "mon salvajes."
 
-	para "<PLAYER> got 5"
-	line "# BALLs!@@"
+	para "<PLAYER> obtuvo 5"
+	line "Pokébolas!@@"
 
 _OaksLabGivePokeballsText2::
 	text ""
-	para "When a wild"
-	line "#MON appears,"
-	cont "it's fair game."
+	para "Cuando un Pokémon"
+	line "salvaje aparece,"
+	cont "es presa fácil."
 
-	para "Just throw a #"
-	line "BALL at it and"
-	cont "try to catch it!"
+	para "¡Sólo lánzale una"
+	line "Pokébola e intenta"
+	cont "atraparlo!"
 
-	para "This won't always"
-	line "work, though."
+	para "Aunque no siempre"
+	line "funcionará."
 
-	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	para "Un Pokémon sano"
+	line "puede escapar."
+	cont "¡Pero tienes que"
+	cont "tener suerte!"
 	done
 
 _OaksLabPleaseVisitText::
-	text "OAK: Come see me"
-	line "sometime."
+	text "Oak: Ven a verme"
+	line "cuando puedas."
 
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	para "Quiero ver como"
+	line "vas con tu"
+	cont "Pókedex."
 	done
 
 _OaksLabText_1d31d::
-	text "OAK: Good to see "
-	line "you! How is your "
-	cont "#DEX coming? "
-	cont "Here, let me take"
-	cont "a look!"
+	text "Oak: ¡Un gusto"
+	line "en verte! ¿Cómo"
+	cont "va tu Pokédex?"
+	cont "¡Ven, déjame"
+	cont "revisarlo!"
 	prompt
 
 _OaksLabText_1d32c::
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "¡Es un dispotivo"
+	line "similar a una"
+	cont "enciclopedia,"
+	cont "pero está en"
+	cont "blanco!"
 	done
 
 _OaksLabText8::
-	text "?"
+	text "¿?"
 	done
 
 _OaksLabText_1d340::
-	text "PROF.OAK is the"
-	line "authority on"
-	cont "#MON!"
+	text "¡El Prof.Oak es"
+	line "la autoridad"
+	cont "sobre Pokémon!"
 
-	para "Many #MON"
-	line "trainers hold him"
-	cont "in high regard!"
+	para "¡Muchos entrena-"
+	line "dores Pokémon le"
+	cont "tienen en alta"
+	cont "estima!"
 	;done
 	prompt
 
 _OaksLabRivalWaitingText::
-	text "<RIVAL>: Gramps!"
-	line "I'm fed up with"
-	cont "waiting!"
+	text "<RIVAL>: ¡Abuelo!"
+	line "¡Me cansé de es-"
+	cont "perar!"
 	done
 
 _OaksLabChooseMonText::
-	text "OAK: <RIVAL>?"
-	line "Let me think..."
+	text "Oak: ¿<RIVAL>?"
+	line "Déjame pensar..."
 
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
+	para "¡Oh, cierto,"
+	line "te dije que vi-"
+	cont "nieras! ¡Espera!"
 
-	para "Here, <PLAYER>!"
+	para "¡Bien, <PLAYER>!"
 
-	para "There are 3"
-	line "#MON here!"
+	para "Aquí tengo 3"
+	line "Pokémon!"
 
-	para "Haha!"
+	para "¡Jaja!"
 
-	para "They are inside"
-	line "the # BALLs."
+	para "Están dentro de"
+	line "las Pokébolas."
 
-	para "When I was young,"
-	line "I was a serious"
-	cont "#MON trainer!"
+	para "¡Cuando era joven,"
+	line "Fui un entrenador"
+	cont "Pokémon!"
 
-	para "In my old age, I"
-	line "have only 3 left,"
-	cont "but you can have"
-	cont "one! Choose!"
+	para "Pero ya que estoy"
+	line "viejo, solo me"
+	cont "quedan estos 3,"
+	cont "¡pero te puedes"
+	cont "quedar uno!"
+	cont "¡Escógelo!"
 	done
 
 _OaksLabRivalInterjectionText::
-	text "<RIVAL>: Hey!"
-	line "Gramps! What"
-	cont "about me?"
+	text "<RIVAL>: ¡Ey!"
+	line "¡Abuelo! ¿Y"
+	cont "yo qué?"
 	done
 
 _OaksLabBePatientText::
-	text "OAK: Be patient!"
-	line "<RIVAL>, you can"
-	cont "have one too!"
+	text "Oak: ¡Paciencia!"
+	line "¡<RIVAL>, también"
+	cont "tendrás uno!"
 	done
 
 _OaksLabLeavingText::
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "Oak: ¡Espera!"
+	line "¡No te vayas!"
 	done
 
 _OaksLabRivalPickingMonText::
-	text "<RIVAL>: I'll take"
-	line "this one, then!"
+	text "<RIVAL>: ¡Entonces"
+	line "este es mío!"
 	done
 
 _OaksLabRivalReceivedMonText::
-	text "<RIVAL> received"
+	text "¡<RIVAL> recibió"
 	line "a @"
 	TX_RAM wcd6d
 	text "!@@"
 
 _OaksLabRivalChallengeText::
-	text "<RIVAL>: Wait"
+	text "<RIVAL>: ¡Espera"
 	line "<PLAYER>!"
-	cont "Let's check out"
-	cont "our #MON!"
+	cont "¡Probemos nuestos"
+	cont "Pokémon!"
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "¡Vamos, pelearé"
+	line "contigo!"
 	done
 
 _OaksLabText_1d3be::
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	text "¿QUÉ?"
+	line "¡No puede ser!"
+	cont "¡Escogí el Poké-"
+	cont "mon equivocado!"
 	prompt
 
 _OaksLabText_1d3c3::
-	text "Yeah!"
-	line "Am I great or"
-	cont "what?"
+	text "¡SÍ!"
+	line "¿Acaso no soy"
+	cont "el mejor?"
 	prompt
 
 _OaksLabRivalToughenUpText::
-	text "<RIVAL>: Okay!"
-	line "I'll make my"
-	cont "#MON fight to"
-	cont "toughen it up!"
+	text "<RIVAL>: ¡Muy"
+	line "bien! ¡Haré que"
+	cont "mi Pokémon pelee"
+	cont "para fortalecerlo!"
 
-	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	para "¡<PLAYER>! ¡Abuelo!"
+	line "¡Los huelo luego!"
 	done
 
 _OaksLabText21::
-	text "<RIVAL>: Gramps!"
+	text "<RIVAL>: ¡Abuelo!"
 	done
 
 _OaksLabText22::
-	text "<RIVAL>: What did"
-	line "you call me for?"
+	text "<RIVAL>: ¿Para"
+	line "qué me llamaste?"
 	done
 
 _OaksLabText23::
-	text "OAK: Oh right! I"
-	line "have a request"
-	cont "of you two."
+	text "Oak: ¡Oh cierto!"
+	line "Tengo algo que"
+	cont "pedirles."
 	done
 
 _OaksLabText24::
-	text "On the desk there"
-	line "is my invention,"
-	cont "#DEX!"
+	text "En ese escritorio"
+	line "tengo mi última"
+	cont "invención, ¡el"
+	cont "Pokédex!"
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "¡Automáticamente"
+	line "guarda datos de"
+	cont "Pokémon que han"
+	cont "visto o atrapado!"
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "¡Es una enciclo-"
+	line "pedia tecnológica!"
 	done
 
 _OaksLabText25::
-	text "OAK: <PLAYER> and"
-	line "<RIVAL>! Take"
-	cont "these with you!"
+	text "Oak: ¡<PLAYER> y"
+	line "<RIVAL>! ¡Lléven-"
+	cont "las con ustedes!"
 
-	para "<PLAYER> got"
-	line "#DEX from OAK!@@"
+	para "¡<PLAYER> obtuvo"
+	line "Pokédex de Oak!@@"
 
 _OaksLabText26::
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world..."
+	text "Para hacer una"
+	line "guía de todos los"
+	cont "Pokémon en el"
+	cont "mundo..."
 
-	para "That was my dream!"
+	para "¡Ese es mi sueño!"
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "¡Pero, Estoy viejo!"
+	line "¡No puedo hacerlo!"
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "¡Así que, quiero"
+	line "que ustedes dos"
+	cont "logren ese sue-"
+	cont "ño por mí!"
 
-	para "Get moving, you"
-	line "two!"
+	para "¡Vamos, ustedes"
+	line "dos!"
 
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	para "¡Este es un gran"
+	line "compromiso en"
+	cont "la historia de"
+	cont "Pokémon!"
 	
 ;joenote - add hotkey info
-	para "Also, do remember"
-	line "that you can swap"
-	cont "between extra bag"	
-	cont "space by pressing"
-	cont "START in the ITEM"
-	cont "menu."
+	para "¡Aparte, no se te"
+	line "no se te olvide"
+	cont "que puedes cambiar"
+	cont "el espacio en tu"	
+	cont "mochila con que"
+	cont "presiones START en"
+	cont "el Menú OBJETOS."
 
-	para "And you can auto-"
-	line "sort an ITEM menu"
-	cont "by simply holding"
-	cont "SELECT while you"
-	cont "press START."
+	para "Y también ordenar"
+	line "automáticamente"
+	cont "el menu OBJETOS"
+	cont "con presionar el"
+	cont "botón SELECT mien-"
+	cont "tras presionas"
+	cont "start."
 	done
 
 _OaksLabText27::
-	text "<RIVAL>: Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
+	text "<RIVAL>: ¡Bien"
+	line "Abuelo! ¡Déjamelo"
+	cont "todo a mí!"
 
-	para "<PLAYER>, I hate to"
-	line "say it, but I"
-	cont "don't need you!"
+	para "¡<PLAYER>, odio"
+	line "decirlo, pero no"
+	cont "ocupo tu ayuda!"
 
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
+	para "¡Ya sé! ¡Tomaré"
+	line "el Mapa de mi"
+	cont "hermana!"
 
-	para "I'll tell her not"
-	line "to lend you one,"
-	cont "<PLAYER>! Hahaha!"
+	para "¡Le diré que no"
+	line "te preste uno,"
+	cont "<PLAYER>! ¡Jajaja!"
 	done
 
 _OaksLabText_1d405::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "Estudio Pokémon"
+	line "como el Asistente"
+	cont "del Prof. Oak."
 ;joenote - extra text
-	para "Please come by"
-	line "and see me when"
-	cont "you have gained"
-	cont "a #DEX."
+	para "Por favor ven a"
+	line "verme cuando ya"
+	cont "tengas tu propia"
+	cont "Pokédex."
 	done
 
 _OaksLabText_441cc::
-	text "#DEX comp-"
-	line "letion is:"
+	text "Cumplimiento de"
+	line "la Pokédex:"
 
 	para "@"
 	TX_NUM hDexRatingNumMonsSeen, 1, 3
-	text " #MON seen"
+	text " Pokémon vistos:"
 	line "@"
 	TX_NUM hDexRatingNumMonsOwned, 1, 3
-	text " #MON owned"
+	text " Pokémon propios:"
 
-	para "PROF.OAK's"
-	line "Rating:"
+	para "Evaluación del"
+	line "Prof.Oak:"
 	prompt
 
 _OaksLabText_44201::
-	text "You still have"
-	line "lots to do."
-	cont "Look for #MON"
-	cont "in grassy areas!"
+	text "Aún te falta mu-"
+	line "cho que hacer."
+	cont "¡Busca Pokémon"
+	cont "en áreas con"
+	cont "hierba alta!"
 	done
 
 _OaksLabText_44206::
-	text "You're on the"
-	line "right track! "
-	cont "Get a FLASH HM"
-	cont "from my AIDE!"
+	text "¡Vas por buen"
+	line "camino! "
+	cont "¡Puedes obtener"
+	cont "la MO Destello"
+	cont "de mi Asistente!"
 	done
 
 _OaksLabText_4420b::
-	text "You still need"
-	line "more #MON!"
-	cont "Try to catch"
-	cont "other species!"
+	text "¡Aún ocupas más"
+	line "Pokémon!"
+	cont "¡Intenta atra-"
+	cont "par otras espe-"
+	cont "cies!"
 	done
 
 _OaksLabText_44210::
-	text "Good, you're"
-	line "trying hard!"
-	cont "Get an ITEMFINDER"
-	cont "from my AIDE!"
+	text "¡Bien, has tra-"
+	line "bajado duro!"
+	cont "¡Puedes obtener"
+	cont "el Zahorí de"
+	cont "mi Asistente!"
 	done
 
 _OaksLabText_44215::
-	text "Looking good!"
-	line "Go find my AIDE"
-	cont "when you get 50!"
+	text "¡Vas muy bien!"
+	line "¡Busca a mi a-"
+	cont "sistente cuando"
+	cont "consigas 50!"
 	done
 
 _OaksLabText_4421a::
-	text "You finally got at"
-	line "least 50 species!"
-	cont "Be sure to get"
-	cont "EXP.ALL from my"
-	cont "AIDE!"
+	text "¡Finalmente has"
+	line "conseguido 50"
+	cont "especies!"
+	cont "¡Asegúrate ob-"
+	cont "tener el Repar-"
+	cont "tir Experiencia"
+	cont "de mi asistente!"
 	done
 
 _OaksLabText_4421f::
-	text "Ho! This is geting"
-	line "even better!"
+	text "¡Vaya! ¡Esto va"
+	line "mejorando!"
 	done
 
 _OaksLabText_44224::
-	text "Very good!"
-	line "Go fish for some"
-	cont "marine #MON!"
+	text "¡Muy bien!"
+	line "¡Ve a pescar algu-"
+	cont "nos Pokémon mari-"
+	cont "nos!"
 	done
 
 _OaksLabText_44229::
-	text "Wonderful!"
-	line "Do you like to"
-	cont "collect things?"
+	text "¡Maravilloso!"
+	line "¿Te gusta el co-"
+	cont "leccionar cosas?"
 	done
 
 _OaksLabText_4422e::
-	text "I'm impressed!"
-	line "It must have been"
-	cont "difficult to do!"
+	text "¡Me impresionas!"
+	line "¡Debió ser muy"
+	cont "difícil de hacer!"
 	done
 
 _OaksLabText_44233::
-	text "You finally got at"
-	line "least 100 species!"
-	cont "I can't believe"
-	cont "how good you are!"
+	text "¡Finalmente tienes"
+	line "al menos 100 espe-"
+	cont "cies! ¡Me cuesta"
+	cont "creer que seas muy"
+	cont "bueno!"
 	done
 
 _OaksLabText_44238::
-	text "You even have the"
-	line "evolved forms of"
-	cont "#MON! Super!"
+	text "¡Incluso tienes"
+	line "formas evolucio-"
+	cont "nadas de Pokémon!"
+	cont "¡Genial!"
 	done
 
 _OaksLabText_4423d::
-	text "Excellent! Trade"
-	line "with friends to"
-	cont "get some more!"
+	text "¡Excelente! ¡In-"
+	line "tercambia con"
+	cont "tus amigos para"
+	cont "conseguir más!"
 	done
 
 _OaksLabText_44242::
-	text "Outstanding!"
-	line "You've become a"
-	cont "real pro at this!"
+	text "¡Excepcional!"
+	line "¡Te has vuelto un"
+	cont "profecional!"
 	done
 
 _OaksLabText_44247::
-	text "I have nothing"
-	line "left to say!"
-	cont "You're the"
-	cont "authority now!"
+	text "¡No tengo nada"
+	line "que decir!"
+	cont "¡Ahora eres la"
+	cont "autoridad!"
 	done
 
 _OaksLabText_4424c::
-	text "Your #DEX is"
-	line "entirely complete!"
-	autocont "Congratulations!"	;joenote - auto-scroll so the previous exclamation point does not get cut off
+	text "¡Tu Pokédex"
+	line "está completa!"
+	autocont "¡Felicidades!"	;joenote - auto-scroll so the previous exclamation point does not get cut off
 	done
 
 ;;;;;;;;;;;;;;;;;;;;;;joenote - adding text for oak battle
 _OaksLabText_challenge::
-	text "Do you challenge"
-	line "PROF.OAK to a"
-	cont "#MON battle?"
+	text "¿Quieres retar al"
+	line "Prof.Oak a una"
+	cont "pelea Pokémon?"
 	done
 
 _OaksLabText_prebattle::
-	text "It's been a long"
-	line "time since I've"
-	cont "trained #MON."
+	text "Oak: Ya hace mu-"
+	line "cho que entrené"
+	cont "mis Pokémon."
 	
-	para "But I suppose I"
-	line "can battle again"
-	cont "just for you."
+	para "Pero supongo que"
+	line "podría pelear una"
+	cont "vez más, solo por"
+	cont "ti."
 	done
 
 _OakVictorySpeech::
-	text "Ah! Such"
-	line "a rush!"
+	text "¡Ah! ¡Pero"
+	line "que emoción!"
 	
-	para "I forgot how much"
-	line "fun battling is."
-	cont "A splendid match!"
+	para "Había olvidado lo"
+	line "divertido que era"
+	cont "pelear. ¡Eso fue"
+	cont "una pelea sin"
+	cont "igual!"
 
-	para "You know MR.FUJI?"
-	line "He used to study"
-	cont "powerful #MON."
+	para "¿Conoces al"
+	line "Sr.Fuji? Él solía"
+	cont "estudiar Pokémon"
+	cont "poderosos."
 
-	para "You should visit"
-	line "him. He retired"
-	cont "to LAVENDER TOWN."
+	para "Deberías ir a"
+	line "visitarlo. Él se"
+	cont "retiró y ahora vi"
+	cont "ve en Pueblo La-"
+	cont "vanda."
 	prompt
 	
 ;;;;;;;;;;;;;;;;;;;;;;joenote - adding text for lvl scaling
 _OaksLabText_scalingON::
-	text "Need a challenge?"
-	line "I can nullify the"
-	cont "badge limit for"
-	cont "traded pokemon"
-	cont "obedience. Then"
-	cont "I can make it so"
-	cont "weaker trainers"
-	cont "scale up to you."
+	text "¿Quieres un reto?"
+	line "Puedo quitar el"
+	cont "límite de meda-"
+	cont "llas para que te"
+	cont "obedezcan los"
+	cont "Pokémon intercam-"
+	cont "biados. Y hacer"
+	cont "que los demás"
+	cont "suban su nivel"
+	cont "para igualar el"
+	cont "tuyo."
 	done
 	
 _OaksLabText_scalingOFF::
-	text "Too hard? I see..."
-	line "I can set weaker"
-	cont "trainers back to"
-	cont "normal for you."
+	text "¿Muy difícil?"
+	line "Ya veo... Puedo"
+	cont "hacer que los en-"
+	cont "trenadores sean"
+	cont "como antes."
 	done
 
 _OaksLabText_randwildON::
-	text "Under the correct"
-	line "conditions, many"
-	cont "#MON appear in"
-	cont "totally different"
-	cont "locations!"
+	text "¡Bajo condiciones"
+	line "correctas, algu-"
+	cont "nos Pokémon"
+	cont "aparecerán en"
+	cont "lugares totalmen-"
+	cont "te diferentes!"
 	
-	para "I can talk to the"
-	line "professor and get"
-	cont "you set up."
+	para "Puedo decirle al"
+	line "profesor para que"
+	cont "así sea."
 	done
 	
 _OaksLabText_randwildOFF::
-	text "Prefer the normal"
-	line "#MON areas?"
-	cont "Want me to change"
-	cont "it back?"
+	text "¿Prefieres las"
+	line "las áreas Pokémon"
+	cont "normales?"
+	cont "¿Quieres que lo"
+	cont "ponga como estaba"
+	cont "antes?"
 	done
 
 _OaksLabText_randwildRegen::
-	text "Want to generate"
-	line "a new pattern for"
-	cont "randomization?"
+	text "¿Quieres generar"
+	line "un nuevo patrón"
+	cont "de aleatoriedad?"
 	done
 
 _OaksLabText_randwildTrue::
-	text "#MON shuffling"
-	line "is done within"
-	cont "predefined tiers."
+	text "Se están bara-"
+	line "jeando Pokémon"
+	cont "bajo los niveles"
+	cont "predefinidos."
 
-	para "Would you rather"
-	line "risk it with full"
-	cont "randomization?"
+	para "¿Te atreverías"
+	line "con hacerlo total-"
+	cont "mente aleatorio?"
 	done
 	
 _OaksLabText_symbolsON::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "Estudio Pokémon"
+	line "como el Asistente"
+	cont "del Prof. Oak."
 	
-	para "Did you know"
-	line "many #MON can"
-	cont "be either male"
-	cont "or female?"
+	para "¿Sabías que los"
+	line "Pokémon pueden"
+	cont "ser machos o"
+	cont "hembras?"
 	
-	para "I can modify the"
-	line "#DEX to show a"
-	cont "marker for hard-"
-	cont "to-tell species"
-	cont "in wild battles."
+	para "Puedo modificar"
+	line "tu Pokédex para"
+	cont "que lo diga para"
+	cont "especies que es"
+	cont "difícil diferen-"
+	cont "ciarlos durante"
+	cont "las batallas."
 	
-	para "It will also put"
-	line "a mark in wild"
-	cont "battles if you"
-	cont "registered it in"
-	cont "your #DEX."
+	para "También pondrá"
+	line "una marca duran-"
+	cont "te las batallas"
+	cont "para saber que"
+	cont "Pokémon tienes"
+	cont "registrados en"
+	cont "tu Pokédex."
 	done
 	
 _OaksLabText_symbolsOFF::
-	text "Don't like the"
-	line "symbols? I can"
-	cont "set it back" 
-	cont "for you."
+	text "¿No te gustan"
+	line "los símbolos?"
+	cont "Los puedo" 
+	cont "quitar para"
+	cont "ti."
 	done
 
 _OaksLabText_AideQ_done::
-	text "Okay, it's done."
+	text "Bien, hecho."
 	done
 	
 _OaksLabText_AideQ_reject::
-	text "No? Very well."
-	line "See me again if"
-	cont "you change your"
-	cont "mind later."
+	text "¿No? Muy bien."
+	line "Ven a verme si"
+	cont "cambiaste de"
+	cont "opinión."
 	done

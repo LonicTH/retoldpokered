@@ -648,7 +648,7 @@ PrintPlayTime_local:
 ;	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "JUGADOR"
+	db   "JUGAD."
 	next "MEDALLAS    "
 	next "POKÉDEX    "
 	next "TIEMPO@"

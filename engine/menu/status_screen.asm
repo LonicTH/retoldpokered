@@ -392,7 +392,7 @@ PrintStat:
 StatsText:
 	db   "ATAQUE"
 	next "DEFENSA"
-	next "VELOCIDAD"
+	next "VELOCI."
 	next "ESPECIAL@"
 
 StatusScreen2:
@@ -572,8 +572,8 @@ CalcExpToLevelUp:
 	ret
 
 StatusScreenExpText:
-	db   "PUNTOS DE EXP"
-	next "PROX. NIVEL@"
+	db   "PTS.DE EXP"
+	next "PROX.NIVEL@"
 
 StatusScreen_ClearName:
 	ld bc, 10

@@ -242,21 +242,21 @@ charmap "'s", $BD
 charmap "'t", $BE
 charmap "'v", $BF
 
-charmap "Á", $C0
-charmap "É", $C1
-charmap "Í", $C2
-charmap "Ó", $C3
-charmap "Ú", $C4
-charmap "Ü", $C5
-charmap "Ñ", $C6
-charmap "á", $C7
-charmap "í", $C8
-charmap "ó", $C9
-charmap "ú", $CA
-charmap "ü", $CB
-charmap "ñ", $CC
-charmap "¿", $CD
-charmap "¡", $CE
+charmap "Á", $BB
+charmap "É", $BC
+charmap "Í", $BD
+charmap "Ó", $BE
+charmap "Ú", $BF
+charmap "Ü", $E4
+charmap "Ñ", $E5
+charmap "á", $DA
+charmap "í", $DB
+charmap "ó", $CA
+charmap "ú", $CB
+charmap "ü", $CC
+charmap "ñ", $CD
+charmap "¿", $CE
+charmap "¡", $CF
 
 charmap "'", $E0
 

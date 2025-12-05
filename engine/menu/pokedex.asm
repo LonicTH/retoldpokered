@@ -411,26 +411,26 @@ DrawPokedexVerticalLine:
 	ret
 
 PokedexSeenText:
-	db "VISTOS@"
+	db "VIS.@"
 
 PokedexOwnText:
-	db "ATRAPADOS@"
+	db "PRO.@"
 
 PokedexContentsText:
 	db "CONTENIDOS@"
 
 PokedexMenuItemsText:
-	db   "DATOS"
-	next "GRITO"
+	db   "DATO"
+	next "GRI."
 	next "ÁREA"
-	next "SALIR@"
+	next "SAL.@"
 
 ;adding GB_PRINTER
 PokedexMenuItemsTextPRINT:
-	db   "DATOS"
+	db   "DATO"
 	next "IMPR"
 	next "ÁREA"
-	next "SALIR@"
+	next "SAL.@"
 	
 ; tests if a pokemon's bit is set in the seen or owned pokemon bit fields
 ; INPUT:

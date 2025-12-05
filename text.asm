@@ -22,7 +22,7 @@ INCLUDE "hram.asm"
 SECTION "Text 1", ROMX, BANK[TEXT_1]
 
 _CardKeySuccessText1::
-	text "Bingo!@@"
+	text "¡Bingo!@@"
 
 _CardKeySuccessText2::
 	text ""
@@ -74,8 +74,9 @@ _MartSignText::
 	done
 
 _PokeCenterSignText::
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "¡Curamos tus"
+	line "Pokémon!"
+	cont "Centro Pokémon"
 	done
 
 _FoundItemText::
@@ -516,8 +517,9 @@ _CeladonCityHotelText::
 	done
 
 _BookcaseText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "¡Está lleno de"
+	line "libros sobre"
+	cont "Pokémon!"
 	done
 
 _NewBicycleText::
@@ -813,14 +815,16 @@ _IndigoPlateauHQText::
 	done
 
 _RedBedroomSNESText::
-	text "<PLAYER> is"
+	text "¡<PLAYER> está"
 IF DEF(_REDGREENJP)
-	line "playing the NES!"	;joenote - the player still had an old famicom in japanese red & green
+	line "jugando con la" 
+	cont "NES!"	;joenote - the player still had an old famicom in japanese red & green
 ELSE
-	line "playing the SNES!"
+	line "jugando con la"
+	cont "SNES!"
 ENDC
-	cont "...Okay!"
-	cont "It's time to go!"
+	cont "¡...Bien!"
+	cont "¡Hora de irse!"
 	done
 
 _Route15UpstairsBinocularsText::
@@ -1037,8 +1041,9 @@ _IndigoPlateauStatuesText3::
 	done
 
 _PokemonBooksText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "¡Está lleno de"
+	line "libros sobre"
+	cont "Pokémon!"
 	done
 
 IF DEF(_JPTXT)
@@ -1674,101 +1679,112 @@ _RareCandyText::
 	text "!@@"
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> encendió"
+	line "la computadora."
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
-	line "PC."
+	text "Se accedió a la"
+	line "Computadora de"
+	cont "Bill."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Se accedió al"
+	line "Sistema de al-"
+	cont "macenamiento de"
+	cont "Pokémon."
 	prompt
 
 _AccessedSomeonesPCText::
-	text "Accessed someone's"
-	line "PC."
+	text "Se accedió a la"
+	line "Computadora de"
+	cont "alguien."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Se accedió al"
+	line "Sistema de al-"
+	cont "macenamiento de"
+	cont "Pokémon."
 	prompt
 
 _AccessedMyPCText::
-	text "Accessed my PC."
+	text "Accedí a mi"
+	line "computadora."
 
-	para "Accessed Item"
-	line "Storage System."
+	para "Se accedió al"
+	line "Sistema de al-"
+	cont "macenamiendo de"
+	cont "objetos."
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> encendió"
+	line "la computadora."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "¿Qué quieres"
+	line "hacer?"
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	text "Qué quieres"
+	line "depositar?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	text "¿Cuántos?"
 	done
 
 _ItemWasStoredText::
 	TX_RAM wcd6d
-	text " was"
-	line "stored via PC."
+	text " fue"
+	line "guardado en la"
+	cont "computadora."
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	text "No tienes nada"
+	line "que depositar."
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	text "Ya no hay lugar"
+	line "para guardar"
+	cont "más cosas."
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	text "¿Qué quieres"
+	line "sacar?"
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	text "¿Cuántos?"
 	done
 
 _WithdrewItemText::
-	text "Withdrew"
-	line "@"
+	text "@"
+	line "se sacó"
 	TX_RAM wcd6d
 	text "."
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	text "No hay nada"
+	line "guardado."
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	text "No puedes llevar"
+	line "más objetos."
 	prompt
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	text "¿Qué quieres"
+	line "botar?"
 	done
 
 _TossHowManyText::
-	text "How many?"
+	text "¿Cuántos?"
 	done
 
 _AccessedHoFPCText::
@@ -2616,45 +2632,49 @@ _HMCantDeleteText::
 	prompt
 
 _PokemonCenterWelcomeText::
-	text "Welcome to our"
-	line "#MON CENTER!"
+	text "¡Te damos la"
+	line "bienvenida al"
+	cont "Centro Pokémon"
 
-	para "We heal your"
-	line "#MON back to"
-	cont "perfect health!"
+	para "¡Curaremos tus"
+	line "Pokémon a perfec-"
+	cont "to estado!"
 	prompt
 
 _ShallWeHealYourPokemonText::
-	text "Shall we heal your"
-	line "#MON?"
+	text "¿Quieres que cu-"
+	line "remos tus Poké-"
+	cont "mon?"
 	done
 
 _NeedYourPokemonText::
-	text "OK. We'll need"
-	line "your #MON."
+	text "Muy bien, dame"
+	line "unos segundos."
 	done
 
 _PokemonFightingFitText::
-	text "Thank you!"
-	line "Your #MON are"
-	cont "fighting fit!"
+	text "¡Gracias!"
+	line "¡Tu equipo reco-"
+	cont "bró toda su ener-"
+	cont "gía!"
 	prompt
 
 _PokemonCenterFarewellText::
-	text "We hope to see"
-	line "you again!"
+	text "¡Esperamos volver"
+	line "a verte!"
 	done
 
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
-	text "This area is"
-	line "reserved for 2"
-	cont "friends who are"
-	cont "linked by cable."
+	text "Esta área está"
+	line "reservada para 2"
+	cont "amigos que estén"
+	cont "conectados por"
+	cont "cable."
 	done
 
 _CableClubNPCWelcomeText::
-	text "Welcome to the"
-	line "Cable Club!"
+	text "¡Bienvenido al"
+	line "Club Cable!"
 	done
 
 _CableClubNPCPleaseApplyHereHaveToSaveText::

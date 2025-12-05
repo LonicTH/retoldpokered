@@ -72,7 +72,7 @@ StartMenuSaveText:
 	db "GUARDAR@"
 
 StartMenuResetText:
-	db "REINICAR@"
+	db "REINIC.@"
 
 StartMenuExitText:
 	db "SALIR@"

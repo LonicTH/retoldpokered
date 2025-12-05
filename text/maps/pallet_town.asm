@@ -1,55 +1,61 @@
 _OakAppearsText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@@"
+	text "Oak: ¡Espera!"
+	line "¡No te vayas!@@"
 
 _OakWalksUpText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "Oak: ¡Es peli-"
+	line "groso! ¡Pokémon"
+	cont "salvajes viven"
+	cont "en la hierba"
+	cont "alta!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "Ocupas tu propio"
+	line "Pokémon para tu"
+	cont "protección."
+	cont "¡Lo sé bien!"
 
-	para "Here, come with"
-	line "me!"
+	para "¡Vamos, sígueme!"
 	done
 
 _PalletTownText2::
-	text "I'm raising"
-	line "#MON too!"
+	text "¡También estoy"
+	line "cuidando de mis"
+	cont "propios Pokémon!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "¡Cuándo sean más"
+	line "fuertes, Me pro-"
+	cont "tegerán!"
 	done
 
 _PalletTownText3::
-	text "Technology is"
+	text "¡La tecnología"
 	line "incredible!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "¡Ahora puedes"
+	line "guardar y sacar"
+	cont "objetos y Pokémon"
+	cont "desde tu compu-"
+	cont "tadora!"
 	done
 
 _PalletTownText4::
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "Laboratorio de"
+	line "Investigación"
+	cont "Pokémon del Prof."
+	cont "Oak."
 	done
 
 _PalletTownText5::
-	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	text "Pueblo Paleta"
+	line "¡Un lienzo en"
+	cont "blanco de tu"
+	cont "viaje!"
 	done
 
 _PalletTownText6::
-	text "<PLAYER>'s house "
+	text "Casa de <PLAYER> "
 	done
 
 _PalletTownText7::
-	text "<RIVAL>'s house "
+	text "Casa de <RIVAL> "
 	done

@@ -1,49 +1,53 @@
 _Route1ViridianMartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "¡Buenas! Trabajo"
+	line "en una Tienda"
+	cont "Pokémon."
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	para "Es una tienda de"
+	line "conveniencia, es-"
+	cont "pero que nos"
+	cont "visites en la"
+	cont "Ciudad Viridián."
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "¡Ya sé, te daré"
+	line "una muestra!"
+	cont "¡Aquí tienes!"
 	prompt
 
 _Route1Text_1cae8::
-	text "<PLAYER> got"
+	text "¡<PLAYER> obtuvo"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _Route1Text_1caee::
-	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
+	text "¡También vendemos"
+	line "Pokébolas para"
+	cont "atrapar Pokémon!"
 	done
 
 _Route1Text_1caf3::
-	text "You have too much"
-	line "stuff with you!"
+	text "¡Tienes muchos"
+	line "objetos en tu mo-"
+	cont "chila!"
 	done
 
 _Route1Text2::
-	text "See those ledges"
-	line "along the road?"
+	text "¿Has visto esos"
+	line "desniveles en el"
+	cont "camino?"
 
-	para "It's a bit scary,"
-	line "but you can jump"
-	cont "from them."
+	para "Dan miedo, pero"
+	line "puedes saltar"
+	cont "desde ellos."
 
-	para "You can get back"
-	line "to PALLET TOWN"
-	cont "quicker that way."
+	para "Puedes volver al"
+	line "Pueblo Paleta mu-"
+	cont "cho más rápido."
 	done
 
 _Route1Text3::
-	text "ROUTE 1"
-	line "PALLET TOWN -"
-	cont "VIRIDIAN CITY"
+	text "RUTA 1"
+	line "Pueblo Paleta -"
+	cont "Ciudad Viridián"
 	done

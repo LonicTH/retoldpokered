@@ -61,7 +61,7 @@ _OakSpeechText3::
 ;joenote - ask if female trainer
 IF DEF(_FPLAYER)
 _AskIfGirlText::
-	text "¿Eres un chico o"
-	line "una chica?"
+	text "¿Eres un niño o"
+	line "una niña?"
 	done
 ENDC

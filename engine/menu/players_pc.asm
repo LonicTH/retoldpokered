@@ -268,7 +268,7 @@ RectifyKeyItems:
 
 PlayersPCMenuEntries:
 	db   "SACAR OBJETO"
-	next "GUARDAR OBJETO"
+	next "GUAR. OBJETO"
 	next "BOTAR OBJETO"
 	next "CERRAR SESIÓN@"
 

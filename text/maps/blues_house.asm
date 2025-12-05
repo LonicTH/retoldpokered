@@ -1,50 +1,52 @@
 _DaisyInitialText::
-	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	text "¡Hola <PLAYER>!"
+	line "<RIVAL> se fue"
+	cont "al laboratorio"
+	cont "de mi abuelo."
 	done
 
 _DaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "¿Mi abuelo te"
+	line "pidió un favor?"
+	cont "¡Ten, esto te"
+	cont "será útil!"
 	prompt
 
 _GotMapText::
-	text "<PLAYER> got a"
+	text "¡<PLAYER> obtuvo"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _DaisyBagFullText::
-	text "You have too much"
-	line "stuff with you."
+	text "Tienes muchos"
+	line "objetos en tu"
+	cont "mochila."
 	done
 
 _DaisyUseMapText::
-	text "Use the TOWN MAP"
-	line "to find out where"
-	cont "you are."
+	text "Usa el Mapa para"
+	line "saber en donde te"
+	cont "encuentras."
 	done
 
 _BluesHouseText2::
-	text "#MON are living"
-	line "things! If they"
-	cont "get tired, give"
-	cont "them a rest!"
+	text "¡Los Pokémon son"
+	line "seres vivos! ¡Si"
+	cont "se cansan, déja-"
+	cont "los descansar!"
 	done
 
 IF DEF(_JPTXT)
 _BluesHouseText3::
-	text "A map of Kanto!"
-	line "...... Wouldn't"
-	cont "it be nice if you"
-	cont "could have it?"
+	text "¡Un mapa de Kanto!"
+	line "...... ¿No sería"
+	cont "genial que lo tu-"
+	cont "vieras?"
 	done
 ELSE
 _BluesHouseText3::
-	text "It's a big map!"
-	line "This is useful!"
+	text "¡Es un gran mapa!"
+	line "¡Se ve muy útil!"
 	done
 ENDC

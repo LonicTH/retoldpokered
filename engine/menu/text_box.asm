@@ -218,13 +218,13 @@ TextBoxTextAndCoordTable:
 ; note that there is no terminator
 
 BuySellQuitText:
-	db   "COMPRAR"
-	next "VENDER"
-	next "SALIR@@"
+	db   "COMP."
+	next "VEND."
+	next "QUIT@@"
 
 UseTossText:
 	db   "USAR"
-	next "DESECHAR@"
+	next "BOT.@"
 
 JapaneseSaveMessageText:
 	db   "きろく"
@@ -250,12 +250,12 @@ BattleMenuText:
 
 SafariZoneBattleMenuText:
 	db   "BOLA×       CEBO"
-	next "LAN. ROCA  ESC@"
+	next "TIRAR ROCA  ESC@"
 
 SwitchStatsCancelText:
 	db   "CAMBIO"
 	next "ESTAD."
-	next "CANCELAR@"
+	next "CANCEL.@"
 
 JapaneseAhText:
 	db "アッ!@"
@@ -487,7 +487,7 @@ DisplayTwoOptionMenu:
 
 TwoOptionMenu_SaveScreenTiles:
 	ld de, wBuffer
-	lb bc, 4, 6
+	lb bc, 5, 6
 .loop
 	ld a, [hli]
 	ld [de], a
@@ -495,7 +495,7 @@ TwoOptionMenu_SaveScreenTiles:
 	dec c
 	jr nz, .loop
 	push bc
-	ld bc, SCREEN_WIDTH - 7
+	ld bc, SCREEN_WIDTH - 6
 	add hl, bc
 	pop bc
 	ld c, $6
@@ -505,7 +505,7 @@ TwoOptionMenu_SaveScreenTiles:
 
 TwoOptionMenu_RestoreScreenTiles:
 	ld de, wBuffer
-	lb bc, 4, 6
+	lb bc, 5, 6
 .loop
 	ld a, [de]
 	inc de
@@ -513,7 +513,7 @@ TwoOptionMenu_RestoreScreenTiles:
 	dec c
 	jr nz, .loop
 	push bc
-	ld bc, SCREEN_WIDTH - 7
+	ld bc, SCREEN_WIDTH - 6
 	add hl, bc
 	pop bc
 	ld c, 6
@@ -545,7 +545,7 @@ TwoOptionMenuStrings:
 	db 4,3,0
 	dw .NoYesMenu
 IF DEF(_FPLAYER)	;joenote - text to ask if female trainer
-	db 6,3,0
+	db 5,3,0
 	dw .BoyGirlMenu	
 ENDC
 
@@ -553,7 +553,7 @@ ENDC
 	db   "NO"
 	next "SÍ@"
 .YesNoMenu
-	db   "SI"
+	db   "SÍ"
 	next "NO@"
 .NorthWestMenu
 	db   "NORTE"
@@ -569,11 +569,11 @@ ENDC
 	next "CANCEL.@"
 .HealCancelMenu
 	db   "CURAR"
-	next "CANCELAR@"
+	next "CANCEL.@"
 IF DEF(_FPLAYER)	;joenote - text to ask if female trainer
 .BoyGirlMenu
-	db   "CHICO"
-	next "CHICA@"	
+	db   "NIÑO"
+	next "NIÑA@"	
 ENDC
 
 DisplayFieldMoveMonMenu:
@@ -698,20 +698,20 @@ DisplayFieldMoveMonMenu:
 	jp PlaceString
 
 FieldMoveNames:
-	db "CORTE@"
-	db "VUELO@"
+	db "Corte@"
+	db "Vuelo@"
 	db "@"
-	db "SURF@"
-	db "FUERZA@"
-	db "DESTELLO@"
-	db "EXCAVAR@"
-	db "TELETRANSPORTE@"
-	db "OVOCURACIÓN@"
+	db "Surf@"
+	db "Fuerza@"
+	db "Destello@"
+	db "Excavar@"
+	db "Teletran.@"
+	db "Ovocura.@"
 
 PokemonMenuEntries:
 	db   "ESTAD."
 	next "CAMBIO"
-	next "CANCELAR@"
+	next "CANCEL.@"
 
 GetMonFieldMoves:
 	ld a, [wWhichPokemon]
