@@ -44,33 +44,35 @@ _NoNibbleText::
 	prompt
 
 _NothingHereText::
-	text "Looks like there's"
-	line "nothing here."
+	text "Parece que no hay"
+	line "nada aquí."
 	prompt
 
 _ItsABiteText::
-	text "Oh!"
-	line "It's a bite!"
+	text "¡Oh!"
+	line "¡Picaron!"
 	prompt
 
 _ExclamationText::
-	text "!"
+	text "¡!"
 	done
 
 _GroundRoseText::
-	text "Ground rose up"
-	line "somewhere!"
+	text "¡El suelo subió"
+	line "en alguna parte!"
 	done
 
 _BoulderText::
-	text "This requires"
-	line "STRENGTH to move!"
+	text "¡Esto necesita"
+	line "Fuerza para mo-"
+	cont "verse!"
 	done
 
 _MartSignText::
-	text "All your item"
-	line "needs fulfilled!"
-	cont "#MON MART"
+	text "¡Todas tus nece-"
+	line "sidades de Obje-"
+	cont "tos satisfechas!"
+	cont "Tienda Pokémon"
 	done
 
 _PokeCenterSignText::
@@ -80,89 +82,91 @@ _PokeCenterSignText::
 	done
 
 _FoundItemText::
-	text "<PLAYER> found"
+	text "¡<PLAYER> encontró"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _NoMoreRoomForItemText::
-	text "No more room for"
-	line "items!"
+	text "¡No tienes espa-"
+	line "cio para más ob-"
+	cont "jetos!"
 	done
 
 _OaksAideHiText::
-	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
-	cont "AIDE!"
+	text "¡Hola! ¿Me re-"
+	line "cuerdas?"
+	cont "¡Soy un asistente"
+	cont "del Prof.Oak!"
 
-	para "If you caught @"
+	para "¡Si atrapaste @"
 	TX_NUM hOaksAideRequirement, 1, 3
 	text ""
-	line "kinds of #MON,"
-	cont "I'm supposed to"
-	cont "give you an"
+	line "tipos de Pokémon,"
+	cont "te debería darte"
 	cont "@"
 	TX_RAM wOaksAideRewardItemName
 	text "!"
 
-	para "So, <PLAYER>! Have"
-	line "you caught at"
-	cont "least @"
+	para "¡Bien, <PLAYER>!"
+	line "¿Has atrapado al"
+	cont "menos @"
 	TX_NUM hOaksAideRequirement, 1, 3
-	text " kinds of"
-	cont "#MON?"
+	text " tipos de"
+	cont "Pokémon?"
 	done
 
 _OaksAideUhOhText::
-	text "Let's see..."
-	line "Uh-oh! You have"
-	cont "caught only @"
+	text "Veamos..."
+	line "¡Oh-oh! Solo has"
+	cont "atrapado @"
 	TX_NUM hOaksAideNumMonsOwned, 1, 3
 	text ""
-	cont "kinds of #MON!"
+	cont "tipos de Poké-"
+	cont "mon!"
 
-	para "You need @"
+	para "Necesitas @"
 	TX_NUM hOaksAideRequirement, 1, 3
-	text " kinds"
-	line "if you want the"
+	text " tipos"
+	line "si quieres"
 	cont "@"
 	TX_RAM wOaksAideRewardItemName
 	text "."
 	done
 
 _OaksAideComeBackText::
-	text "Oh. I see."
+	text "Oh. Ya veo."
 
-	para "When you get @"
+	para "Cuando tengas @"
 	TX_NUM hOaksAideRequirement, 1, 3
 	text ""
-	line "kinds, come back"
-	cont "for @"
+	line "tipos de Pokémon,"
+	cont "vuelve por @"
 	TX_RAM wOaksAideRewardItemName
 	text "."
 	done
 
 _OaksAideHereYouGoText::
-	text "Great! You have"
-	line "caught @"
+	text "¡Genial! ¡Has"
+	line "atrapado @"
 	TX_NUM hOaksAideNumMonsOwned, 1, 3
-	text " kinds "
-	cont "of #MON!"
-	cont "Congratulations!"
+	text " tipos de"
+	cont "Pokémon!"
+	cont "¡Felicidades!"
 
-	para "Here you go!"
+	para "¡Aquí tienes!"
 	prompt
 
 _OaksAideGotItemText::
-	text "<PLAYER> got the"
+	text "¡<PLAYER> obtuvo"
 	line "@"
 	TX_RAM wOaksAideRewardItemName
 	text "!@@"
 
 _OaksAideNoRoomText::
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for the"
+	text "¡Oh! Veo que no"
+	line "tienes espacio"
+	cont "para guardar"
 	cont "@"
 	TX_RAM wOaksAideRewardItemName
 	text "."
@@ -237,42 +241,44 @@ INCLUDE "text/move_relearner.asm"
 ENDC
 
 _AIBattleWithdrawText::
+	text "¡@"
 	TX_RAM wTrainerName
-	text " with-"
-	line "drew @"
+	text " sacó"
+	line " @"
 	TX_RAM wEnemyMonNick
 	text "!"
 	prompt
 
 _AIBattleUseItemText::
+	text "¡@"
 	TX_RAM wTrainerName
 	text ""
-	line "used @"
+	line "usó @"
 	TX_RAM wcd6d
 	text ""
-	cont "on @"
+	cont "en @"
 	TX_RAM wEnemyMonNick
 	text "!"
 	prompt
 
 _TradeWentToText::
 	TX_RAM wcf4b
-	text " went"
-	line "to @"
+	text " se fue"
+	line "a @"
 	TX_RAM wGrassRate
 	text "."
 	done
 
 _TradeForText::
-	text "For <PLAYER>'s"
-	line "@"
+	text "Por @"
+	line "de <PLAYER>"
 	TX_RAM wcf4b
 	text ","
 	done
 
 _TradeSendsText::
 	TX_RAM wGrassRate
-	text " sends"
+	text " envió"
 	line "@"
 	TX_RAM wcd6d
 	text "."
@@ -280,18 +286,18 @@ _TradeSendsText::
 
 _TradeWavesFarewellText::
 	TX_RAM wGrassRate
-	text " waves"
-	line "farewell as"
+	text " se"
+	line "despide de"
 	done
 
 _TradeTransferredText::
 	TX_RAM wcd6d
-	text " is"
-	line "transferred."
+	text " es"
+	line "transferido."
 	done
 
 _TradeTakeCareText::
-	text "Take good care of"
+	text "Cuida bien de"
 	line "@"
 	TX_RAM wcd6d
 	text "."
@@ -299,15 +305,16 @@ _TradeTakeCareText::
 
 _TradeWillTradeText::
 	TX_RAM wGrassRate
-	text " will"
-	line "trade @"
+	text " será"
+	line "intercambiado"
+	cont "@"
 	TX_RAM wcd6d
 	text ""
 	done
 
 _TradeforText::
-	text "for <PLAYER>'s"
-	line "@"
+	text "por @"
+	line "de <PLAYER>"
 	TX_RAM wcf4b
 	text "."
 	done
@@ -393,10 +400,12 @@ _GymStatueText2::
 	done
 
 _ViridianCityPokecenterGuyText::
-	text "#MON CENTERs"
-	line "heal your tired,"
-	cont "hurt or fainted"
-	cont "#MON!"
+	text "¡Los Centro"
+	line "Pokémon pueden"
+	cont "curar tus Pokémon"
+	cont "cansados, lasti-"
+	cont "mados o debilita-"
+	cont "dos!"
 	done
 
 _PewterCityPokecenterGuyText::
@@ -528,14 +537,16 @@ _NewBicycleText::
 	done
 
 _PushStartText::
-	text "Push START to"
-	line "open the MENU!"
+	text "¡Presiona START"
+	line "para abrir el"
+	cont "Menú!"
 	done
 
 _SaveOptionText::
-	text "The SAVE option is"
-	line "on the MENU"
-	cont "screen."
+	text "Para Guardar tie-"
+	line "nes que escogerlo"
+	cont "en la pantalla de"
+	cont "Menú"
 	done
 
 _StrengthsAndWeaknessesText::
@@ -656,29 +667,34 @@ _BillsHousePokemonListText2::
 	done
 
 _OakLabEmailText::
-	text "There's an e-mail"
-	line "message here!"
+	text "¡Hay un nuevo"
+	line "Correo!"
 
 	para "..."
 
-	para "Calling all"
-	line "#MON trainers!"
+	para "¡Llamándo a to-"
+	line "dos los entre-"
+	cont "nadores Pokémon!"
 
-	para "The elite trainers"
-	line "of #MON LEAGUE"
-	cont "are ready to take"
-	cont "on all comers!"
+	para "¡Los entrenadores"
+	line "de Élite de la"
+	cont "Liga Pokémon se"
+	cont "encuentran listos"
+	cont "para los que es-"
+	cont "tén intereados!"
 
-	para "Bring your best"
-	line "#MON and see"
-	cont "how you rate as a"
-	cont "trainer!"
+	para "¡Traigan sus me-"
+	line "jores Pokémon"
+	cont "para ver su nivel"
+	cont "como entrenador!"
 
-	para "#MON LEAGUE HQ"
-	line "INDIGO PLATEAU"
+	para "Sede de la Meseta"
+	line "Índigo de la Liga"
+	cont "Pokémon"
 
-	para "PS: PROF.OAK,"
-	line "please visit us!"
+	para "PS: ¡Prof.Oak,"
+	line "Por favor visíte-"
+	cont "nos!"
 	cont "..."
 	done
 
@@ -1108,10 +1124,11 @@ _HurtByLeechSeedText::
 	prompt
 
 _EnemyMonFaintedText::
-	text "Enemy @"
+	text "¡El @"
 	TX_RAM wEnemyMonNick
 	text ""
-	line "fainted!"
+	line "enemigo se"
+	cont "debilitó!"
 	prompt
 
 _MoneyForWinningText::
@@ -1129,9 +1146,10 @@ _TrainerDefeatedText::
 	prompt
 
 _PlayerMonFaintedText::
+	text "¡@"
 	TX_RAM wBattleMonNick
 	text ""
-	line "fainted!"
+	line "se debilitó!"
 	prompt
 
 _UseNextMonText::
@@ -1159,21 +1177,22 @@ _LinkBattleLostText::
 	prompt
 
 _TrainerAboutToUseText::
+	text "¡@"
 	TX_RAM wTrainerName
-	text " is"
-	line "about to use"
-	cont"@"
+	text " va a"
+	line "a usar @"
 	TX_RAM wEnemyMonNick
 	text "!"
 
-	para "Will <PLAYER>"
-	line "change #MON?"
+	para "¿Cambiarás tu"
+	line "Pokémon?"
 	done
 
 _TrainerSentOutText::
+	text "¡@"
 	TX_RAM wTrainerName
-	text " sent"
-	line "out @"
+	text " sacará"
+	line "@"
 	TX_RAM wEnemyMonNick
 	text "!"
 	done
@@ -1194,7 +1213,8 @@ _NoRunningText::
 	prompt
 
 _GotAwayText::
-	text "Got away safely!"
+	text "¡Escapaste sin"
+	line "problemas!"
 	prompt
 
 _ItemsCantBeUsedHereText::
@@ -1326,18 +1346,18 @@ _MoveIsDisabledText::
 	prompt
 
 _MonName1Text::
-	text "<USER>@@"
+	text "¡<USER>@@"
 
 _Used1Text::
 	text ""
-	line "used @@"
+	line "usó @@"
 
 _Used2Text::
 	text ""
-	line "used @@"
+	line "usó @@"
 
 _InsteadText::
-	text "instead,"
+	text "en cambio,"
 	cont "@@"
 
 _CF4BText::
@@ -1365,14 +1385,14 @@ _ExclamationPoint5Text::
 	done
 
 _AttackMissedText::
-	text "<USER>'s"
-	line "attack missed!"
+	text "¡El ataque de"
+	line "<TARGET> falló!"
 	prompt
 
 _KeptGoingAndCrashedText::
-	text "<USER>"
-	line "kept going and"
-	cont "crashed!"
+	text "¡<USER>"
+	line "pasó de largo"
+	cont "y chocó!"
 	prompt
 
 ;joenote - the same in english as _IsUnaffectedText, so it's redundant 
@@ -1382,16 +1402,16 @@ _KeptGoingAndCrashedText::
 ;	prompt
 
 _DoesntAffectMonText::
-	text "It doesn't affect"
+	text "¡No le afecta a"
 	line "<TARGET>!"
 	prompt
 
 _CriticalHitText::
-	text "Critical hit!"
+	text "¡Ataque crítico!"
 	prompt
 
 _OHKOText::
-	text "One-hit KO!"
+	text "¡One-hit KO!"
 	prompt
 
 _LoafingAroundText::
@@ -1452,8 +1472,9 @@ _HitXTimesText::
 	prompt
 
 _GainedText::
+	text "¡@"
 	TX_RAM wcd6d
-	text " gained"
+	text " obtuvo"
 	line "@@"
 
 ;_WithExpAllText::
@@ -1471,66 +1492,72 @@ _BoostedText::
 
 _ExpPointsText::
 	TX_NUM wExpAmountGained, 2, 5	;joenote - increased to 5 digits
-	text " EXP. Points!"
+	text " PTS.de EXP."
 	prompt
 
 _GrewLevelText::
+	text "¡@"
 	TX_RAM wcd6d
-	text " grew"
-	line "to level @"
+	text " subió"
+	line "al nivel @"
 	TX_NUM wCurEnemyLVL, 1, 3
 	text "!@@"
 
 _WildMonAppearedText::
-	text "Wild @"
+	text "¡Un @"
 	TX_RAM wEnemyMonNick
 	text ""
-	line "appeared!"
+	line "salvaje apareció!"
 	prompt
 
 _HookedMonAttackedText::
-	text "The hooked"
+	text "¡El"
 	line "@"
 	TX_RAM wEnemyMonNick
 	text ""
-	cont "attacked!"
+	cont "enganchado atacó!"
 	prompt
 
 _EnemyAppearedText::
+	text "¡@"
 	TX_RAM wEnemyMonNick
 	text ""
-	line "appeared!"
+	line "apareció!"
 	prompt
 
 _TrainerWantsToFightText::
+	text "¡@"
 	TX_RAM wTrainerName
-	text " wants"
-	line "to fight!"
+	text ""
+	line "quiere pelear!"
 	prompt
 
 _UnveiledGhostText::
-	text "SILPH SCOPE"
-	line "unveiled the"
-	cont "GHOST's identity!"
+	text "¡El Visor Silph"
+	line "reveló la iden-"
+	cont "tidad del Fantas-"
+	cont "ma!"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "¡Ay no! ¡No se"
+	line "puede Identificar"
+	cont "al Fantasma!"
 	prompt
 
 _GoText::
-	text "Go! @@"
+	text "¡Ve @@"
 
 _DoItText::
-	text "Do it! @@"
+	text "¡Hazlo @@"
 
 _GetmText::
-	text "Get'm! @@"
+	text "¡Vamos @@"
 
 _EnemysWeakText::
-	text "The enemy's weak!"
-	line "Get'm! @@"
+	text "¡El enemigo está"
+	line "débil!"
+	cont "¡Vamos @@"
 
 _PlayerMon1Text::
 	TX_RAM wBattleMonNick
@@ -1538,50 +1565,53 @@ _PlayerMon1Text::
 	done
 
 _PlayerMon2Text::
+	text "¡@"
 	TX_RAM wBattleMonNick
 	text " @@"
 
 _EnoughText::
-	text "enough!@@"
+	text "Basta @@"
 
 _OKExclamationText::
-	text "OK!@@"
+	text "Ok @@"
 
 _GoodText::
-	text "good!@@"
+	text "Bien @@"
 
 _ComeBackText::
-	text ""
-	line "Come back!"
+	text " "
+	line "regresa!"
 	done
 
 _SuperEffectiveText::
-	text "It's super"
-	line "effective!"
+	text "¡Es super"
+	line "efectivo!"
 	prompt
 
 _NotVeryEffectiveText::
-	text "It's not very"
-	line "effective..."
+	text "No es muy"
+	line "efectivo..."
 	prompt
 
 _SafariZoneEatingText::
-	text "Wild @"
+	text "¡El @"
 	TX_RAM wEnemyMonNick
 	db $0
-	line "is eating!"
+	line "salvaje está"
+	cont "comiendo!"
 	prompt
 
 _SafariZoneAngryText::
-	text "Wild @"
+	text "¡El @"
 	TX_RAM wEnemyMonNick
 	db $0
-	line "is angry!"
+	line "salvaje está"
+	cont "enojado!"
 	prompt
 
 ; money related
 _PickUpPayDayMoneyText::
-	text "<PLAYER> picked up"
+	text "¡<PLAYER> tomó"
 	line "¥@"
 	TX_BCD wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text "!"
@@ -1762,8 +1792,8 @@ _WithdrawHowManyText::
 	done
 
 _WithdrewItemText::
-	text "@"
-	line "se sacó"
+	text "Se sacó"
+	line "@"
 	TX_RAM wcd6d
 	text "."
 	prompt
@@ -1800,7 +1830,7 @@ _SwitchOnText::
 	prompt
 
 _WhatText::
-	text "What?"
+	text "¿Qué?"
 	done
 
 _DepositWhichMonText::
@@ -1828,44 +1858,46 @@ _BoxFullText::
 
 _MonIsTakenOutText::
 	TX_RAM wcf4b
-	text " is"
-	line "taken out."
-	cont "Got @"
+	text " fue"
+	line "sacado."
+	cont "Se obtuvo a"
+	cont "@"
 	TX_RAM wcf4b
 	text "."
 	prompt
 
 _NoMonText::
-	text "What? There are"
-	line "no #MON here!"
+	text "¿Qué? ¡No hay"
+	line "Pokémon aquí!"
 	prompt
 
 _CantTakeMonText::
-	text "You can't take"
-	line "any more #MON."
+	text "No puedes tomar"
+	line "más Pokémon."
 
-	para "Deposit #MON"
-	line "first."
+	para "Deposita un"
+	line "Pokémon primero."
 	prompt
 
 _ReleaseWhichMonText::
-	text "Release which"
-	line "#MON?"
+	text "¿Liberar qué"
+	line "Pokémon?"
 	done
 
 _OnceReleasedText::
-	text "Once released,"
+	text "Una vez, libre"
 	line "@"
 	TX_RAM wcf4b
-	text " is"
-	cont "gone forever. OK?"
+	text " se irá"
+	cont "para siempre."
+	cont "¿Está bien?"
 	done
 
 _MonWasReleasedText::
 	TX_RAM wcf4b
-	text " was"
-	line "released outside."
-	cont "Bye @"
+	text " fue"
+	line "liberado."
+	cont "¡Chao! @"
 
 _CF4BExclamationText::
 	TX_RAM wcf4b
@@ -1955,9 +1987,9 @@ _YourNameIsText::
 	prompt
 
 _HisNameIsText::
-	text "¡Así es! ¡Ya"
-	line "lo recordé! ¡Su"
-	cont "nombre es <RIVAL>!"
+	text "¡Así es! ¡Ya lo"
+	line "recordé! ¡Su nom-"
+	cont "bre es <RIVAL>!"
 	prompt
 
 _WillBeTradedText::
@@ -2103,10 +2135,11 @@ _StoppedEvolvingText::
 	prompt
 
 _IsEvolvingText::
-	text "What? @"
+	text "¿Qué? ¡@"
 	TX_RAM wcf4b
 	text ""
-	line "is evolving!"
+	line "está evolu-"
+	cont "cionando!"
 	done
 
 _FellAsleepText::
@@ -2145,29 +2178,29 @@ _FireDefrostedText::
 	prompt
 
 _MonsStatsRoseText::
-	text "<USER>'s"
-	line "@"
+	text "¡@"
 	TX_RAM wcf4b
-	text "@@"
+	text " de"
+	line "<USER> subió@@"
 
 _GreatlyRoseText::
-	text $4c, "greatly@@"
+	text $4c, "mucho@@"
 
 _RoseText::
-	text " rose!"
+	text "!"
 	prompt
 
 _MonsStatsFellText::
-	text "<TARGET>'s"
-	line "@"
+	text "¡@"
 	TX_RAM wcf4b
-	text "@@"
+	text " de"
+	line "<TARGET> bajó@@"
 
 _GreatlyFellText::
-	text $4c, "greatly@@"
+	text $4c, "mucho@@"
 
 _FellText::
-	text " fell!"
+	text "!"
 	prompt
 
 _RanFromBattleText::
@@ -2248,7 +2281,7 @@ _NoEffectText::
 	prompt
 
 _ButItFailedText::
-	text "But, it failed! "
+	text "¡Pero, falló! "
 	prompt
 
 _DidntAffectText::
@@ -2482,9 +2515,10 @@ _PokemartGreetingText::
 	done
 
 _PokemonFaintedText::
+	text "¡@"
 	TX_RAM wcd6d
 	text ""
-	line "fainted!"
+	line "se debilitó!"
 	done
 
 _PlayerBlackedOutText::
@@ -2974,27 +3008,31 @@ _PPIncreasedText::
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "Los PP fueron"
+	line "restaurados."
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "¡Activaste la"
+	line "Máquina Técnica!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "¡Activaste la"
+	line "Máquina Oculta!"
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
+	text "¡Contiene"
 	line "@"
 	TX_RAM wcf4b
 	text "!"
 
-	para "Teach @"
+	para "¿Quieres enseñar"
+	line "@"
 	TX_RAM wcf4b
 	text ""
-	line "to a #MON?"
+	line "a un Pokémon?"
 	done
 
 _MonCannotLearnMachineMoveText::
@@ -3141,17 +3179,17 @@ _NoTrade1Text::
 	done
 
 _WrongMon1Text::
-	text "What? That's not"
+	text "¿Qué? ¡Ese no es"
 	line "@"
 	TX_RAM wInGameTradeGiveMonName
 	text "!"
 
-	para "If you get one,"
-	line "come back here!"
+	para "¡Si tienes uno,"
+	line "por favor tráelo!"
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "¡Ey gracias!"
 	done
 
 _AfterTrade1Text::
@@ -3260,31 +3298,36 @@ _UsedCutText::
 
 ;joenote - for field move slot
 _LearnTempFieldMoveText::
-	text "Learn this as a"
-	line "temporary FIELD"
-	cont "MOVE?"
+	text "¿Aprender este"
+	line "Movimiento de"
+	cont "Campo temporal-"
+	cont "mente?"
 	done
 _LearnTempFieldMoveTextDenied::
-	text "A temporary FIELD"
-	line "MOVE is already"
-	cont "known!"
+	text "¡Ya se sabe el"
+	line "Movimiento de"
+	cont "Campo temporal!"
 	
-	para "Put this #MON"
-	line "in a PC BOX to"
-	cont "erase it."
+	para "Pon el Pokémon"
+	line "en una Caja del"
+	cont "PC para borrarlo."
 	prompt
 
 _RomHackVersionText::
-	text "This SAVE is from"
-	line "a different rev"
-	cont "of this game."
+	text "Este GUARDADO es"
+	line "de una revisión"
+	cont "diferente del"
+	cont "juego."
 	
-	para "Warp to PALLET"
-	line "TOWN for safety?"
+	para "¿Quieres tele-"
+	line "transportarte a"
+	cont "Pueblo Paleta por"
+	cont "seguridad?"
 	done
 
 _RematchTrainerText::
-	text "Offer a rematch?"
+	text "¿Ofreces una re-"
+	line "vancha?"
 	done
 
 SECTION "Pokedex Text", ROMX, BANK[POKEDEX_TEXT]

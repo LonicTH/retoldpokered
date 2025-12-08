@@ -136,22 +136,22 @@ LoopPrinterPC:
 	jp OpenPrinterPC
 
 PrinterPCMenuText:
-	db   "SETTINGS"
-	next "PRINT #DEX"
-	next "PRINT #MON"
-	next "PRINT BOX"
-	next "PRINT DIPLOMA"
-	next "CANCEL"
+	db   "Ajustes"
+	next "Impr. Pokédex"
+	next "Impr. Pokédex"
+	next "Impr. Caja"
+	next "Impr. Diploma"
+	next "Cancelar"
 	db "@"
 PrinterPCMenuText_noDiploma:
-	db   "SETTINGS"
-	next "PRINT #DEX"
-	next "PRINT #MON"
-	next "PRINT BOX"
-	next "CANCEL"
+	db   "Ajustes"
+	next "Impr. Pokédex"
+	next "Impr. Pokémon"
+	next "Impr. Caja"
+	next "Cancelar"
 	db "@"
 PrintBoxNoPCText:
-	db "BOX No.@"
+	db "Caja No.@"
 
 
 	

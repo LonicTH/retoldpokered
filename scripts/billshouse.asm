@@ -270,11 +270,12 @@ BillTutor:
 .finish
 	ret
 .Text1
-	text "Oh! What a leafy"
-	line "#MON! Might it"
-	cont "enjoy some plant"
-	cont "fertilizer from"
-	cont "CELADON CITY?"
+	text "¡Oh! ¡Qué Pokémon"
+	line "más frondoso!"
+	cont "¿Puede que le"
+	cont "guste un poco de"
+	cont "fertilizante de"
+	cont "Ciudad Celadón?"
 	done
 	db "@"
 .learnmove

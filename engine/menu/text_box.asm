@@ -255,7 +255,7 @@ SafariZoneBattleMenuText:
 SwitchStatsCancelText:
 	db   "CAMBIO"
 	next "ESTAD."
-	next "CANCEL.@"
+	next "CANCEL@"
 
 JapaneseAhText:
 	db "アッ!@"
@@ -566,10 +566,10 @@ ENDC
 	next "ESTE@"
 .TradeCancelMenu
 	db   "INTER."
-	next "CANCEL.@"
+	next "CANCEL@"
 .HealCancelMenu
 	db   "CURAR"
-	next "CANCEL.@"
+	next "CANCEL@"
 IF DEF(_FPLAYER)	;joenote - text to ask if female trainer
 .BoyGirlMenu
 	db   "NIÑO"
@@ -703,15 +703,15 @@ FieldMoveNames:
 	db "@"
 	db "Surf@"
 	db "Fuerza@"
-	db "Destello@"
-	db "Excavar@"
+	db "Deste.@"
+	db "Excav.@"
 	db "Teletran.@"
 	db "Ovocura.@"
 
 PokemonMenuEntries:
 	db   "ESTAD."
 	next "CAMBIO"
-	next "CANCEL.@"
+	next "CANCEL@"
 
 GetMonFieldMoves:
 	ld a, [wWhichPokemon]

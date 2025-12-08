@@ -33,8 +33,8 @@ _PalletTownText3::
 
 	para "¡Ahora puedes"
 	line "guardar y sacar"
-	cont "objetos y Pokémon"
-	cont "desde tu compu-"
+	cont "objetos y Poké-"
+	cont "mon de tu compu-"
 	cont "tadora!"
 	done
 

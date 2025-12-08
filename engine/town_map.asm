@@ -541,7 +541,7 @@ DisplayWildLocations:
 	jp CopyData
 
 AreaUnknownText:
-	db " ÁREA DESCONOCIDA@"
+	db "ÁREA DESCONOCI.@"
 
 TownMapCoordsToOAMCoords:
 ; in: lower nybble of a = x, upper nybble of a = y

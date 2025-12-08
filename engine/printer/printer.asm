@@ -606,7 +606,7 @@ GBPrinter_UpdateStatusMessage:
 	ret
 
 .PressBToCancel:
-	db "Press B to Cancel@"
+	db "Pres. B para Can.@"
 
 .PrinterStatusMessages:
 	dw .Blank
@@ -623,38 +623,43 @@ GBPrinter_UpdateStatusMessage:
 	db   "@"
 .CheckingLink:
 	db   ""
-	next " CHECKING LINK...@"
+	next " Revisar Enlace...@"
 .Transmitting:
 	db   ""
-	next "  TRANSMITTING...@"
+	next "  Transmitiendo...@"
 .Printing:
 	db   ""
-	next "    PRINTING...@"
+	next "    Imprimiendo...@"
 ;joenote - changed the error messages to actually describe what they mean.
 ;Far more useful than telling the player to check the manual.
 .Error1:
-	db   " Printer Error 1"
-	next ""
-	next "Printer batteries"
-	next "are too low.@"
+	db   "Error de Impre-"
+	next "sión 1"
+	next "Las baterias de"
+	next "la impresora"
+	next "tienen poca e-"
+	next "nergía."
 .Error2:
-	db   " Printer Error 2"
-	next ""
-	next "Game Link cable is"
-	next "not connected.@"
+	db   "Error de Impre-"
+	next "sión 2"
+	next "El Cable Link es-"
+	next "tá desconectado.@"
 .Error3:
-	db   " Printer Error 3"
-	next ""
-	next "Check the Game Boy"
-	next "Printer's paper.@"
+	db   "Error de Impre-"
+	next "sión 3"
+	next "Revisa el papel"
+	next "de la Impresora"
+	next "Game Boy.@"
 .Error4:
-	db   " Printer Error 4"
-	next ""
-	next "Printer is too hot"
-	next "or too cold.@"
+	db   "Error de Impre-"
+	next "sión 4"
+	next "La impresora es-"
+	next "tá muy fría o"
+	next "muy caliente@"
 .WrongDevice:
-	db   "This is not the"
-	next "Game Boy Printer!@"
+	db   "¡Esta no es la"
+	next "Impresora de la"
+	next "Game Boy!@"
 
 ;Not used since Pikachu's Beach has not been implemented
 ; Printer_PrepareSurfingMinigameHighScoreTileMap:

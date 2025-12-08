@@ -557,12 +557,12 @@ BoxNames:
 	next "CAJA 7"
 	next "CAJA 8"
 	next "CAJA 9"
-	next "CAJA 10"
-	next "CAJA 11"
-	next "CAJA 12@"
+	next "CAJA10"
+	next "CAJA11"
+	next "CAJA12@"
 
 BoxNoText:
-	db "CAJA No.@"
+	db "CAJA @"
 
 EmptyAllSRAMBoxes:
 ; marks all boxes in SRAM as empty (initialisation for the first time the

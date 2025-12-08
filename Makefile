@@ -104,11 +104,11 @@ endif
 # Please act responsibly should you choose to compile using this tag.
 # Dev Note: The added flashing can become quite displeasing regardless. Leaving it out makes for a better experience.
 
-$(pokegreen_obj):  RGBASMFLAGS += -D _GREEN -D _ENCBLUEGREEN -D _RGSPRITES -D _REDGREENJP -D _JPTXT -D _JPLOGO -D _RGTITLE -D _METRIC -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR 
-$(pokered_obj):    RGBASMFLAGS += -D _RED -D _ENCRED -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR -D _METRIC 
-$(pokeblue_obj):   RGBASMFLAGS += -D _BLUE -D _ENCBLUEGREEN -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR -D _METRIC 
-$(pokeredjp_obj):  RGBASMFLAGS += -D _RED -D _ENCRED -D _RGSPRITES -D _REDGREENJP -D _REDJP -D _JPTXT -D _JPLOGO -D _RGTITLE -D _METRIC -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR 
-$(pokebluejp_obj): RGBASMFLAGS += -D _BLUE -D _ENCBLUEJP -D _BLUEJP -D _JPTXT -D _JPLOGO -D _METRIC -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR 
+$(pokegreen_obj):  RGBASMFLAGS += -D _GREEN -D _ENCBLUEGREEN -D _RGSPRITES -D _REDGREENJP -D _JPTXT -D _JPLOGO -D _RGTITLE -D _METRIC -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR -D _SWBACKS
+$(pokered_obj):    RGBASMFLAGS += -D _RED -D _ENCRED -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR -D _METRIC -D _SWBACKS
+$(pokeblue_obj):   RGBASMFLAGS += -D _BLUE -D _ENCBLUEGREEN -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR -D _METRIC -D _SWBACKS
+$(pokeredjp_obj):  RGBASMFLAGS += -D _RED -D _ENCRED -D _RGSPRITES -D _REDGREENJP -D _REDJP -D _JPTXT -D _JPLOGO -D _RGTITLE -D _METRIC -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR -D _SWBACKS
+$(pokebluejp_obj): RGBASMFLAGS += -D _BLUE -D _ENCBLUEJP -D _BLUEJP -D _JPTXT -D _JPLOGO -D _METRIC -D _FPLAYER -D _MOVENPCS -D _RUNSHOES -D _EXPBAR -D _SWBACKS
 
 
 # The dep rules have to be explicit or else missing files won't be reported.

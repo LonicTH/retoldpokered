@@ -294,7 +294,7 @@ GengarDexEntry:
 	db "@"
 	
 NidoranFDexEntry:	
-	db "PIN VENENO@"
+	db "PÚA VENENO@"
 	db 0,40
 	dw 70
 	TX_FAR _NidoranFDexEntry

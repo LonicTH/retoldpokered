@@ -63,7 +63,7 @@ _OaksLabLastMonText::
 	done
 
 _OaksLabText_1d2f0::
-	text "Oak: Ahora, <PLAYER>."
+	text "Oak: Bien, <PLAYER>."
 	line "¿Cuál Pokémon"
 	cont "quieres?"
 	done
@@ -77,9 +77,9 @@ _OaksLabText_1d2f5::
 
 _OaksLabText_1d2fa::
 	text "Oak: ¡<PLAYER>,"
-	line "has que tu Pokémon"
-	cont "pelee para que"
-	cont "crezca!"
+	line "has que tu Poké-"
+	cont "mon pelee para"
+	cont "que crezca!"
 	done
 
 _OaksLabDeliverParcelText1::
@@ -206,7 +206,7 @@ _OaksLabChooseMonText::
 
 	para "¡Bien, <PLAYER>!"
 
-	para "Aquí tengo 3"
+	para "¡Aquí tengo 3"
 	line "Pokémon!"
 
 	para "¡Jaja!"
@@ -228,8 +228,8 @@ _OaksLabChooseMonText::
 
 _OaksLabRivalInterjectionText::
 	text "<RIVAL>: ¡Ey!"
-	line "¡Abuelo! ¿Y"
-	cont "yo qué?"
+	line "¡Abuelo! ¿Y yo"
+	cont "qué?"
 	done
 
 _OaksLabBePatientText::
@@ -402,10 +402,10 @@ _OaksLabText_441cc::
 
 	para "@"
 	TX_NUM hDexRatingNumMonsSeen, 1, 3
-	text " Pokémon vistos:"
+	text " Pokémon vistos"
 	line "@"
 	TX_NUM hDexRatingNumMonsOwned, 1, 3
-	text " Pokémon propios:"
+	text " <pkmn> atrapados"
 
 	para "Evaluación del"
 	line "Prof.Oak:"
@@ -544,8 +544,9 @@ _OaksLabText_prebattle::
 	done
 
 _OakVictorySpeech::
-	text "¡Ah! ¡Pero"
-	line "que emoción!"
+	text "¡Ah!"
+	line "¡Pero que emo-"
+	cont "ción!"
 	
 	para "Había olvidado lo"
 	line "divertido que era"
@@ -553,16 +554,16 @@ _OakVictorySpeech::
 	cont "una pelea sin"
 	cont "igual!"
 
-	para "¿Conoces al"
-	line "Sr.Fuji? Él solía"
+	para "¿Conoces al Sr."
+	line "Fuji? Él solía"
 	cont "estudiar Pokémon"
 	cont "poderosos."
 
 	para "Deberías ir a"
 	line "visitarlo. Él se"
-	cont "retiró y ahora vi"
-	cont "ve en Pueblo La-"
-	cont "vanda."
+	cont "retiró y ahora"
+	cont "vive en Pueblo"
+	cont "Lavanda."
 	prompt
 	
 ;;;;;;;;;;;;;;;;;;;;;;joenote - adding text for lvl scaling
