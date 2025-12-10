@@ -3031,8 +3031,8 @@ _TeachMachineMoveText::
 	para "¿Quieres enseñar"
 	line "@"
 	TX_RAM wcf4b
-	text ""
-	line "a un Pokémon?"
+	text " a"
+	cont "un Pokémon?"
 	done
 
 _MonCannotLearnMachineMoveText::
