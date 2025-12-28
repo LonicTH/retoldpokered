@@ -284,7 +284,7 @@ DisplayNamingScreen:
 	ret
 .pressedRight
 	ld a, [wCurrentMenuItem]
-	cp $6
+	cp $7
 	ret z ; can't scroll right on bottom row
 	ld a, [wTopMenuItemX]
 	cp $11 ; max
@@ -297,7 +297,7 @@ DisplayNamingScreen:
 	jr .done
 .pressedLeft
 	ld a, [wCurrentMenuItem]
-	cp $6
+	cp $7
 	ret z ; can't scroll right on bottom row
 	ld a, [wTopMenuItemX]
 	dec a
@@ -313,7 +313,7 @@ DisplayNamingScreen:
 	ld [wCurrentMenuItem], a
 	and a
 	ret nz
-	ld a, $6 ; wrap to bottom row
+	ld a, $7 ; wrap to bottom row
 	ld [wCurrentMenuItem], a
 	ld a, $1 ; force left column
 	jr .done
@@ -321,13 +321,13 @@ DisplayNamingScreen:
 	ld a, [wCurrentMenuItem]
 	inc a
 	ld [wCurrentMenuItem], a
-	cp $7
+	cp $8
 	jr nz, .wrapToTopRow
 	ld a, $1
 	ld [wCurrentMenuItem], a
 	jr .done
 .wrapToTopRow
-	cp $6
+	cp $7
 	ret nz
 	ld a, $1
 .done
@@ -427,7 +427,7 @@ PrintNicknameAndUnderscores:
 	call EraseMenuCursor
 	ld a, $11 ; "ED" x coord
 	ld [wTopMenuItemX], a
-	ld a, $5 ; "ED" y coord
+	ld a, $6 ; "ED" y coord
 	ld [wCurrentMenuItem], a
 	ld a, [wNamingScreenType]
 	cp NAME_MON_SCREEN
