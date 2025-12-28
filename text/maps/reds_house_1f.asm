@@ -36,7 +36,7 @@ _StandByMeText::
 	line "también."
 	done
 	
-_StandByMeTextF::
+_WizardOfOzText::
 	text "Hay una película"
 	line "en la Tele."
 	cont "Una chica con"

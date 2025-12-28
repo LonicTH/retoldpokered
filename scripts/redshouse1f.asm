@@ -55,9 +55,9 @@ RedsHouse1FText2: ; TV
 	cp SPRITE_FACING_UP
 	ld hl, TVWrongSideText
 	jr nz, .doTV
-	ld hl, StandByMeTextF
+	ld hl, WizardOfOzText
 	ld a, [wUnusedD721]
-	bit 0, a ; check if girl
+	bit 0, a	;check if girl
 	jr nz, .doTV
 	ld hl, StandByMeText
 .doTV
@@ -68,8 +68,8 @@ StandByMeText:
 	TX_FAR _StandByMeText
 	db "@"
 	
-StandByMeTextF:
-	TX_FAR _StandByMeTextF
+WizardOfOzText:
+	TX_FAR _WizardOfOzText
 	db "@"
 
 TVWrongSideText:
