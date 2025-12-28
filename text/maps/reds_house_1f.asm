@@ -35,6 +35,18 @@ _StandByMeText::
 	para "Debería irme"
 	line "también."
 	done
+	
+_StandByMeTextF::
+	text "Hay una película"
+	line "en la Tele."
+	cont "Una chica con"
+	cont "coletas camina"
+	cont "por un camino de"
+	cont "ladrillos."
+
+	para "Debería irme"
+	line "también."
+	done
 
 _TVWrongSideText::
 	text "¡Uy! Lado equi-"
