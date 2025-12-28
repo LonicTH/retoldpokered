@@ -54,14 +54,22 @@ RedsHouse1FText2: ; TV
 	ld a, [wSpriteStateData1 + 9]
 	cp SPRITE_FACING_UP
 	ld hl, TVWrongSideText
-	jr nz, .notUp
+	jr nz, .doTV
+	ld hl, WizardOfOzText
+	ld a, [wUnusedD721]
+	bit 0, a	;check if girl
+	jr nz, .doTV
 	ld hl, StandByMeText
-.notUp
+.doTV
 	call PrintText
 	jp TextScriptEnd
 
 StandByMeText:
 	TX_FAR _StandByMeText
+	db "@"
+	
+WizardOfOzText:
+	TX_FAR _WizardOfOzText
 	db "@"
 
 TVWrongSideText:

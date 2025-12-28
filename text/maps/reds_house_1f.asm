@@ -31,6 +31,15 @@ _StandByMeText::
 
 	para "I better go too."
 	done
+	
+_WizardOfOzText::
+	text "There's a movie"
+	line "on TV. A girl is"
+	cont "walking up a"
+	cont "brick road."
+
+	para "I better go too."
+	done
 
 _TVWrongSideText::
 	text "Oops, wrong side."
