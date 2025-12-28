@@ -1,6 +1,11 @@
 DisplayPokemonCenterDialogue_:
 	call SaveScreenTilesToBuffer1 ; save screen
+	ld hl, PokemonCenterWelcomeTextF
+	ld a, [wUnusedD721]
+	bit 0, a
+	jr nz, .doWelcome
 	ld hl, PokemonCenterWelcomeText
+.doWelcome
 	call PrintText
 	ld hl, wd72e
 	bit 2, [hl]
@@ -47,6 +52,10 @@ DisplayPokemonCenterDialogue_:
 
 PokemonCenterWelcomeText:
 	TX_FAR _PokemonCenterWelcomeText
+	db "@"
+	
+PokemonCenterWelcomeTextF:
+	TX_FAR _PokemonCenterWelcomeTextF
 	db "@"
 
 ShallWeHealYourPokemonText:
