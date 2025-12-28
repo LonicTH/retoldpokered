@@ -57,11 +57,11 @@ AnimateHallOfFame:
 	call HoFDisplayAndRecordMonInfo
 	ld c, 80
 	call DelayFrames
-	coord hl, 2, 13
+	coord hl, 1, 13
 	ld b, 3
-	ld c, 14
+	ld c, 16
 	call TextBoxBorder
-	coord hl, 4, 15
+	coord hl, 2, 15
 	ld de, HallOfFameText
 	call PlaceString
 	ld c, 180
@@ -283,7 +283,7 @@ HoFPrintTextAndDelay:
 	jp DelayFrames
 
 HoFPlayTimeText:
-	db "TIEMPO DE JUEGO@"
+	db "TIEMPO@"
 
 HoFMoneyText:
 	db "DINERO@"

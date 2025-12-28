@@ -129,37 +129,37 @@ CredTaNakamura:
 CredYuda:
 	db -6, "MASAMITSU YUDA@"
 CredMon:
-	db -3, "#MON@"
-CredDirector:
 	db -3, "DIRECTOR@"
+CredDirector:
+	db -3, "POKÉMON@"
 CredProgrammers:
-	db -5, "PROGRAMMERS@"
+	db -7, "PROGRAMADORES@"
 CredCharDesign:
-	db -7, "CHARACTER DESIGN@"
+	db -7, "DISEÑO PERSO.@"
 CredMusic:
-	db -2, "MUSIC@"
+	db -2, "MÚSICA@"
 CredSoundEffects:
-	db -6, "SOUND EFFECTS@"
+	db -4, "EFECTOS DE SONIDO@"
 CredGameDesign:
-	db -5, "GAME DESIGN@"
+	db -4, "DISEÑO DE JUEGO@"
 CredMonsterDesign:
-	db -6, "MONSTER DESIGN@"
+	db -4, "DISEÑO DE POKÉMON@"
 CredGameScene:
-	db -6, "GAME SCENARIO@"
+	db -4, "ESCENARIO DE JUEGO@"
 CredParam:
-	db -8, "PARAMETRIC DESIGN@"
+	db -8, "DISEÑO PARAMÉTRICO@"
 CredMap:
-	db -4, "MAP DESIGN@"
+	db -4, "DISEÑO DE MAPA@"
 CredTest:
-	db -7, "PRODUCT TESTING@"
+	db -7, "PRUEBA DE PRODUCTO@"
 CredSpecial:
-	db -6, "SPECIAL THANKS@"
+	db -6, "GRACIAS ESPECIALES@"
 CredProducers:
-	db -4, "PRODUCERS@"
+	db -4, "PRODUCTORES@"
 CredProducer:
-	db -4, "PRODUCER@"
+	db -4, "PRODUCTOR@"
 CredExecutive:
-	db -8, "EXECUTIVE PRODUCER@"
+	db -8, "PRODUCTOR EJECUTIVO@"
 CredTamada:
 	db -6, "SOUSUKE TAMADA@"
 CredSaOota:
@@ -169,9 +169,9 @@ CredYoshikawa:
 CredToOota:
 	db -6, "TOMOMICHI OOTA@"
 CredUSStaff:
-	db -7, "US VERSION STAFF@"
+	db -7, "PERSONAL VER. US@"
 CredUSCoord:
-	db -7, "US COORDINATION@"
+	db -7, "COORDINACIÓN US@"
 CredTilden:
 	db -5, "GAIL TILDEN@"
 CredKawakami:
@@ -183,7 +183,7 @@ CredGiese:
 CredOsborne:
 	db -5, "SARA OSBORNE@"
 CredTrans:
-	db -7, "TEXT TRANSLATION@"
+	db -7, "TRADUCTORES@"
 CredOgasawara:
 	db -6, "NOB OGASAWARA@"
 CredIwata:

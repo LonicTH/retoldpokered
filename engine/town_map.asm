@@ -152,16 +152,18 @@ LoadTownMap_Nest:
 	call DisplayWildLocations
 	call GetMonName
 IF (DEF(_REDGREENJP) || DEF(_BLUEJP))
-	coord hl, 0, 0
+	coord hl, 0, 1
 ELSE
-	coord hl, 1, 0
+	coord hl, 9, 0
 ENDC
 	call PlaceString
 	ld h, b
 	ld l, c
 	ld de, MonsNestText
 IF (DEF(_REDGREENJP) || DEF(_BLUEJP))
-	coord hl, 5, 1
+	coord hl, 0, 0
+ELSE
+	coord hl, 0, 0
 ENDC
 	call PlaceString
 	call WaitForTextScrollButtonPress
@@ -173,9 +175,9 @@ ENDC
 
 MonsNestText:
 IF (DEF(_REDGREENJP) || DEF(_BLUEJP))
-	db "NESTS@"
+	db "NIDOS DE@"
 ELSE
-	db "'s NEST@"
+	db "NIDOS DE@"
 ENDC
 
 LoadTownMap_Fly:
@@ -455,7 +457,7 @@ _DexAreaSurf::
 	db "@"
 _DexAreaSuperRod::
 	text "¡Detectado cerca!"
-	line "Prueba SUPERCAÑA."
+	line "Prueba Supercaña."
 	done
 	db "@"
 

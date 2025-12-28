@@ -104,8 +104,8 @@ _OaksLabDeliverParcelText1::
 _OaksLabDeliverParcelText2::
 	text ""
 	para "¡Ah! ¡Es mi Poké-"
-	line "bola personalizada"
-	cont "qué ordené!"
+	line "bola personaliza-"
+	cont "da qué ordené!"
 	cont "¡Gracias!"
 	done
 
@@ -283,7 +283,7 @@ _OaksLabRivalToughenUpText::
 	cont "mi Pokémon pelee"
 	cont "para fortalecerlo!"
 
-	para "¡<PLAYER>! ¡Abuelo!"
+	para "¡<PLAYER>, Abuelo!"
 	line "¡Los huelo luego!"
 	done
 
@@ -333,38 +333,40 @@ _OaksLabText26::
 
 	para "¡Ese es mi sueño!"
 
-	para "¡Pero, Estoy viejo!"
-	line "¡No puedo hacerlo!"
+	para "¡Pero, Estoy vie-"
+	line "jo! ¡No puedo ha-"
+	cont "cerlo!"
 
 	para "¡Así que, quiero"
 	line "que ustedes dos"
-	cont "logren ese sue-"
-	cont "ño por mí!"
+	cont "logren ese sueño"
+	cont "por mí!"
 
 	para "¡Vamos, ustedes"
 	line "dos!"
 
 	para "¡Este es un gran"
-	line "compromiso en"
-	cont "la historia de"
+	line "compromiso en la"
+	cont "historia de"
 	cont "Pokémon!"
 	
 ;joenote - add hotkey info
 	para "¡Aparte, no se te"
-	line "no se te olvide"
-	cont "que puedes cambiar"
-	cont "el espacio en tu"	
+	line "no se te olvide!"
+	cont "Puedes cambiar el"
+	cont "espacio en tu"	
 	cont "mochila con que"
-	cont "presiones START en"
-	cont "el Menú OBJETOS."
+	cont "presiones START"
+	cont "en el Menú OBJE-"
+	cont "TOS."
 
 	para "Y también ordenar"
 	line "automáticamente"
 	cont "el menu OBJETOS"
 	cont "con presionar el"
-	cont "botón SELECT mien-"
-	cont "tras presionas"
-	cont "start."
+	cont "botón SELECT"
+	cont "mientras presio-"
+	cont "nas START."
 	done
 
 _OaksLabText27::

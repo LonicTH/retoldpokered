@@ -53,7 +53,7 @@ SwapBagData:
 	pop bc
 	ret
 .swaptext
-	db "…swapping…@"
+	db "…cambiando…@"
 
 BackupBagSwap:
 	;swap out the items

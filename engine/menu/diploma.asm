@@ -125,7 +125,7 @@ DiplomaTextPointersAndCoords:
 	dw DiplomaText
 	dwCoord 5, 2
 	dw DiplomaPlayer
-	dwCoord 3, 4
+	dwCoord 2, 4
 	dw DiplomaEmptyText
 	dwCoord 15, 4
 	dw DiplomaCongrats
@@ -141,13 +141,13 @@ DiplomaText:
 	db $10,"Diploma",$10,"@"	;changing for GB_PRINTER diploma
 
 DiplomaPlayer:
-	db "Jugador@"
+	db "Jugador"
 
 DiplomaEmptyText:
 	db "@"
 
 DiplomaCongrats:
-	db   "¡Felicidades!"
+	db   " ¡Felicidades!"
 	next "Este diploma"
 	next "certifica que"
 	next "completó su"

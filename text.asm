@@ -2666,9 +2666,17 @@ _HMCantDeleteText::
 	prompt
 
 _PokemonCenterWelcomeText::
-	text "¡Te damos la"
-	line "bienvenida al"
-	cont "Centro Pokémon"
+	text "¡Bienvenido al"
+	line "Centro Pokémon!"
+
+	para "¡Curaremos tus"
+	line "Pokémon a perfec-"
+	cont "to estado!"
+	prompt
+
+_PokemonCenterWelcomeTextF::
+	text "¡Bienvenida al"
+	line "Centro Pokémon!"
 
 	para "¡Curaremos tus"
 	line "Pokémon a perfec-"

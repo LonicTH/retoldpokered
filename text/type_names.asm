@@ -37,7 +37,7 @@ TypeNames:
 .Fire:     db "Fuego@"
 .Water:    db "Agua@"
 .Grass:    db "Planta@"
-.Electric: db "Eléctrico@"
+.Electric: db "Eléctri.@"
 .Psychic:  db "Psíquico@"
 .Ice:      db "Hielo@"
 .Ground:   db "Tierra@"

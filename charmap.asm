@@ -236,7 +236,6 @@ charmap "x", $B7
 charmap "y", $B8
 charmap "z", $B9
 charmap "é", $BA
-charmap "'d", $BB
 charmap "'l", $BC
 charmap "'s", $BD
 charmap "'t", $BE

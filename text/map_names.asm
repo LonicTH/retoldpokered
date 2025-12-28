@@ -10,7 +10,7 @@ CeruleanCityName:
 LavenderTownName:
 	db "Pueblo Lavanda@"
 VermilionCityName:
-	db "Ciudad Bermellón@"
+	db "Cdad.Bermellón@"
 CeladonCityName:
 	db "Ciudad Celadón@"
 FuchsiaCityName:

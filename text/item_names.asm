@@ -14,7 +14,7 @@ ItemNames:
 	db "Antihielo@"
 	db "Despertar@"
 	db "Antiparali@"
-	db "CuraciónTotal@"
+	db "Restauratodo@"
 	db "PociónMáxima@"
 	db "Hiperpoción@"
 	db "Superpoción@"
