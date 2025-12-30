@@ -9,6 +9,17 @@ _OakSpeechText1::
 	cont "Prof. Pokémon!"
 	prompt
 
+_OakSpeechText1F::
+	text "¡Buenas! ¡Bien-"
+	line "venida al mundo"
+	cont "de Pokémon!"
+
+	para "¡Me llamo Oak!"
+	line "¡Pero la gente"
+	cont "me llama el"
+	cont "Prof. Pokémon!"
+	prompt
+
 _OakSpeechText2A::
 	text "¡Este mundo está"
 	line "inhabitado por"

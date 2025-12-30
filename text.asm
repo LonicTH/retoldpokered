@@ -363,15 +363,16 @@ _YeahText::
 	text "Yeah!@@"
 
 _DexSeenOwnedText::
-	text "#DEX   Seen:@"
+	text "Pokédex Vistos:@"
 	TX_NUM wDexRatingNumMonsSeen, 1, 3
 	text ""
-	line "         Owned:@"
+	line "       Propios:@"
 	TX_NUM wDexRatingNumMonsOwned, 1, 3
 	db "@"
 
 _DexRatingText::
-	text "#DEX Rating", $6d
+	text "Clasificación de"
+	line "la Pokédex", $6d
 	done
 
 _GymStatueText1::
@@ -1132,15 +1133,16 @@ _EnemyMonFaintedText::
 	prompt
 
 _MoneyForWinningText::
-	text "<PLAYER> got ¥@"
+	text "¡<PLAYER> obtuvo"
+	line "¥@"
 	TX_BCD wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text ""
-	line "for winning!"
+	line "por ganar!"
 	prompt
 
 _TrainerDefeatedText::
-	text "<PLAYER> defeated"
-	line "@"
+	text "¡<PLAYER> derrotó"
+	line "a @"
 	TX_RAM wTrainerName
 	text "!"
 	prompt
@@ -1328,13 +1330,13 @@ _ThrashingAboutText::
 	done
 
 _AttackContinuesText::
-	text "<USER>'s"
-	line "attack continues!"
+	text "¡El ataque de"
+	line "<USER> sigue!"
 	done
 
 _CantMoveText::
-	text "<USER>"
-	line "can't move!"
+	text "¡<USER> no"
+	line "se puede mover!"
 	prompt
 
 _MoveIsDisabledText::
@@ -1386,7 +1388,7 @@ _ExclamationPoint5Text::
 
 _AttackMissedText::
 	text "¡El ataque de"
-	line "<TARGET> falló!"
+	line "<USER> falló!"
 	prompt
 
 _KeptGoingAndCrashedText::
@@ -2088,27 +2090,28 @@ _FileDataDestroyedText::
 	prompt
 
 _WouldYouLikeToSaveText::
-	text "Would you like to"
-	line "SAVE the game?"
+	text "¿Quieres GUARDAR"
+	line "la partida?"
 	done
 
 _GameSavedText::
-	text "<PLAYER> saved"
-	line "the game!"
+	text "¡<PLAYER> guardó"
+	line "la partida!"
 	done
 
 _OlderFileWillBeErasedText::
-	text "The older file"
-	line "will be erased to"
-	cont "save. Okay?"
+	text "El otro archivo"
+	line "será eliminado."
+	cont "¿Está bien?"
 	done
 
 _WhenYouChangeBoxText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved."
+	text "Cuando cambias la"
+	line "CAJA Pokémon, se"
+	cont "guardará la par-"
+	cont "tida."
 
-	para "Is that okay?"
+	para "¿Está bien?"
 	done
 
 _ChooseABoxText::

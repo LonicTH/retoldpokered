@@ -63,8 +63,9 @@ _OaksLabLastMonText::
 	done
 
 _OaksLabText_1d2f0::
-	text "Oak: Bien, <PLAYER>."
-	line "¿Cuál Pokémon"
+	text "Oak: Muy bien,"
+	line "<PLAYER>."
+	cont "¿Cuál Pokémon"
 	cont "quieres?"
 	done
 
@@ -94,6 +95,26 @@ _OaksLabDeliverParcelText1::
 	para "¡Debes tener mucho"
 	line "talento como en-"
 	cont "trenador Pokémon!"
+
+	para "¿Cómo? ¿Que tienes"
+	line "algo para mí?"
+
+	para "<PLAYER> entregó el"
+	line "Paquete de Oak.@@"
+
+_OaksLabDeliverParcelText1F::
+	text "Oak: ¡Oh, <PLAYER>!"
+
+	para "¿Cómo está mi"
+	line "viejo Pokémon?"
+
+	para "Bueno, parece que"
+	line "te quiere mucho."
+
+	para "¡Debes tener mucho"
+	line "talento como en-"
+	cont "trenadora Poké-"
+	cont "mon!"
 
 	para "¿Cómo? ¿Que tienes"
 	line "algo para mí?"
@@ -320,7 +341,7 @@ _OaksLabText24::
 _OaksLabText25::
 	text "Oak: ¡<PLAYER> y"
 	line "<RIVAL>! ¡Lléven-"
-	cont "las con ustedes!"
+	cont "los con ustedes!"
 
 	para "¡<PLAYER> obtuvo"
 	line "Pokédex de Oak!@@"
@@ -494,6 +515,14 @@ _OaksLabText_44233::
 	cont "bueno!"
 	done
 
+_OaksLabText_44233F::
+	text "¡Finalmente tienes"
+	line "al menos 100 espe-"
+	cont "cies! ¡Me cuesta"
+	cont "creer que seas muy"
+	cont "buena!"
+	done
+
 _OaksLabText_44238::
 	text "¡Incluso tienes"
 	line "formas evolucio-"
@@ -512,6 +541,12 @@ _OaksLabText_44242::
 	text "¡Excepcional!"
 	line "¡Te has vuelto un"
 	cont "profecional!"
+	done
+
+_OaksLabText_44242F::
+	text "¡Excepcional!"
+	line "¡Te has vuelto"
+	cont "una profecional!"
 	done
 
 _OaksLabText_44247::

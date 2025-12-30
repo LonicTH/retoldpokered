@@ -128,7 +128,12 @@ ENDC
 	lb bc, Bank(ProfOakPic), $00
 	call IntroDisplayPicCenteredOrUpperRight
 	call FadeInIntroPic
+	ld hl, OakSpeechText1F
+	ld a, [wUnusedD721]
+	bit 0, a	;check if girl
+	jr nz, .startSpeech
 	ld hl, OakSpeechText1
+.startSpeech
 	call PrintText
 	call GBFadeOutToWhite
 	call ClearScreen
@@ -271,6 +276,9 @@ ENDC
 	jp ClearScreen
 OakSpeechText1:
 	TX_FAR _OakSpeechText1
+	db "@"
+OakSpeechText1F:
+	TX_FAR _OakSpeechText1F
 	db "@"
 OakSpeechText2:
 	TX_FAR _OakSpeechText2A

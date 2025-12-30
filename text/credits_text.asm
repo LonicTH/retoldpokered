@@ -133,29 +133,29 @@ CredMon:
 CredDirector:
 	db -3, "POKÉMON@"
 CredProgrammers:
-	db -7, "PROGRAMADORES@"
+	db -6, "PROGRAMADORES@"
 CredCharDesign:
-	db -7, "DISEÑO PERSO.@"
+	db -7, "DISEÑO PERSONAJES@"
 CredMusic:
 	db -2, "MÚSICA@"
 CredSoundEffects:
-	db -4, "EFECTOS DE SONIDO@"
+	db -7, "EFECTOS DE SONIDO@"
 CredGameDesign:
-	db -4, "DISEÑO DE JUEGO@"
+	db -6, "DISEÑO DE JUEGO@"
 CredMonsterDesign:
-	db -4, "DISEÑO DE POKÉMON@"
+	db -7, "DISEÑO DE POKÉMON@"
 CredGameScene:
-	db -4, "ESCENARIO DE JUEGO@"
+	db -8, "ESCENARIO DE JUEGO@"
 CredParam:
 	db -8, "DISEÑO PARAMÉTRICO@"
 CredMap:
-	db -4, "DISEÑO DE MAPA@"
+	db -6, "DISEÑO DE MAPA@"
 CredTest:
-	db -7, "PRUEBA DE PRODUCTO@"
+	db -8, "PRUEBA DE PRODUCTO@"
 CredSpecial:
-	db -6, "GRACIAS ESPECIALES@"
+	db -8, "GRACIAS ESPECIALES@"
 CredProducers:
-	db -4, "PRODUCTORES@"
+	db -5, "PRODUCTORES@"
 CredProducer:
 	db -4, "PRODUCTOR@"
 CredExecutive:
@@ -183,7 +183,7 @@ CredGiese:
 CredOsborne:
 	db -5, "SARA OSBORNE@"
 CredTrans:
-	db -7, "TRADUCTORES@"
+	db -5, "TRADUCTORES@"
 CredOgasawara:
 	db -6, "NOB OGASAWARA@"
 CredIwata:

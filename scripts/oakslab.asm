@@ -1125,7 +1125,12 @@ OaksLabText5:
 	call PrintText
 	jr .asm_1d2ed
 .asm_1d2b8
+	ld hl, OaksLabDeliverParcelTextF
+	ld a, [wUnusedD721]
+	bit 0, a	;check if girl
+	jr nz, .parcel
 	ld hl, OaksLabDeliverParcelText
+.parcel
 	call PrintText
 	call OaksLabScript_RemoveParcel
 	ld a, $f
@@ -1168,6 +1173,12 @@ OaksLabText_1d2fa:
 
 OaksLabDeliverParcelText:
 	TX_FAR _OaksLabDeliverParcelText1
+	TX_SFX_KEY_ITEM
+	TX_FAR _OaksLabDeliverParcelText2
+	db "@"
+
+OaksLabDeliverParcelTextF:
+	TX_FAR _OaksLabDeliverParcelText1F
 	TX_SFX_KEY_ITEM
 	TX_FAR _OaksLabDeliverParcelText2
 	db "@"
