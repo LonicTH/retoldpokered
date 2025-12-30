@@ -9,6 +9,10 @@ DisplayDexRating:
 	call CountSetBits
 	ld a, [wNumSetBits]
 	ld [hDexRatingNumMonsOwned], a
+	ld hl, DexRatingsTableF
+	ld a, [wUnusedD721]
+	bit 0, a
+	jr nz, .findRating
 	ld hl, DexRatingsTable
 .findRating
 	ld a, [hli]
@@ -88,6 +92,40 @@ DexRatingsTable:
 	dw PokedexRatingText_44247
 	db 152
 	dw PokedexRatingText_4424c
+	
+DexRatingsTableF:
+	db 10
+	dw PokedexRatingText_44201
+	db 20
+	dw PokedexRatingText_44206
+	db 30
+	dw PokedexRatingText_4420b
+	db 40
+	dw PokedexRatingText_44210
+	db 50
+	dw PokedexRatingText_44215
+	db 60
+	dw PokedexRatingText_4421a
+	db 70
+	dw PokedexRatingText_4421f
+	db 80
+	dw PokedexRatingText_44224
+	db 90
+	dw PokedexRatingText_44229
+	db 100
+	dw PokedexRatingText_4422e
+	db 110
+	dw PokedexRatingText_44233F
+	db 120
+	dw PokedexRatingText_44238
+	db 130
+	dw PokedexRatingText_4423d
+	db 140
+	dw PokedexRatingText_44242F
+	db 150
+	dw PokedexRatingText_44247
+	db 152
+	dw PokedexRatingText_4424c
 
 PokedexRatingText_44201:
 	TX_FAR _OaksLabText_44201
@@ -132,6 +170,10 @@ PokedexRatingText_4422e:
 PokedexRatingText_44233:
 	TX_FAR _OaksLabText_44233
 	db "@"
+	
+PokedexRatingText_44233F:
+	TX_FAR _OaksLabText_44233F
+	db "@"
 
 PokedexRatingText_44238:
 	TX_FAR _OaksLabText_44238
@@ -143,6 +185,10 @@ PokedexRatingText_4423d:
 
 PokedexRatingText_44242:
 	TX_FAR _OaksLabText_44242
+	db "@"
+	
+PokedexRatingText_44242F:
+	TX_FAR _OaksLabText_44242F
 	db "@"
 
 PokedexRatingText_44247:
