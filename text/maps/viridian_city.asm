@@ -1,215 +1,221 @@
 _ViridianCityText1::
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have #MON!"
+	text "¡Esas Pokebolas"
+	line "en tu cintura!"
+	cont "¡Tienes Pokémon!"
 
-	para "It's great that"
-	line "you can carry and"
-	cont "use #MON any"
-	cont "time, anywhere!"
+	para "Es genial que"
+	line "puedas llevar y"
+	cont "usar Pokémon"
+	cont "Donde y cuando"
+	cont "sea"
 	done
 
 _ViridianCityText_19122::
-	text "This #MON GYM"
-	line "is always closed."
+	text "Este Gimnasio"
+	line "Pokémon esta"
+	cont "siempre cerrado"
 
-	para "I wonder who the"
-	line "LEADER is?"
+	para "Me pregunto quién"
+	line "será el líder."
 	done
 
 _ViridianCityText_19127::
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "¡El líder del"
+	line "Gimnasio Pokémon"
+	cont "ha regresado!"
 	done
 
 _ViridianCityText_1914d::
-	text "You want to know"
-	line "about the 2 kinds"
-	cont "of caterpillar"
-	cont "#MON?"
+	text "¿Quieres saber"
+	line "sobre los dos"
+	cont "tipos de Pokémon"
+	cont "oruga?"
 	done
 
 _ViridianCityText_19152::
-	text "Oh, OK then!"
+	text "Oh, ¡Esta bien!"
 	done
 
 _ViridianCityText_19157::
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "WEEDLE does."
+	text "Caterpie no tiene"
+	line "veneno, pero"
+	cont "Weedle si."
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "¡Ten cuidado con"
+	line "su Piquete Ven!"
 	done
 IF DEF(_JPTXT)
 _ViridianCityText_19175::
-	text "Oh Grandpa! Don't"
-	line "pass out here!"
-	cont "My goodness..."
-	cont "Sorry, but we'll"
-	cont "have to wait till"
-	cont "he sobers up."
+	text "¡Oh abuelo! ¡No"
+	line "te desmayes aqui!"
+	cont "Dios mio..."
+	cont "Lo siento, pero"
+	cont "mejor esperemos"
+	cont "a que este sobrio"
 	done
 ELSE
 _ViridianCityText_19175::
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "¡Oh abuelo! no"
+	line "seas malo!"
+	cont "Todavia no se"
+	cont "tomo su cafe."
 	done
 ENDC
 
 _ViridianCityText_1917a::
-	text "When I go shop in"
-	line "PEWTER CITY, I"
-	cont "have to take the"
-	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	text "Cuando voy a"
+	line "comprar a"
+	cont "Ciudad Estaño,"
+	cont "paso por los"
+	cont "Bosque Viridián."
 	done
 
 IF DEF(_JPTXT)
 _ViridianCityText_19191::
 	text "Urgh! Hic..."
-	line "hold on there!"
-	cont "C'mere an lissen"
-	cont "to what I hafta"
-	cont "say!"
+	line "¡Espera!"
+	cont "¡Ven a escucharme"
+	cont "tengo mucho que"
+	cont "contarte!"
 
-	para "...Hey!"
-	line "I said don't go!"
+	para "...Oye!"
+	line "¡Que vengas aqui!"
 	done
 ELSE
 _ViridianCityText_19191::
-	text "You can't go"
-	line "through here!"
+	text "¡No puedes pasar"
+	line "por aqui!"
 
-	para "This is private"
-	line "property!"
+	para "¡Es propiedad"
+	line "privada!"
 	done
 ENDC
 
 _ViridianCityText_191ca::
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	text "(Bozteso)"
+	line "Creo que me quede"
+	cont "dormido debajo"
+	cont "del sol."
 
-	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
+	para "Tuve un sueño"
+	line "sobre un Drowzee"
+	cont "comiendose mi"
+	cont "sueño."
+	cont "¿Que es esto?"
+	cont "¿De donde salio"
+	cont "esta MT?"
 
-	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+	para "¡Que miedo!"
+	line "Ten, puedes"
+	cont "quedartela."
 	prompt
 
 _ReceivedTM42Text::
-	text "<PLAYER> received"
-	line "TM42!@@"
+	text "<PLAYER> recibio"
+	line "MT42!@@"
 
 _TM42Explanation::
-	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	text "MT42 contiene"
+	line "Comesueños..."
+	cont "...(Ronquido)..."
 	done
 
 _TM42NoRoomText::
-	text "You have too much"
-	line "stuff already."
+	text "¡Llevas muchas"
+	line "cosas encima!"
+	
 	done
 IF DEF(_JPTXT)
 _ViridianCityText_1920a::
 	text "Mmm......"
-	line "Seems like I was"
-	cont "pretty drunk!"
+	line "Parece que estaba"
+	cont "un poco borracho."
 
-	para "My head hurts..."
+	para "Mi cabeza"
+	line "duele..."
 
-	para "Are you in a"
-	line "hurry?"
+	para "¿Estas apurado?"
 	done
 ELSE
 _ViridianCityText_1920a::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Ahh, ¡Ya tome mi"
+	line "cafe y me siento"
+	cont "genial!"
 
-	para "Sure you can go"
-	line "through!"
+	para "¡Claro que puedes"
+	line "pasar!"
 
-	para "Are you in a"
-	line "hurry?"
+	para "¿Estas apurado?"
 	done
 ENDC
 
 _ViridianCityText_1920f::
-	text "I see you're using"
-	line "a #DEX."
+	text "Veo que tienes"
+	line "una Pókedex."
 
-	para "When you catch a"
-	line "#MON, #DEX"
-	cont "is automatically"
-	cont "updated."
+	para "Cuando capturas"
+	line "un Pokémon,"
+	cont "la Pókedex se"
+	cont "acutaliza."
 
-	para "What? Don't you"
-	line "know how to catch"
-	cont "#MON?"
+	para "¿Que? ¿No sabes"
+	line "como se capturan"
+	cont "Pokémon?"
 
-	para "I'll show you"
-	line "how to then."
+	para "Te mostrare como"
+	line "se hace."
 	done
 
 _ViridianCityText_19214::
-	text "Time is money..."
-	line "Go along then."
+	text "El tiempo es oro."
+	line "Vete entonces."
 	done
 
 _ViridianCityText_19219::
-	text "First, you need"
-	line "to weaken the"
-	cont "target #MON."
+	text "Primero tienes"
+	line "que dañar al"
+	cont "Pokémon enemigo."
 	done
 
 _ViridianCityText8::
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "Ciudad Viridián"
+	line "El eterno paraiso"
+	cont "Verde"
 	done
 
 _ViridianCityText9::
 	text "TRAINER TIPS"
+	para "¡Captura Pokémon"
+	line "y expande tu"
+	cont "colección!"
 
-	para "Catch #MON"
-	line "and expand your"
-	cont "collection!"
-
-	para "The more you have,"
-	line "the easier it is"
-	cont "to fight!"
+	para "¡Mientras mas"
+	line "tengas, sera mas"
+	cont "facil combatir!"
 	done
 
 _ViridianCityText10::
 	text "TRAINER TIPS"
 
-	para "The battle moves"
-	line "of #MON are"
-	cont "limited by their"
-	cont "POWER POINTs, PP."
+	para "Los movimientos"
+	line "de los Pokémon"
+	cont "son limitados por"
+	cont "Puntos de Poder"
+	cont "o PP"
 
-	para "To replenish PP,"
-	line "rest your tired"
-	cont "#MON at a"
-	cont "#MON CENTER!"
+	para "¡Para restaurar"
+	line "PP de tus Pokémon"
+	cont "llevalos a un"
+	cont "Centro Pokémon!"
 	done
 
 _ViridianCityText13::
-	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	text "Gimnasio Pokémon"
+	line "Ciudad Viridián"
 	done
 
 _ViridianCityText14::
-	text "The GYM's doors"
-	line "are locked..."
+	text "La puerta del"
+	line "Gimnasio Pokémon"
+	cont "esta cerrada..."
 	done
