@@ -140,7 +140,14 @@ ViridianGymScript3:
 	ld a, $f0
 	ld [wJoyIgnore], a
 ViridianGymScript3_74995:
+	ld a, [wUnusedD721]
+	bit 0, a
+	jr nz, .loadFemaleText
 	ld a, $c
+	jr .giveBadge
+.loadFemaleText
+	ld a, $e
+.giveBadge
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI
@@ -189,6 +196,7 @@ ViridianGymTextPointers:
 	dw ViridianGymText12
 	dw ViridianGymText13
 	dw ViridianGymText14
+	dw ViridianGymText12F
 
 ViridianGymTrainerHeader0:
 	dbEventFlagBit EVENT_BEAT_VIRIDIAN_GYM_TRAINER_0
@@ -335,6 +343,10 @@ ViridianGymText_74ad9:
 
 ViridianGymText12:
 	TX_FAR _ViridianGymText12
+	db "@"
+	
+ViridianGymText12:
+	TX_FAR _ViridianGymText12F
 	db "@"
 
 ViridianGymText13:
@@ -497,7 +509,12 @@ ViridianGymText10:
 	TX_ASM
 	CheckEvent EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI
 	jr nz, .asm_1abd1
+	ld hl, ViridianGymText_74bd4F
+	ld a, [wUnusedD721]
+	bit 0, a
+	jr nz .yoChamp
 	ld hl, ViridianGymText_74bd4
+.yoChamp
 	call PrintText
 	jr .asm_6064d
 .asm_1abd1
@@ -508,6 +525,10 @@ ViridianGymText10:
 
 ViridianGymText_74bd4:
 	TX_FAR _ViridianGymText_74bd4
+	db "@"
+	
+ViridianGymText_74bd4F:
+	TX_FAR _ViridianGymText_74bd4F
 	db "@"
 
 ViridianGymText_74bd9:
