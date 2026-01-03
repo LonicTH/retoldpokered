@@ -345,7 +345,7 @@ ViridianGymText12:
 	TX_FAR _ViridianGymText12
 	db "@"
 	
-ViridianGymText12:
+ViridianGymText12F:
 	TX_FAR _ViridianGymText12F
 	db "@"
 
