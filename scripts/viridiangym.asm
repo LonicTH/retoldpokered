@@ -512,7 +512,7 @@ ViridianGymText10:
 	ld hl, ViridianGymText_74bd4F
 	ld a, [wUnusedD721]
 	bit 0, a
-	jr nz .yoChamp
+	jr nz, .yoChamp
 	ld hl, ViridianGymText_74bd4
 .yoChamp
 	call PrintText
