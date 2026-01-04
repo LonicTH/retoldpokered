@@ -1,90 +1,93 @@
 _ViridianCityText1::
-	text "¡Esas Pokebolas"
+	text "¡Esas Pokébolas"
 	line "en tu cintura!"
 	cont "¡Tienes Pokémon!"
 
-	para "Es genial que"
+	para "¡Es genial que"
 	line "puedas llevar y"
 	cont "usar Pokémon"
-	cont "Donde y cuando"
-	cont "sea"
+	cont "dónde y cuándo"
+	cont "sea!"
 	done
 
 _ViridianCityText_19122::
 	text "Este Gimnasio"
-	line "Pokémon esta"
-	cont "siempre cerrado"
+	line "Pokémon siempre"
+	cont "está cerrado."
 
-	para "Me pregunto quién"
-	line "será el líder."
+	para "¿Me pregunto"
+	line "quién será el"
+	cont "lider?"
 	done
 
 _ViridianCityText_19127::
-	text "¡El líder del"
-	line "Gimnasio Pokémon"
+	text "¡El Líder del"
+	line "Gimnasio Viridián"
 	cont "ha regresado!"
 	done
 
 _ViridianCityText_1914d::
 	text "¿Quieres saber"
-	line "sobre los dos"
+	line "acerca de los dos"
 	cont "tipos de Pokémon"
 	cont "oruga?"
 	done
 
 _ViridianCityText_19152::
-	text "Oh, ¡Esta bien!"
+	text "Oh, ¡Está bien!"
 	done
 
 _ViridianCityText_19157::
 	text "Caterpie no tiene"
 	line "veneno, pero"
-	cont "Weedle si."
+	cont "Weedle sí."
 
 	para "¡Ten cuidado con"
-	line "su Piquete Ven!"
+	line "su Piquete Vene-"
+	cont "no!"
 	done
 IF DEF(_JPTXT)
 _ViridianCityText_19175::
-	text "¡Oh abuelo! ¡No"
-	line "te desmayes aqui!"
-	cont "Dios mio..."
+	text "¡Oh Abuelo! ¡No"
+	line "te desmayes aquí!"
+	cont "Dios mío..."
 	cont "Lo siento, pero"
 	cont "mejor esperemos"
-	cont "a que este sobrio"
+	cont "a que este so-"
+	cont "brio."
 	done
 ELSE
 _ViridianCityText_19175::
-	text "¡Oh abuelo! no"
-	line "seas malo!"
-	cont "Todavia no se"
-	cont "tomo su cafe."
+	text "¡Oh abuelo!"
+	line "¡No seas malo!"
+	cont "Todavía no se"
+	cont "tomó su café."
 	done
 ENDC
 
 _ViridianCityText_1917a::
-	text "Cuando voy a"
-	line "comprar a"
+	text "Cuando voy de"
+	line "compras a la"
 	cont "Ciudad Estaño,"
-	cont "paso por los"
+	cont "paso por el"
 	cont "Bosque Viridián."
 	done
 
 IF DEF(_JPTXT)
 _ViridianCityText_19191::
-	text "Urgh! Hic..."
+	text "¡Urgh! Hic..."
 	line "¡Espera!"
 	cont "¡Ven a escucharme"
 	cont "tengo mucho que"
 	cont "contarte!"
 
-	para "...Oye!"
-	line "¡Que vengas aqui!"
+	para "...¡Oye!"
+	line "¡Qué vengas aquí!"
 	done
 ELSE
 _ViridianCityText_19191::
 	text "¡No puedes pasar"
-	line "por aqui!"
+	line "por aquí!"
 
 	para "¡Es propiedad"
 	line "privada!"
@@ -92,26 +95,26 @@ _ViridianCityText_19191::
 ENDC
 
 _ViridianCityText_191ca::
-	text "(Bozteso)"
-	line "Creo que me quede"
+	text "(Bostezo)"
+	line "Creo que me quedé"
 	cont "dormido debajo"
 	cont "del sol."
 
 	para "Tuve un sueño"
 	line "sobre un Drowzee"
-	cont "comiendose mi"
+	cont "comiéndose mi"
 	cont "sueño."
-	cont "¿Que es esto?"
-	cont "¿De donde salio"
+	cont "¿Qué es esto?"
+	cont "¿De dónde salió"
 	cont "esta MT?"
 
-	para "¡Que miedo!"
+	para "¡Qué miedo!"
 	line "Ten, puedes"
-	cont "quedartela."
+	cont "quedártela."
 	prompt
 
 _ReceivedTM42Text::
-	text "<PLAYER> recibio"
+	text "¡<PLAYER> recibió"
 	line "MT42!@@"
 
 _TM42Explanation::
@@ -128,47 +131,74 @@ _TM42NoRoomText::
 IF DEF(_JPTXT)
 _ViridianCityText_1920a::
 	text "Mmm......"
-	line "Parece que estaba"
-	cont "un poco borracho."
+	line "¡Parece que es-"
+	cont "taba un poco bo-"
+	cont "rracho!"
 
-	para "Mi cabeza"
-	line "duele..."
+	para "Me duele la"
+	line "cabeza..."
 
-	para "¿Estas apurado?"
+	para "¿Estás apurado?"
 	done
 ELSE
 _ViridianCityText_1920a::
-	text "Ahh, ¡Ya tome mi"
-	line "cafe y me siento"
+	text "Ahh, ¡Ya tomé mi"
+	line "café y me siento"
 	cont "genial!"
 
 	para "¡Claro que puedes"
 	line "pasar!"
 
-	para "¿Estas apurado?"
+	para "¿Estás apurado?"
+	done
+ENDC
+
+IF DEF(_JPTXT)
+_ViridianCityText_1920aF::
+	text "Mmm......"
+	line "¡Parece que es-"
+	cont "taba un poco bo-"
+	cont "rracho!"
+
+	para "Me duele la"
+	line "cabeza..."
+
+	para "¿Estás apurada?"
+	done
+ELSE
+_ViridianCityText_1920aF::
+	text "Ahh, ¡Ya tomé mi"
+	line "café y me siento"
+	cont "genial!"
+
+	para "¡Claro que puedes"
+	line "pasar!"
+
+	para "¿Estás apurada?"
 	done
 ENDC
 
 _ViridianCityText_1920f::
 	text "Veo que tienes"
-	line "una Pókedex."
+	line "un Pókedex."
 
 	para "Cuando capturas"
-	line "un Pokémon,"
-	cont "la Pókedex se"
-	cont "acutaliza."
+	line "un Pokémon, el"
+	cont "Pókedex se ac-"
+	cont "actualiza."
 
-	para "¿Que? ¿No sabes"
-	line "como se capturan"
-	cont "Pokémon?"
+	para "¿Qué? ¿No sabes"
+	line "cómo se capturan"
+	cont "los Pokémon?"
 
-	para "Te mostrare como"
+	para "Te mostraré como"
 	line "se hace."
 	done
 
 _ViridianCityText_19214::
 	text "El tiempo es oro."
-	line "Vete entonces."
+	line "..."
+	cont "Puedes seguir."
 	done
 
 _ViridianCityText_19219::
@@ -179,34 +209,38 @@ _ViridianCityText_19219::
 
 _ViridianCityText8::
 	text "Ciudad Viridián"
-	line "El eterno paraiso"
-	cont "Verde"
+	line "El eterno paraíso"
+	cont "verde"
 	done
 
 _ViridianCityText9::
-	text "TRAINER TIPS"
+	text "CONSEJOS PARA"
+	line "ENTRENADORES"
+
 	para "¡Captura Pokémon"
 	line "y expande tu"
 	cont "colección!"
 
-	para "¡Mientras mas"
-	line "tengas, sera mas"
-	cont "facil combatir!"
+	para "¡Mientras más"
+	line "tengas, sera más"
+	cont "fácil combatir!"
 	done
 
 _ViridianCityText10::
-	text "TRAINER TIPS"
+	text "CONSEJOS PARA"
+	line "ENTRENADORES"
 
 	para "Los movimientos"
 	line "de los Pokémon"
-	cont "son limitados por"
-	cont "Puntos de Poder"
-	cont "o PP"
+	cont "están limitados"
+	cont "por los Puntos de"
+	cont "poder o PP."
 
 	para "¡Para restaurar"
-	line "PP de tus Pokémon"
-	cont "llevalos a un"
-	cont "Centro Pokémon!"
+	line "los PP de tus"
+	cont "Pokémon llévalos"
+	cont "a un Centro"
+	cont "Pokémon!"
 	done
 
 _ViridianCityText13::
@@ -217,5 +251,5 @@ _ViridianCityText13::
 _ViridianCityText14::
 	text "La puerta del"
 	line "Gimnasio Pokémon"
-	cont "esta cerrada..."
+	cont "está cerrada..."
 	done

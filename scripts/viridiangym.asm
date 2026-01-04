@@ -11,7 +11,7 @@ ViridianGymScript:
 	ret
 
 Gym8CityName:
-	db "VIRIDIAN CITY@"
+	db "CIUDAD VIRIDIÁN@"
 Gym8LeaderName:
 ;	db "GIOVANNI@"	;joenote - let's remove this funny nonsense spoiler
 	db "---@"
@@ -146,7 +146,7 @@ ViridianGymScript3_74995:
 	ld a, $c
 	jr .giveBadge
 .loadFemaleText
-	ld a, $e
+	ld a, $f
 .giveBadge
 	ld [hSpriteIndexOrTextID], a
 	call DisplayTextID

@@ -1,237 +1,298 @@
 _ViridianGymText_74ace::
-	text "Fwahahaha! This is"
-	line "my hideout!"
+	text "¡Uajajaja! ¡Este"
+	line "es mi escondite!"
 
-	para "I planned to"
-	line "resurrect TEAM"
-	cont "ROCKET here!"
+	para "¡Planeaba resu-"
+	line "citar el Equipo"
+	cont "Rocket aquí!"
 
-	para "But, you have"
-	line "caught me again!"
-	cont "So be it! This"
-	cont "time, I'm not"
-	cont "holding back!"
+	para "Pero, ¡Me has"
+	line "vuelto a atrapar!"
+	cont "¡Suficiente!"
+	cont "¡Esta vez no me"
+	cont "contentré!"
 
-	para "Once more, you"
-	line "shall face"
-	cont "GIOVANNI, the"
-	cont "greatest trainer!"
+	para "¡Una vez más, te"
+	line "enfrentarás a"
+	cont "Giovanni, el me-"
+	cont "jor entrenador"
+	cont "Pokémon!"
 	done
 
 _ViridianGymText_74ad3::
-	text "Ha!"
-	line "That was a truly"
-	cont "intense fight!"
-	cont "You have won!"
-	cont "As proof, here is"
-	cont "the EARTHBADGE!@@"
+	text "¡Ja!"
+	line "¡Esa fue una pe-"
+	cont "lea intensa!"
+	cont "¡Ganaste!"
+	cont "¡Cómo prueba, te"
+	cont "daré la Medalla"
+	cont "Tierra!@@"
 
 _ViridianGymText_74ad9::
-	text "Having lost to"
-	line "you yet again, I"
-	cont "cannot face my"
-	cont "underlings!"
-	cont "TEAM ROCKET is"
-	cont "finished forever!"
+	text "¡Ya que volví a"
+	line "perder contra ti,"
+	cont "no podré darle la"
+	cont "cara a mis secua-"
+	cont "ces! ¡Este es el"
+	cont "fin del Equipo"
+	cont "Rocket!"
 
-	para "I will dedicate my"
-	line "life to the study"
-	cont "of #MON!"
+	para "¡Dedicaré el resto"
+	line "de mi vida en in-"
+	cont "vestigar a los"
+	cont "Pokémon!"
 
-	para "Let us meet again"
-	line "some day!"
-	cont "Farewell!@@"
+	para "¡Espero volvernos"
+	line "a ver algún día!"
+	cont "¡Hasta luego!@@"
 
 _ViridianGymText12::
-	text "The EARTHBADGE"
-	line "makes #MON of"
-	cont "any level obey!"
+	text "¡La Medalla Tie-"
+	line "rra hace que los"
+	cont "Pokémon de cual-"
+	cont "quier nivel obe-"
+	cont "dezcan!"
 
-	para "It is evidence of"
-	line "your mastery as a"
-	cont "#MON trainer!"
+	para "¡Es evidencia de"
+	line "tu maestría como"
+	cont "Entrenador Poké-"
+	cont "mon!"
 
-	para "With it, you can"
-	line "enter the #MON"
-	cont "LEAGUE!"
+	para "¡Con esta, podrás"
+	line "entrar a la Liga"
+	cont "Pokémon!"
 
-	para "It is my gift for"
-	line "your #MON"
-	cont "LEAGUE challenge!"
+	para "¡Este mi regalo"
+	line "para tu desafío de"
+	cont "la Liga Pokémon!"
+	done
+
+	_ViridianGymText12F::
+	text "¡La Medalla Tie-"
+	line "rra hace que los"
+	cont "Pokémon de cual-"
+	cont "quier nivel obe-"
+	cont "dezcan!"
+
+	para "¡Es evidencia de"
+	line "tu maestría como"
+	cont "Entrenadora"
+	cont "Pokémon!"
+
+	para "¡Con esta, podrás"
+	line "entrar a la Liga"
+	cont "Pokémon!"
+
+	para "¡Es mi regalo para"
+	line "tu desafío de la"
+	cont "Liga Pokémon!"
 	done
 
 _ReceivedTM27Text::
-	text "<PLAYER> received"
-	line "TM27!@@"
+	text "¡<PLAYER> recibió"
+	line "la TM27!@@"
 
 _TM27ExplanationText::
 	db $0
-	para "TM27 is FISSURE!"
-	line "It will take out"
-	cont "#MON with just"
-	cont "one hit!"
+	para "¡La TM27 es"
+	line "Fisura!"
+	cont "¡Derrotará a"
+	cont "cualquier Poké-"
+	cont "mon de un golpe!"
 
-	para "I made it when I"
-	line "ran the GYM here,"
-	cont "too long ago..."
+	para "La hice cuando"
+	line "fui líder de Gim-"
+	cont "nasio, pero eso"
+	cont "fue hace bastante"
+	cont "tiempo..."
 	done
 
 _TM27NoRoomText::
-	text "You do not have"
-	line "space for this!"
+	text "¡No tienes espa-"
+	line "cio para esto!"
 	done
 
 _ViridianGymBattleText1::
-	text "Heh! You must be"
-	line "running out of"
-	cont "steam by now!"
+	text "¡Je! ¡Parece que"
+	line "te estás quedando"
+	cont "sin fuerzas!"
 	done
 
 _ViridianGymEndBattleText1::
-	text "I"
-	line "ran out of gas!"
+	text "Yo-"
+	line "¡ya no doy para"
+	cont "más pelea!"
 	prompt
 
 _ViridianGymAfterBattleText1::
-	text "You need power to"
-	line "keep up with our"
-	cont "GYM LEADER!"
+	text "¡Tienes un poder"
+	line "como para darle"
+	cont "pelea al Líder"
+	cont "de Gimnasio!"
 	done
 
 _ViridianGymBattleText2::
-	text "Rrrroar! I'm"
-	line "working myself"
-	cont "into a rage!"
+	text "¡Rrrroar! ¡Estoy"
+	line "a nada de estar"
+	cont "furioso!"
 	done
 
 _ViridianGymEndBattleText2::
-	text "Wargh!"
+	text "¡Uagh!"
 	prompt
 
 _ViridianGymAfterBattleText2::
-	text "I'm still not"
-	line "worthy!"
+	text "¡Aún no soy digno!"
 	done
 
 _ViridianGymBattleText3::
-	text "#MON and I, we"
-	line "make wonderful"
-	cont "music together!"
+	text "¡Los Pokémon y yo,"
+	line "hacemos buena"
+	cont "música juntos!"
 	done
 
 _ViridianGymEndBattleText3::
-	text "You are in"
-	line "perfect harmony!"
+	text "¡Estás en"
+	line "perfecta armonía!"
 	prompt
 
 _ViridianGymAfterBattleText3::
-	text "Do you know the"
-	line "identity of our"
-	cont "GYM LEADER?"
+	text "¿Sabes la identi-"
+	line "dad de nuestro"
+	cont "Líder de Gimna-"
+	cont "sio?"
 	done
 
 _ViridianGymBattleText4::
-	text "Karate is the"
-	line "ultimate form of"
-	cont "martial arts!"
+	text "¡Karate es la"
+	line "forma definitiva"
+	cont "de las artes"
+	cont "marciales!"
 	done
 
 _ViridianGymEndBattleText4::
-	text "Atcho!"
+	text "¡Achú!"
 	prompt
 
 _ViridianGymAfterBattleText4::
-	text "If my #MON"
-	line "were as good at"
-	cont "Karate as I..."
+	text "Si tan solo mis"
+	line "Pokémon fueran"
+	cont "tan buenos en el"
+	cont "Karate como yo..."
 	done
 
 _ViridianGymBattleText5::
-	text "The truly talented"
-	line "win with style!"
+	text "¡Los verdaderos"
+	line "talentosos ganan"
+	cont "con estilo!"
 	done
 
 _ViridianGymEndBattleText5::
-	text "I"
-	line "lost my grip!"
+	text "¡Yo"
+	line "perdí el control!"
 	prompt
 
 _ViridianGymAfterBattleText5::
-	text "The LEADER will"
-	line "scold me!"
+	text "¡El Líder me va"
+	line "a regañar!"
 	done
 
 _ViridianGymBattleText6::
-	text "I'm the KARATE"
-	line "KING! Your fate"
-	cont "rests with me!"
+	text "¡Soy el Rey del"
+	line "Karate! ¡Tu des-"
+	cont "tino está en mis"
+	cont "manos!"
 	done
 
 _ViridianGymEndBattleText6::
-	text "Ayah!"
+	text "¡Ay ah!"
 	prompt
 
 _ViridianGymAfterBattleText6::
-	text "#MON LEAGUE?"
-	line "You? Don't get"
-	cont "cocky!"
+	text "¿La Liga Pokémon?"
+	line "¿Tú? ¡No te creas!"
 	done
 
 _ViridianGymBattleText7::
-	text "Your #MON will"
-	line "cower at the"
-	cont "crack of my whip!"
+	text "¡Tus Pokémon sen-"
+	line "tirán miedo al"
+	cont "oir el sonido de"
+	cont "mi látigo!"
 	done
 
 _ViridianGymEndBattleText7::
-	text "Yowch!"
-	line "Whiplash!"
+	text "¡Yauch!"
+	line "¡Qué latigazo!"
 	prompt
 
 _ViridianGymAfterBattleText7::
-	text "Wait! I was just"
-	line "careless!"
+	text "¡Espera! ¡Fui"
+	line "descuidado!"
 	done
 
 _ViridianGymBattleText8::
-	text "VIRIDIAN GYM was"
-	line "closed for a long"
-	cont "time, but now our"
-	cont "LEADER is back!"
+	text "¡El Gimnasio Viri-"
+	line "dián estuvo"
+	cont "cerrado por mucho"
+	cont "tiempo, pero el"
+	cont "Líder volvió!"
 	done
 
 _ViridianGymEndBattleText8::
-	text "I"
-	line "was beaten?"
+	text "¿Me-"
+	line "me vencieron?"
 	prompt
 
 _ViridianGymAfterBattleText8::
-	text "You can go onto"
-	line "#MON LEAGUE"
-	cont "only by defeating"
-	cont "our GYM LEADER!"
+	text "¡Podrías ir a la"
+	line "Liga Pokémon si"
+	cont "vencieras a nues-"
+	cont "tro Líder de Gim-"
+	cont "nasio!"
 	done
 
 _ViridianGymText_74bd4::
-	text "Yo! Champ in"
-	line "making!"
+	text "¡Ey! ¡Campeón"
+	line "en proceso!"
 
-	para "Even I don't know"
-	line "VIRIDIAN LEADER's"
-	cont "identity!"
+	para "¡Ni yo sé cual es"
+	line "la identidad del"
+	cont "Líder de Gimansio"
+	cont "Viridián!"
 
-	para "This will be the"
-	line "toughest of all"
-	cont "the GYM LEADERs!"
+	para "¡Este será el"
+	line "Líder más fuerte"
+	cont "que te hayas en-"
+	cont "frentado!"
 
-	para "I heard that the"
-	line "trainers here"
-	cont "like ground-type"
-	cont "#MON!"
+	para "¡Escuché que los"
+	line "entrenadores aquí"
+	cont "usan Pokémon tipo"
+	cont "Tierra!"
+	done
+
+	_ViridianGymText_74bd4F::
+	text "¡Ey! ¡Campeona"
+	line "en proceso!"
+
+	para "¡Ni yo sé cual es"
+	line "la identidad del"
+	cont "Líder de Gimansio"
+	cont "Viridián!"
+
+	para "¡Este será el"
+	line "Líder más fuerte"
+	cont "que te hayas en-"
+	cont "frentado!"
+
+	para "¡Escuché que los"
+	line "entrenadores aquí"
+	cont "usan Pokémon tipo"
+	cont "Tierra!"
 	done
 
 _ViridianGymText_74bd9::
-	text "Blow me away!"
-	line "GIOVANNI was the"
-	cont "GYM LEADER here?"
+	text "¡Quedé atónito!"
+	line "¿Giovanni era el"
+	cont "Líder de Gimansio?"
 	done

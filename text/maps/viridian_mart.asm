@@ -1,30 +1,32 @@
 _ViridianMartText1::
-	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
+	text "¡Muy bien! Salú-"
+	line "dame al Prof.Oak"
+	cont "cuando lo veas!"
 	done
 
 _ViridianMartText4::
-	text "Hey! You came from"
-	line "PALLET TOWN?"
+	text "¡Oye! ¿Vienes de"
+	line "Pueblo Paleta?"
 	done
 
 ViridianMartParcelQuestText::
-	text "You know PROF."
-	line "OAK, right?"
+	text "Conoces al Prof."
+	line "Oak, ¿cierto?"
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "Su orden llegó."
+	line "¿Se lo podrías"
+	cont "llevar?"
 
-	para "<PLAYER> got"
-	line "OAK's PARCEL!@@"
+	para "¡<PLAYER> obtuvo"
+	line "Paquete de Oak!@@"
 
 _ViridianMartText2::
-	text "This shop sells"
-	line "many ANTIDOTEs."
+	text "Esta tienda ven-"
+	line "den muchos Antí-"
+	cont "dotos."
 	done
 
 _ViridianMartText3::
-	text "No! POTIONs are"
-	line "all sold out."
+	text "¡Ay no! Se queda-"
+	line "ron sin Pociones."
 	done

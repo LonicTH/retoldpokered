@@ -251,7 +251,7 @@ ForfeitTrainerMatchText:
 	TX_FAR _ForfeitTrainerMatchText
 	db "@"
 _ForfeitTrainerMatchText::
-	text "Forfeit?"
+	text "¿Rendirte?"
 	done
 
 ForfeitConfirmed:

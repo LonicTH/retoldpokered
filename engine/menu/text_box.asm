@@ -218,9 +218,9 @@ TextBoxTextAndCoordTable:
 ; note that there is no terminator
 
 BuySellQuitText:
-	db   "COMP."
-	next "VEND."
-	next "QUIT@@"
+	db   "COMPRAR"
+	next "VENDER"
+	next "SALIR@@"
 
 UseTossText:
 	db   "USAR"

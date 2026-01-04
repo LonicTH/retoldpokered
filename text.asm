@@ -244,7 +244,7 @@ _AIBattleWithdrawText::
 	text "¡@"
 	TX_RAM wTrainerName
 	text " sacó"
-	line " @"
+	line "a @"
 	TX_RAM wEnemyMonNick
 	text "!"
 	prompt
@@ -376,27 +376,33 @@ _DexRatingText::
 	done
 
 _GymStatueText1::
+	text "GIMNASIO POKÉMON"
+	line "@"
 	TX_RAM wGymCityName
 	text ""
-	line "#MON GYM"
-	cont "LEADER: @"
+	line ""
+	cont "LÍDER: @"
 	TX_RAM wGymLeaderName
 	text ""
 
-	para "WINNING TRAINERS:"
-	line "<RIVAL>"
+	para "ENTRENADORES"
+	line "GANADORES:"
+	cont "<RIVAL>"
 	done
 
 _GymStatueText2::
+	text "GIMNASIO POKÉMON"
+	line "@"
 	TX_RAM wGymCityName
 	text ""
-	line "#MON GYM"
-	cont "LEADER: @"
+	line ""
+	cont "LÍDER: @"
 	TX_RAM wGymLeaderName
 	text ""
 
-	para "WINNING TRAINERS:"
-	line "<RIVAL>"
+	para "ENTRENADORES"
+	line "GANADORES:"
+	cont "<RIVAL>"
 	cont "<PLAYER>"
 	done
 
@@ -1133,8 +1139,7 @@ _EnemyMonFaintedText::
 	prompt
 
 _MoneyForWinningText::
-	text "¡<PLAYER> obtuvo"
-	line "¥@"
+	text "¡<PLAYER> obtuvo ¥@"
 	TX_BCD wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text ""
 	line "por ganar!"
@@ -1494,7 +1499,7 @@ _BoostedText::
 
 _ExpPointsText::
 	TX_NUM wExpAmountGained, 2, 5	;joenote - increased to 5 digits
-	text " PTS.de EXP."
+	text " PTS.de EXP!"
 	prompt
 
 _GrewLevelText::
@@ -1572,13 +1577,13 @@ _PlayerMon2Text::
 	text " @@"
 
 _EnoughText::
-	text "Basta @@"
+	text "basta @@"
 
 _OKExclamationText::
-	text "Ok @@"
+	text "ok @@"
 
 _GoodText::
-	text "Bien @@"
+	text "bien @@"
 
 _ComeBackText::
 	text " "
@@ -1586,7 +1591,7 @@ _ComeBackText::
 	done
 
 _SuperEffectiveText::
-	text "¡Es super"
+	text "¡Es súper"
 	line "efectivo!"
 	prompt
 

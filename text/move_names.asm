@@ -55,7 +55,7 @@ MoveNames::
 	db "Neblina@"
 	db "Chorro Agua@"
 	db "Hidrobomba@"
-	db "Suft@"
+	db "Surf@"
 	db "Rayo De Hielo@"
 	db "Ventisca@"
 	db "Psicorrayo@"

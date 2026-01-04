@@ -1,47 +1,52 @@
 _ViridianPokeCenterText2::
-	text "You can use that"
-	line "PC in the corner."
+	text "Puedes usar la"
+	line "computadora allá"
+	cont "en la esquina."
 
-	para "The receptionist"
-	line "told me. So kind!"
+	para "Eso me dijo la"
+	line "recepcionista."
+	cont "¡Qué amable!"
 	done
 
 _ViridianPokeCenterText3::
-	text "There's a #MON"
-	line "CENTER in every"
-	cont "town ahead."
+	text "Hay muchos Centro"
+	line "Pokémon en cada"
+	cont "pueblo."
 
-	para "They don't charge"
-	line "any money either!"
+	para "¡Y no cobran por"
+	line "el servicio!"
 	done
 
 ;joenote - text for randomized regular trainers
 _ViridianPokeCenter_RegRandomON::
-	text "Not your first"
-	line "try at a #MON"
-	cont "journey?"
+	text "¿No es tu primera"
+	line "vez en una aven-"
+	cont "tura Pokémon?"
 	
-	para "I can make it so"
-	line "regular trainers"
-	cont "are randomized."
+	para "Puedo hacer que"
+	line "los entrenadores"
+	cont "regulares estén"
+	cont "aleatorio."
 	done
 	
 _ViridianPokeCenter_RegRandomOFF::
-	text "You desire more"
-	line "structure? Hmm..."
+	text "¿Buscas algo más"
+	line "estructurado?"
+	cont "Mmm..."
 	
-	para "I can put regular"
-	line "trainers back to"
-	cont "normal for you."
+	para "Puedo hacer que"
+	line "los entrenadores"
+	cont "vuelvan a la nor-"
+	cont "malidad."
 	done
 	
 _ViridianPokeCenter_AideQ_done::
-	text "Okay, it's done."
+	text "Bien, ya está."
 	done
 	
 _ViridianPokeCenter_AideQ_reject::
-	text "No? Very well."
-	line "See me again if"
-	cont "you change your"
-	cont "mind later."
+	text "¿No? Muy bien."
+	line "Ven a verme si"
+	cont "cambiaste de"
+	cont "opinión."
 	done

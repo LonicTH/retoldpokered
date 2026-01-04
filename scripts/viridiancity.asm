@@ -304,7 +304,13 @@ TM42NoRoomText:
 
 ViridianCityText7:
 	TX_ASM
+	ld hl, ViridianCityText_1920aF
+	ld a, [wUnusedD721]
+	bit 0, a	;check if girl
+	jr nz, .OldMan
 	ld hl, ViridianCityText_1920a
+	
+.OldMan
 	call PrintText
 	ld c, 2
 	call DelayFrames
@@ -325,6 +331,10 @@ ViridianCityText7:
 
 ViridianCityText_1920a:
 	TX_FAR _ViridianCityText_1920a
+	db "@"
+
+ViridianCityText_1920aF:
+	TX_FAR _ViridianCityText_1920aF
 	db "@"
 
 ViridianCityText_1920f:

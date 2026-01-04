@@ -647,7 +647,7 @@ ENDC
 	call TrainerInfo_DrawVerticalLine
 	coord hl, 19, 10
 	call TrainerInfo_DrawVerticalLine
-	coord hl, 6, 9
+	coord hl, 5, 9
 	ld de, TrainerInfo_BadgesText
 	call PlaceString
 	coord hl, 1, 2

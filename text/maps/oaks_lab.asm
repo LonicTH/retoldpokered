@@ -415,13 +415,13 @@ _OaksLabText_1d405::
 ;joenote - extra text
 	para "Por favor ven a"
 	line "verme cuando ya"
-	cont "tengas tu propia"
+	cont "tengas tu propio"
 	cont "Pokédex."
 	done
 
 _OaksLabText_441cc::
 	text "Cumplimiento de"
-	line "la Pokédex:"
+	line "el Pokédex:"
 
 	para "@"
 	TX_NUM hDexRatingNumMonsSeen, 1, 3
@@ -453,9 +453,8 @@ _OaksLabText_44206::
 _OaksLabText_4420b::
 	text "¡Aún ocupas más"
 	line "Pokémon!"
-	cont "¡Intenta atra-"
-	cont "par otras espe-"
-	cont "cies!"
+	cont "¡Intenta atrapar"
+	cont "otras especies!"
 	done
 
 _OaksLabText_44210::
@@ -701,7 +700,7 @@ _OaksLabText_symbolsOFF::
 	done
 
 _OaksLabText_AideQ_done::
-	text "Bien, hecho."
+	text "Bien, ya está."
 	done
 	
 _OaksLabText_AideQ_reject::
