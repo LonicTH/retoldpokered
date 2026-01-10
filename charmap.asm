@@ -257,6 +257,9 @@ charmap "ñ", $CD
 charmap "¿", $CE
 charmap "¡", $CF
 
+charmap "<o/a>", $60
+charmap "<r/ra>", $61
+
 charmap "'", $E0
 
 charmap "-", $E3
