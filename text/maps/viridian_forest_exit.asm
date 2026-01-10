@@ -1,19 +1,22 @@
 _ViridianForestExitText1::
-	text "Many #MON live"
-	line "only in forests "
-	cont "and caves."
+	text "Muchos Pokémon"
+	line "solo viven en"
+	cont "bosques y cuevas"
 
-	para "You need to look"
-	line "everywhere to get"
-	cont "different kinds!"
+	para "¡Tendrás que ver"
+	line "por todas partes"
+	cont "para conseguir"
+	cont "diferentes espe-"
+	cont "cies!"
 	done
 
 _ViridianForestExitText2::
-	text "Have you noticed"
-	line "the bushes on the"
-	cont "roadside?"
+	text "¿Has visto los"
+	line "arbustos al lado"
+	cont "del camino?"
 
-	para "They can be cut"
-	line "down by a special"
-	cont "#MON move."
+	para "Estos pueden ser"
+	line "cortados por un"
+	cont "movimiento Poké-"
+	cont "mon especial."
 	done

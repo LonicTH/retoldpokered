@@ -2090,8 +2090,9 @@ INCLUDE "text/maps/route_24_2.asm"
 INCLUDE "text/maps/route_25.asm"
 
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
+	text "¡El archivo de"
+	line "Guardado está"
+	cont "destruido!"
 	prompt
 
 _WouldYouLikeToSaveText::
@@ -2120,26 +2121,29 @@ _WhenYouChangeBoxText::
 	done
 
 _ChooseABoxText::
-	text "Choose a"
-	line "<pkmn> BOX.@@"
+	text "Escoge una"
+	line "CAJA <pkmn>.@@"
 
 _EvolvedText::
+	text "¡@"
 	TX_RAM wcf4b
-	text " evolved"
+	text ""
+	line "evolucionó"
 	done
 
 _IntoText::
 	text ""
-	line "into @"
+	line "a @"
 	TX_RAM wcd6d
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @"
+	text "¿Eh? ¡@"
 	TX_RAM wcf4b
 	text ""
-	line "stopped evolving!"
+	line "paró de evolu-"
+	cont "cionar"
 	prompt
 
 _IsEvolvingText::
@@ -2151,37 +2155,38 @@ _IsEvolvingText::
 	done
 
 _FellAsleepText::
-	text "<TARGET>"
-	line "fell asleep!"
+	text "¡<TARGET>"
+	line "se durmió!"
 	prompt
 
 _AlreadyAsleepText::
-	text "<TARGET>'s"
-	line "already asleep!"
+	text "<TARGET> ya"
+	line "está durmiendo!"
 	prompt
 
 _PoisonedText::
-	text "<TARGET>"
-	line "was poisoned!"
+	text "¡<TARGET> fue"
+	line "envenenado!"
 	prompt
 
 _BadlyPoisonedText::
-	text "<TARGET>'s"
-	line "badly poisoned!"
+	text "¡<TARGET> fue"
+	line "gravemente en-"
+	cont "venenado!"
 	prompt
 
 _BurnedText::
-	text "<TARGET>"
-	line "was burned!"
+	text "¡<TARGET> fue"
+	line "quemado!"
 	prompt
 
 _FrozenText::
-	text "<TARGET>"
-	line "was frozen solid!"
+	text "¡<TARGET> está"
+	line "congelado!"
 	prompt
 
 _FireDefrostedText::
-	text "Fire defrosted"
+	text "¡Fuego descongeló"
 	line "<TARGET>!"
 	prompt
 
@@ -2212,72 +2217,73 @@ _FellText::
 	prompt
 
 _RanFromBattleText::
-	text "<USER>"
-	line "ran from battle!"
+	text "¡<USER> escapó"
+	line "de la pelea!"
 	prompt
 
 _RanAwayScaredText::
-	text "<TARGET>"
-	line "ran away scared!"
+	text "¡<TARGET>"
+	line "corrió asustado!"
 	prompt
 
 _WasBlownAwayText::
-	text "<TARGET>"
-	line "was blown away!"
+	text "¡<TARGET>"
+	line "salió volando!"
 	prompt
 
 _ChargeMoveEffectText::
-	text "<USER>@@"
+	text "¡<USER>@@"
 
 _MadeWhirlwindText::
 	text ""
-	line "made a whirlwind!"
+	line "creó un Torbe-"
+	cont "llino!"
 	prompt
 
 _TookInSunlightText::
 	text ""
-	line "took in sunlight!"
+	line "tomó luz solar!"
 	prompt
 
 _LoweredItsHeadText::
 	text ""
-	line "lowered its head!"
+	line "bajó su cabeza!"
 	prompt
 
 _SkyAttackGlowingText::
 	text ""
-	line "is glowing!"
+	line "empezó a brillar!"
 	prompt
 
 _FlewUpHighText::
 	text ""
-	line "flew up high!"
+	line "voló alto!"
 	prompt
 
 _DugAHoleText::
 	text ""
-	line "dug a hole!"
+	line "cavó un agujero!"
 	prompt
 
 _BecameConfusedText::
-	text "<TARGET>"
-	line "became confused!"
+	text "¡<TARGET>"
+	line "se confundió!"
 	prompt
 
 _MimicLearnedMoveText::
-	text "<USER>"
-	line "learned"
+	text "¡<USER>"
+	line "aprendió"
 	cont "@"
 	TX_RAM wcd6d
 	text "!"
 	prompt
 
 _MoveWasDisabledText::
-	text "<TARGET>'s"
-	line "@"
+	text "@"
 	TX_RAM wcd6d
-	text " was"
-	cont "disabled!"
+	text " de"
+	cont "<TARGET> fue"
+	cont "anulado!"
 	prompt
 
 _NothingHappenedText::

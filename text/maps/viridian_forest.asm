@@ -1,123 +1,152 @@
 _ViridianForestText1::
-	text "I came here with"
-	line "some friends!"
+	text "¡Vine aquí con"
+	line "unos amigos!"
 
-	para "They're out for"
-	line "#MON fights!"
+	para "¡Ellos querrán"
+	line "peleas con Poké-"
+	cont "mon!"
 	done
 
 _ViridianForestBattleText1::
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
+	text "¡Ey! ¡Tienes"
+	line "Pokémon! ¡Vamos!"
+	cont "¡A pelear!"
 	done
 
 _ViridianForestEndBattleText1::
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	text "¡No!"
+	line "¡Caterpie no pudo"
+	cont "hacerlo!"
 	prompt
 
 _ViridianFrstAfterBattleText1::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "Ssh! ¡Harás que"
+	line "los bichos se"
+	cont "vayan!"
 	done
 
 _ViridianForestBattleText2::
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "¡Oye! ¡No puedes"
+	line "improvisar si"
+	cont "eres un entrena-"
+	cont "dor Pokémon!"
+	done
+
+_ViridianForestBattleText2F::
+	text "¡Oye! ¡No puedes"
+	line "improvisar si"
+	cont "eres un entrena-"
+	cont "dor Pokémon!"
 	done
 
 _ViridianForestEndBattleText2::
-	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
+	text "¿Eh?"
+	line "¡Me quedé sin"
+	cont "Pokémon!"
 	prompt
 
 _ViridianFrstAfterBattleText2::
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "¡Maldición!"
+	line "¡Tendré que atra-"
+	cont "par Pokémon más"
+	cont "fuertes!"
 	done
 
 _ViridianForestBattleText3::
-	text "Hey, wait up!"
-	line "What's the hurry?"
+	text "¡Ey! ¡Espera!"
+	line "¿Adónde vas con"
+	cont "tanta prisa?"
 	done
 
 _ViridianForestEndBattleText3::
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text "¡Me"
+	line "rindo! ¡Eres muy"
+	cont "bueno en esto!"
+	prompt
+
+_ViridianForestEndBattleText3F::
+	text "¡Me"
+	line "rindo! ¡Eres muy"
+	cont "buena en esto!"
 	prompt
 
 _ViridianFrstAfterBattleText3::
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
+	text "A veces, ¡puedes"
+	line "encontrar cosas"
+	cont "en el piso!"
 
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	para "Estoy buscando"
+	line "las cosas que"
+	cont "boté!"
 	done
 
 _ViridianForestText8::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "¡Me quedé sin"
+	line "Pokébolas para"
+	cont "atrapar Pokémon!"
 
-	para "You should carry"
-	line "extras!"
+	para "¡Deberías llevar"
+	line "Pokébolas extras!"
 	done
 
 _ViridianForestText9::
-	text "TRAINER TIPS"
+	text "CONSEJOS PARA"
+	line "ENTRENADORES"
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "Si quiere evitar"
+	line "peleas, ¡mantente"
+	cont "lejos de zonas"
+	cont "de hierba alta!"
 	done
 
 _ViridianForestText10::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "Para el veneno,"
+	line "¡usa un Antídoto!"
+	cont "¡Las puedes com-"
+	cont "prar en las"
+	cont "Tienda Pokémon!"
 	done
 
 _ViridianForestText11::
-	text "TRAINER TIPS"
+	text "CONSEJOS PARA"
+	line "ENTRENADORES"
 
-	para "Contact PROF.OAK"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "¡Contacta al Prof."
+	line "Oak a través de"
+	cont "la computadora"
+	cont "para que evalúe"
+	cont "tu Pokédex!"
 	done
 
 _ViridianForestText12::
-	text "TRAINER TIPS"
+	text "CONSEJOS PARA"
+	line "ENTRENADORES"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "¡No puedes robar"
+	line "Pokémon de otros"
+	cont "entrenadores!"
+	cont "¡Atrapa Pokémon"
+	cont "savajes!"
 	done
 
 _ViridianForestText13::
-	text "TRAINER TIPS"
+	text "CONSEJOS PARA"
+	line "ENTRENADORES"
 
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
+	para "¡Reduce los PS"
+	line "del Pokémon antes"
+	cont "de intentar atra-"
+	cont "parlo!"
 
-	para "When healthy,"
-	line "they may escape!"
+	para "Mientras esté"
+	line "sano, ¡peleará"
+	cont "o intentará"
+	cont "escapar!"
 	done
 
 _ViridianForestText14::
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	text "ABANDONANDO"
+	line "BOSQUE VIDIRIÁN"
+	cont "CIUDAD ESTAÑO"
+	cont "MÁS ADELANTE"
 	done

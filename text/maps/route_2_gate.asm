@@ -1,17 +1,18 @@
 _Route2GateText_5d616::
-	text "The HM FLASH"
-	line "lights even the"
-	cont "darkest dungeons."
+	text "La MO Destello"
+	line "ilumina hasta la"
+	cont "cueva más oscura."
 	
 ;joenote - add hotkey info
-	para "Press SELECT when"
-	line "you are in a dark"
-	cont "area to use it."	
+	para "Presiona SELECT"
+	line "cuando estés en"
+	cont "una área oscura"
+	cont "para usarlo."	
 	done
 
 _Route2GateText2::
-	text "Once a #MON"
-	line "learns FLASH, you"
-	cont "can get through"
-	cont "ROCK TUNNEL."
+	text "Una vez un Pokémon"
+	line "aprende Destello,"
+	cont "podrás pasar por"
+	cont "el Túnel Roca."
 	done

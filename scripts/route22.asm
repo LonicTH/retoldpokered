@@ -307,7 +307,12 @@ Route22Script4:
 	set 6, [hl]
 	set 7, [hl]
 	ld hl, Route22RivalDefeatedText2
+	ld de, Route22Text_511d0F
+	ld a, [wUnusedD721]
+	bit 0, a	;check if girl
+	jr nz, .FinishBattle
 	ld de, Route22Text_511d0
+.FinishBattle
 	call SaveEndBattleTextPointers
 	ld a, OPP_SONY2
 	ld [wCurOpponent], a
@@ -460,6 +465,10 @@ Route22RivalDefeatedText2:
 
 Route22Text_511d0:
 	TX_FAR _Route22Text_511d0
+	db "@"
+
+Route22Text_511d0F:
+	TX_FAR _Route22Text_511d0F
 	db "@"
 
 Route22FrontGateText:

@@ -1,20 +1,25 @@
 _Route2HouseText1::
-	text "A fainted #MON"
-	line "can't fight. But, "
-	cont "it can still use "
-	cont "moves like CUT!"
+	text "Un Pokémon debili-"
+	line "tado no puede"
+	cont "pelear. ¡Pero,"
+	cont "podrá usar movi-"
+	cont "mientos como"
+	cont "Corte!"
 	done
 
 _Route2HouseText3::
-	text "A fainted #MON"
-	line "can't fight. But, "
-	cont "it can still use "
-	cont "moves like CUT!"
+	text "Un Pokémon debili-"
+	line "tado no puede"
+	cont "pelear. ¡Pero,"
+	cont "podrá usar movi-"
+	cont "mientos como"
+	cont "Corte!"
 	
-	para "Need a #MON"
-	line "that can use CUT?"
+	para "¿Necesitas un"
+	line "Pokémon que pueda"
+	cont "usar Corte?"
 	
-	para "You can take this"
-	line "PARAS with you."
+	para "Puedes tomar este"
+	line "Paras contigo."
 	done
 	
