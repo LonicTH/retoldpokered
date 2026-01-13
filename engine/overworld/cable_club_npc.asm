@@ -1,5 +1,10 @@
 CableClubNPC:
+	ld hl, CableClubNPCWelcomeTextF
+	ld a, [wUnusedD721]
+	bit 0, a	;check if girl
+	jr nz, .checkPokedex
 	ld hl, CableClubNPCWelcomeText
+.checkPokedex
 	call PrintText
 	CheckEvent EVENT_GOT_POKEDEX
 	jp nz, .receivedPokedex
@@ -116,6 +121,10 @@ CableClubNPCAreaReservedFor2FriendsLinkedByCableText:
 
 CableClubNPCWelcomeText:
 	TX_FAR _CableClubNPCWelcomeText
+	db "@"
+
+CableClubNPCWelcomeTextF:
+	TX_FAR _CableClubNPCWelcomeTextF
 	db "@"
 
 CableClubNPCPleaseApplyHereHaveToSaveText:

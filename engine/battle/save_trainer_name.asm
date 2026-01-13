@@ -71,7 +71,7 @@ TrainerNamePointers:
 YoungsterName:
 	db "Joven@"
 BugCatcherName:
-	db "Caza Bichos@"
+	db "Cazabichos@"
 LassName:
 	db "Muchacha@"
 JrTrainerMName:

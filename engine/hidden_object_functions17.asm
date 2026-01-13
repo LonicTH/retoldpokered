@@ -215,7 +215,7 @@ ViridianSchoolBlackboard:
 	ld hl, wd730
 	set 6, [hl]
 	coord hl, 0, 0
-	lb bc, 6, 10
+	lb bc, 6, 11
 	call TextBoxBorder
 	coord hl, 1, 2
 	ld de, StatusAilmentText1

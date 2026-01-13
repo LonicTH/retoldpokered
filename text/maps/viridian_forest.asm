@@ -35,8 +35,8 @@ _ViridianForestBattleText2::
 _ViridianForestBattleText2F::
 	text "¡Oye! ¡No puedes"
 	line "improvisar si"
-	cont "eres un entrena-"
-	cont "dor Pokémon!"
+	cont "eres una entrena-"
+	cont "dora Pokémon!"
 	done
 
 _ViridianForestEndBattleText2::

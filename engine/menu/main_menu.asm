@@ -559,7 +559,7 @@ NewGameText:
 	next "OPCIONES@"
 
 CableClubOptionsText:
-	db   "CENTRO INTER."
+	db   "CENT. INTER."
 	next "COLISEO"
 	next "CANCELAR@"
 

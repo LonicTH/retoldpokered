@@ -50,30 +50,35 @@ AltMoveListsText:
 	ret
 
 AltMoveListsON:
-	text "Feelin' lucky?"
-	line "Wanna test yer"
-	cont "#MON skills?"
+	text "¿Te sientes con"
+	line "suerte? ¿Quiere"
+	cont "probar sus habi-"
+	cont "lidades con los"
+	cont "Pokémon?"
 	
-	para "I'll set it up so"
-	line "#MON of other"
-	cont "trainers can have"
-	cont "altered move sets"
-	cont "in subtle ways."
+	para "Puedo hacer que"
+	line "los Pokémon de"
+	cont "otros entrenado-"
+	cont "res tengan sus"
+	cont "listas de movi-"
+	cont "mientos alterados"
+	cont "ligeramente."
 	done
 	db "@"
 AltMoveListsOFF:
-	text "Undo the trainer"
-	line "move changes?"
+	text "¿Quieres que des-"
+	line "haga los cambios"
+	cont "de movimientos?"
 	done
 	db "@"
 
 AltMoveLists_Gambler_done:
-	text "I've made it so."
-	line "Good luck, kid."
+	text "Haré que así sea."
+	line "Buena suerte."
 	done
 	db "@"
 AltMoveLists_Gambler_reject:
-	text "No? Alright then."
-	line "Maybe later."
+	text "¿No? Está bien."
+	line "Otra vez será."
 	done
 	db "@"
