@@ -731,7 +731,7 @@ _GameCornerSomeonesKeysText::
 	done
 
 _JustAMomentText::
-	text "Just a moment."
+	text "Un momento."
 	done
 
 TMNotebookText::
@@ -750,91 +750,99 @@ TMNotebookText::
 	para "SILPH CO.@@"
 
 _TurnPageText::
-	text "Turn the page?"
+	text "¿Dárle la vuelta"
+	line "a la página?"
 	done
 
 _ViridianSchoolNotebookText5::
-	text "GIRL: Hey! Don't"
-	line "look at my notes!@@"
+	text "Chica: ¡Oye! ¡No"
+	line "mires mis notas!@@"
 
 _ViridianSchoolNotebookText1::
-	text "Looked at the"
-	line "notebook!"
+	text "¡Miraste el"
+	line "cuaderno!"
 
-	para "First page..."
+	para "Primera página..."
 
-	para "# BALLs are"
-	line "used to catch"
-	cont "#MON."
+	para "Pokébolas se"
+	line "usan para atra-"
+	cont "par Pokémon."
 
-	para "Up to 6 #MON"
-	line "can be carried."
+	para "Puedes llevar"
+	line "hasta 6 Pokémon."
 
-	para "People who raise"
-	line "and make #MON"
-	cont "fight are called"
-	cont "#MON trainers."
+	para "Aquellos que en-"
+	line "trenan Pokémon y"
+	cont "hacen que peleen"
+	cont "se les llaman"
+	cont "entrenadores"
+	cont "Pokémon."
 	prompt
 
 _ViridianSchoolNotebookText2::
-	text "Second page..."
+	text "Segunda página..."
 
-	para "A healthy #MON"
-	line "may be hard to"
-	cont "catch, so weaken"
-	cont "it first!"
+	para "Es difícil atra-"
+	line "par Pokémon con"
+	cont "mucha salud,"
+	cont "¡Debilítalos!"
 
-	para "Sleep, paralysis"
-	line "and damage is"
-	cont "effective!"
+	para "¡Dormirlos,"
+	line "paralizarlos o"
+	cont "dañarles es muy"
+	cont "efectivo!"
 	prompt
 
 _ViridianSchoolNotebookText3::
-	text "Third page..."
+	text "Tercera página..."
 
-	para "#MON trainers"
-	line "seek others to"
-	cont "engage in #MON"
-	cont "fights."
+	para "Entrenadores Poké-"
+	line "mon se enfrentan"
+	cont "a otros en peleas"
+	cont "Pokémon."
 
-	para "Battles are"
-	line "constantly fought"
-	cont "at #MON GYMs."
+	para "En los Gimnasios"
+	line "Pokémon constan-"
+	cont "temente se libran"
+	cont "batallas Pokémon."
 	prompt
 
 _ViridianSchoolNotebookText4::
-	text "Fourth page..."
+	text "Cuarta página..."
 
-	para "The goal for"
-	line "#MON trainers"
-	cont "is to beat the "
-	cont "top 8 #MON"
-	cont "GYM LEADERs."
+	para "La meta de todo"
+	line "entrenador Poké-"
+	cont "mon es vencer a"
+	cont "8 Líderes de"
+	cont "Gimnasio Pokémon."
 
-	para "Do so to earn the"
-	line "right to face..."
+	para "Hacerlo les da el"
+	line "derecho de poder"
+	cont "enfrentarse a..."
 
-	para "The ELITE FOUR of"
-	line "#MON LEAGUE!"
+	para "¡La Élite Cuatro"
+	line "en la Liga Poké-"
+	cont "mon!"
 	prompt
 
 _EnemiesOnEverySideText::
-	text "Enemies on every"
-	line "side!"
+	text "¡Hay enemigos por"
+	line "doquiér!"
 	done
 
 _WhatGoesAroundComesAroundText::
-	text "What goes around"
-	line "comes around!"
+	text "¡Recoges lo que"
+	line "siembras!"
 	done
 
 _FightingDojoText::
-	text "FIGHTING DOJO"
+	text "DOJO DE PELEA"
 	done
 
 _IndigoPlateauHQText::
-	text "INDIGO PLATEAU"
-	line "#MON LEAGUE HQ"
+	text "MESETA ÍNDIGO"
+	line "Sede la Liga"
+	cont "Pokémon"
 	done
 
 _RedBedroomSNESText::
@@ -879,8 +887,8 @@ _LinkCableHelpText1::
 	prompt
 
 _LinkCableHelpText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "¿Qué título te"
+	line "guistaría leer?"
 	done
 
 _LinkCableInfoText1::
@@ -906,86 +914,101 @@ _LinkCableInfoText3::
 	prompt
 
 _ViridianSchoolBlackboardText1::
-	text "The blackboard"
-	line "describes #MON"
-	cont "STATUS changes"
-	cont "during battles."
+	text "La pizarra des-"
+	line "cribe cambios"
+	cont "de Estado de los"
+	cont "Pokémon durante"
+	cont "las peleas."
 	prompt
 
 _ViridianSchoolBlackboardText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "¿Qué título te"
+	line "guistaría leer?"
 	done
 
 _ViridianBlackboardSleepText::
-	text "A #MON can't"
-	line "attack if it's"
-	cont "asleep!"
+	text "¡Un Pokémon no"
+	line "puede atacar si"
+	cont "está dormido!"
 
-	para "#MON will stay"
-	line "asleep even after"
-	cont "battles."
+	para "Los Pokémon perma-"
+	line "necerán dormidos"
+	cont "incluso después"
+	cont "de las peleas."
 
-	para "Use AWAKENING to"
-	line "wake them up!"
+	para "¡Usa un Despertar"
+	line "para despertarle!"
 	prompt
 
 _ViridianBlackboardPoisonText::
-	text "When poisoned, a"
-	line "#MON's health"
-	cont "steadily drops."
+	text "Cuando un Pokémon"
+	line "está envenenado"
+	cont "su vida baja"
+	cont "poco a poco."
 
-	para "Poison lingers"
-	line "after battles."
+	para "El envenenamiento"
+	line "perdura después"
+	cont "de las peleas."
 
-	para "Use an ANTIDOTE"
-	line "to cure poison!"
+	para "¡Usa un Antídoto"
+	line "para curar el"
+	cont "envenenamiento!"
 	prompt
 
 _ViridianBlackboardPrlzText::
-	text "Paralysis can"
-	line "make #MON"
-	cont "moves misfire!"
+	text "¡La parálisis hace"
+	line "que los movimien-"
+	cont "tos de los Poké-"
+	cont "mon fallen!" 
 	
-	para "It cuts SPEED"
-	line "by 75 percent."
+	para "Aparte de bajar"
+	line "su velocidad en"
+	cont "un 75 por ciento."
 
-	para "Paralysis remains"
-	line "after battles."
+	para "La parálisis"
+	line "perdura después"
+	cont "de la pelea."
 
-	para "Use PARLYZ HEAL"
-	line "for treatment!"
+	para "¡Usa un Antipara-"
+	line "lizador para cu-"
+	cont "rar este estado!"
 	prompt
 
 _ViridianBlackboardBurnText::
-	text "A burn reduces"
-	line "ATTACK by half."
-	cont "It also causes"
-	cont "ongoing damage."
+	text "Una quemadura"
+	line "reduce el Ataque"
+	cont "por la mitad."
+	cont "Aparte de hacer"
+	cont "daño constante."
 
-	para "Burns remain"
-	line "after battles."
+	para "Las quemaduras"
+	line "perduran tras"
+	cont "la pelea."
 
-	para "Use BURN HEAL to"
-	line "cure a burn!"
+	para "¡Usa un Anti-"
+	line "quemaduras para"
+	cont "curar la quema-"
+	cont "dura!"
 	prompt
 
 _ViridianBlackboardFrozenText::
-	text "If frozen, a"
-	line "#MON becomes"
-	cont "totally immobile!"
+	text "Si está congelado,"
+	line "¡El Pokémon se"
+	cont "queda totalmente"
+	cont "inmóvil!"
 
-	para "It stays frozen"
-	line "even after the"
-	cont "battle ends."
+	para "Se mantendrá"
+	line "congelado incluso"
+	cont "tras la pelea."
 
-	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	para "¡Usa un Antihielo"
+	line "para descongelar"
+	cont "al Pokémon!"
 	prompt
 
 _VermilionGymTrashText::
-	text "Nope, there's"
-	line "only trash here."
+	text "Nop, solo hay"
+	line "basura aquí."
 	done
 
 _VermilionGymTrashSuccessText1::
@@ -1372,23 +1395,23 @@ _CF4BText::
 	text "@"
 
 _ExclamationPoint1Text::
-	text "!"
+	text "¡!"
 	done
 
 _ExclamationPoint2Text::
-	text "!"
+	text "¡!"
 	done
 
 _ExclamationPoint3Text::
-	text "!"
+	text "¡!"
 	done
 
 _ExclamationPoint4Text::
-	text "!"
+	text "¡!"
 	done
 
 _ExclamationPoint5Text::
-	text "!"
+	text "¡!"
 	done
 
 _AttackMissedText::
@@ -1964,13 +1987,13 @@ _AccessedOaksPCText::
 	prompt
 
 _WhereWouldYouLikeText::
-	text "Where would you"
-	line "like to go?"
+	text "¿A dónde te"
+	line "gustaría ir?"
 	done
 
 _PleaseWaitText::
-	text "OK, please wait"
-	line "just a moment."
+	text "Muy bien, espera"
+	line "un momento."
 	done
 
 _LinkCanceledText::
@@ -2415,11 +2438,11 @@ _DreamWasEatenText::
 	prompt
 
 _TradeCenterText1::
-	text "!"
+	text "¡!"
 	done
 
 _ColosseumText1::
-	text "!"
+	text "¡!"
 	done
 
 INCLUDE "text/maps/reds_house_1f.asm"
@@ -2733,25 +2756,31 @@ _CableClubNPCWelcomeText::
 	line "Club Cable!"
 	done
 
-_CableClubNPCPleaseApplyHereHaveToSaveText::
-	text "Please apply here."
+_CableClubNPCWelcomeTextF::
+	text "¡Bienvenida al"
+	line "Club Cable!"
+	done
 
-	para "Before opening"
-	line "the link, we have"
-	cont "to save the game."
+_CableClubNPCPleaseApplyHereHaveToSaveText::
+	text "Por favor rellene"
+	line "este formulario."
+
+	para "Antes de abrir el"
+	line "enlace, tendremos"
+	cont "que guardar la"
+	cont "partida."
 	done
 
 _CableClubNPCPleaseWaitText::
-	text "Please wait.@@"
+	text "Espere.@@"
 
 _CableClubNPCLinkClosedBecauseOfInactivityText::
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "El enlace se cerró"
+	line "por inactividad."
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again!"
+	para "¡Por favor contac-"
+	line "ta a tu amigo y"
+	cont "reinténtalo!"
 	done
 
 
@@ -3266,23 +3295,24 @@ ENDC
 	done
 
 _WannaTrade3Text::
-	text "Hi! Do you have"
+	text "¡Holi! ¿Tienes un"
 	line "@"
 	TX_RAM wInGameTradeGiveMonName
 	text "?"
 
-	para "Want to trade it"
-	line "for @"
+	para "¿Te gustaría"
+	line "intercambiarlo"
+	cont "por @"
 	TX_RAM wInGameTradeReceiveMonName
 	text "?"
 	done
 
 _NoTrade3Text::
-	text "That's too bad."
+	text "Que mal."
 	done
 
 _WrongMon3Text::
-	text "...This is no"
+	text "...Ese no es un"
 	line "@"
 	TX_RAM wInGameTradeGiveMonName
 	text "."

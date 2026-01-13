@@ -1,6 +1,6 @@
 TrainerNames:
 	db "Joven@"
-	db "Caza Bichos@"
+	db "Cazabichos@"
 	db "Muchacha@"
 	db "Marinero@"
 	db "Entrenador@"

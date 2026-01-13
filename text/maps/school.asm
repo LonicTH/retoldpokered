@@ -1,29 +1,29 @@
 _SchoolText1::
-	text "Whew! I'm trying"
-	line "to memorize all"
-	cont "my notes."
+	text "¡Uff! Estoy tra-"
+	line "tando de memori-"
+	cont "zar mis notas."
 	done
 
 _SchoolText2::
-	text "Okay!"
+	text "¡Muy bien!"
 
-	para "Be sure to read"
-	line "the blackboard"
-	cont "carefully!"
+	para "¡Asegúrate de"
+	line "leer la pizarra"
+	cont "con cuidado!"
 	done
 
 ;joenote - added more explanation
 _SchoolText3::
-	text "FISSURE."
-	para "HORN DRILL."
-	para "GUILLOTINE."
+	text "Fisura."
+	para "Cuerno Taladro."
+	para "Guillotina."
 	
-	para "They take out"
-	line "#MON with just"
-	cont "one hit!"
+	para "¡Estos debilitan"
+	line "Pokémon de un"
+	cont "golpe!"
 
-	para "But only rarely,"
-	line "and only if your"
-	cont "#MON moves"
-	cont "first."
+	para "Pero no siempre,"
+	line "y solo si tu"
+	cont "Pokémon se mueve"
+	cont "primero."
 	done
