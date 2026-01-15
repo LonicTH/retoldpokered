@@ -22,7 +22,7 @@ _OakSpeechText1F::
 
 _OakSpeechText2A::
 	text "¡Este mundo está"
-	line "inhabitado por"
+	line "habitado por unas"
 	cont "criaturas llama-"
 	cont "das Pokémon!@@"
 
