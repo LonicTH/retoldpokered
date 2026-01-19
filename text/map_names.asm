@@ -6,7 +6,7 @@ ViridianCityName:
 PewterCityName:
 	db "Ciudad Estaño@"
 CeruleanCityName:
-	db "Ciudad Cerúleo@"
+	db "Ciudad Cerúlea@"
 LavenderTownName:
 	db "Pueblo Lavanda@"
 VermilionCityName:

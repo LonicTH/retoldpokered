@@ -1,142 +1,197 @@
 _PewterGymText_5c4a3::
-	text "There are all"
-	line "kinds of trainers"
-	cont "in the world!"
+	text "¡Hay muchos tipos"
+	line "de entrenadores"
+	cont "en el mundo!"
 
-	para "You appear to be"
-	line "very gifted as a"
-	cont "#MON trainer!"
+	para "¡Parece que eres"
+	line "muy hábil como"
+	cont "entrenador Po-"
+	cont "kémon!"
 
-	para "Go to the GYM in"
-	line "CERULEAN and test"
-	cont "your abilities!"
+	para "¡Ve al Gimnasio"
+	line "en Cerúlea para"
+	cont "probar tus habi-"
+	cont "lidades!"
+	done
+
+_PewterGymText_5c4a3F::
+	text "¡Hay muchos tipos"
+	line "de entrenadores"
+	cont "en el mundo!"
+
+	para "¡Parece que eres"
+	line "muy hábil como"
+	cont "entrenadora Po-"
+	cont "kémon!"
+
+	para "¡Ve al Gimnasio"
+	line "en Cerúlea para"
+	cont "probar tus habi-"
+	cont "lidades!"
 	done
 
 _TM34PreReceiveText::
-	text "Wait! Take this"
-	line "with you!"
+	text "¡Espera! ¡Toma"
+	line "esto contigo!"
 	done
 
 _ReceivedTM34Text::
-	text "<PLAYER> received"
-	line "TM34!@@"
+	text "¡<PLAYER> recibió"
+	line "la MT34!@@"
 
 _TM34ExplanationText::
 	db $0
-	para "A TM contains a"
-	line "technique that"
-	cont "can be taught to"
-	cont "#MON!"
+	para "¡Las MT contienen"
+	line "técnicas que se"
+	cont "le pueden enseñar"
+	cont "a los Pokémon!"
 
-	para "A TM is good only"
-	line "once! So when you"
-	cont "use one to teach"
-	cont "a new technique,"
-	cont "pick the #MON"
-	cont "carefully!"
+	para "¡Aunque solo se"
+	line "pueden usar una"
+	cont "vez! ¡Escoge con"
+	cont "cuidado a cuál"
+	cont "Pokémon le ense-"
+	cont "ñarás el movi-"
+	cont "miento!"
 
-	para "TM34 contains"
-	line "BIDE!"
+	para "¡La MT34 contiene"
+	line "Venganza!"
 
-	para "Your #MON will"
-	line "absorb damage in"
-	cont "battle then pay"
-	cont "it back double!"
+	para "¡Tu Pokémon ab-"
+	line "sorberá el daño"
+	cont "de la pelea y"
+	cont "luego lo devol-"
+	cont "verán el doble!"
 	done
 
 _TM34NoRoomText::
-	text "You don't have"
-	line "room for this!"
+	text "¡No tienes espa-"
+	line "cio para esto!"
 	done
 
 _PewterGymText_5c4bc::
-	text "I took"
-	line "you for granted."
+	text "Te tomé"
+	line "por sentado."
 
-	para "As proof of your"
-	line "victory, here's"
-	cont "the BOULDERBADGE!"
+	para "¡Cómo prueba de"
+	line "tu victoria, te"
+	cont "daré la Medalla"
+	cont "Roca!"
 
-	para "<PLAYER> received"
-	line "the BOULDERBADGE!@@"
+	para "¡<PLAYER> recibió"
+	line "la Medalla Roca!@@"
 
 _PewterGymText_5c4c1::
 	db $0
-	para "That's an official"
-	line "#MON LEAGUE"
-	cont "BADGE!"
+	para "¡Esa es una meda-"
+	line "lla de la Liga"
+	cont "Pokémon!"
 
-	para "Its bearer's"
-	line "#MON become"
-	cont "more powerful!"
+	para "¡Los Pokémon del"
+	line "entrenador que la"
+	cont "posee se vuelven"
+	cont "más poderosos!"
 
-	para "The technique"
-	line "FLASH can now be"
-	cont "used any time!"
+	para "Aparte, ¡La téc-"
+	line "nica Destello se"
+	cont "puede usar fuera"
+	cont "de las peleas!"
 	prompt
 
 _PewterGymBattleText1::
-	text "Stop right there,"
-	line "kid!"
+	text "¡Alto ahí, niño!"
 
-	para "You're still light"
-	line "years from facing"
-	cont "BROCK!"
+	para "¡Aún estás a años"
+	line "luz de enfrentar"
+	cont "a Brock!"
+	done
+
+_PewterGymBattleText1F::
+	text "¡Alto ahí, niña!"
+
+	para "¡Aún estás a años"
+	line "luz de enfrentar"
+	cont "a Brock!"
 	done
 
 _PewterGymEndBattleText1::
-	text "Darn!"
+	text "¡Mal-"
+	line "dición!"
 
-	para "Light years isn't"
-	line "time! It measures"
-	cont "distance!"
+	para "¡Años Luz no mide"
+	line "tiempo! ¡Mide"
+	cont "distancias!"
 	prompt
 
 _PewterGymAfterBattleText1::
-	text "You're pretty hot,"
-	line "but not as hot"
-	cont "as BROCK!"
+	text "Eres fuerte,"
+	line "¡pero no tanto"
+	cont "como Brock!"
 	done
 
 _PewterGymText_5c515::
-	text "Hiya! I can tell"
-	line "you have what it"
-	cont "takes to become a"
-	cont "#MON champ!"
+	text "¡Buenas! ¡Puedo"
+	line "ver que tienes"
+	cont "lo que necesita"
+	cont "para ser un"
+	cont "campeón Pokémon!"
 
-	para "I'm no trainer,"
-	line "but I can tell"
-	cont "you how to win!"
+	para "No soy entrenador,"
+	line "¡pero te puedo"
+	cont "decir como ganar!"
 
-	para "Let me take you"
-	line "to the top!"
+	para "¡Déjame llevarte"
+	line "a la cima!"
+	done
+
+_PewterGymText_5c515F::
+	text "¡Buenas! ¡Puedo"
+	line "ver que tienes"
+	cont "lo que necesita"
+	cont "para ser una"
+	cont "campeona Pokémon!"
+
+	para "No soy entrenador,"
+	line "¡pero te puedo"
+	cont "decir como ganar!"
+
+	para "¡Déjame llevarte"
+	line "a la cima!"
 	done
 
 _PewterGymText_5c51a::
-	text "All right! Let's"
-	line "get happening!"
+	text "¡Muy bien!"
+	line "¡Empecemos!"
 	prompt
 
 _PewterGymText_5c51f::
-	text "The 1st #MON"
-	line "out in a match is"
-	cont "at the top of the"
-	cont "#MON LIST!"
+	text "¡El 1er Pokémon"
+	line "que sale en la"
+	cont "pelea es el que"
+	cont "esté en lo más"
+	cont "alto de la Lista"
+	cont "de Pokémon!"
 
-	para "By changing the"
-	line "order of #MON,"
-	cont "matches could be"
-	cont "made easier!"
+	para "Cambiando el orden"
+	line "orden de Pokémon,"
+	cont "las peleas serán"
+	cont "más fáciles!"
 	done
 
 _PewterGymText_5c524::
-	text "It's a free"
-	line "service! Let's"
-	cont "get happening!"
+	text "¡Es un servicio"
+	line "gratuito!"
+	cont "¡Empecemos!"
 	prompt
 
 _PewterGymText_5c529::
-	text "Just as I thought!"
-	line "You're #MON"
-	cont "champ material!"
+	text "¡Justo como pensé!"
+	line "¡Tienes madera de"
+	cont "campeón!"
+	done
+
+_PewterGymText_5c529F::
+	text "¡Justo como pensé!"
+	line "¡Tienes madera de"
+	cont "campeona!"
 	done

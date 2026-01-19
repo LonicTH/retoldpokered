@@ -868,15 +868,16 @@ _Route15UpstairsBinocularsText::
 	done
 
 _AerodactylFossilText::
-	text "AERODACTYL Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "Fósil de"
+	line "Aerodactyl"
+	cont "Un Pokémon raro"
+	cont "y primitivo."
 	done
 
 _KabutopsFossilText::
-	text "KABUTOPS Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "Fósil de Kabutops"
+	line "Un Pokémon raro"
+	cont "y primitivo."
 	done
 
 _LinkCableHelpText1::
@@ -1222,7 +1223,7 @@ _TrainerSentOutText::
 	text "¡@"
 	TX_RAM wTrainerName
 	text " sacará"
-	line "@"
+	line "a @"
 	TX_RAM wEnemyMonNick
 	text "!"
 	done
@@ -1395,23 +1396,23 @@ _CF4BText::
 	text "@"
 
 _ExclamationPoint1Text::
-	text "¡!"
+	text "!"
 	done
 
 _ExclamationPoint2Text::
-	text "¡!"
+	text "!"
 	done
 
 _ExclamationPoint3Text::
-	text "¡!"
+	text "!"
 	done
 
 _ExclamationPoint4Text::
-	text "¡!"
+	text "!"
 	done
 
 _ExclamationPoint5Text::
-	text "¡!"
+	text "!"
 	done
 
 _AttackMissedText::
@@ -2454,12 +2455,12 @@ INCLUDE "text/maps/school.asm"
 INCLUDE "text/maps/viridian_house.asm"
 INCLUDE "text/maps/viridian_gym.asm"
 INCLUDE "text/maps/museum_1f.asm"
-INCLUDE "text/maps/museum_2f.asm"
-INCLUDE "text/maps/pewter_gym_1.asm"
 
 
 SECTION "Text 7", ROMX, BANK[TEXT_7]
 
+INCLUDE "text/maps/museum_2f.asm"
+INCLUDE "text/maps/pewter_gym_1.asm"
 INCLUDE "text/maps/pewter_gym_2.asm"
 INCLUDE "text/maps/pewter_house_1.asm"
 INCLUDE "text/maps/pewter_mart.asm"

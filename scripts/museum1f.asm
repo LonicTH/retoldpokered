@@ -109,7 +109,12 @@ Museum1FText1:
 	call WaitForSoundToFinish
 	jr .asm_0b094
 .asm_de133
+	ld hl, Museum1FText_5c21aF
+	ld a, [wUnusedD721]
+	bit 0, a	;check if girl
+	jr nz, .asm_de133a
 	ld hl, Museum1FText_5c21a
+.asm_de133a
 	call PrintText
 	ld a, $1
 	ld [wSimulatedJoypadStatesIndex], a
@@ -141,6 +146,10 @@ Museum1FScriptEnd:
 
 Museum1FText_5c21a:
 	TX_FAR _Museum1FText_5c21a
+	db "@"
+
+Museum1FText_5c21aF:
+	TX_FAR _Museum1FText_5c21aF
 	db "@"
 
 Museum1FText_5c21f:

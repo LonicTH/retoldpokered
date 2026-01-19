@@ -90,7 +90,7 @@ _ViridianGymText12::
 
 _ReceivedTM27Text::
 	text "¡<PLAYER> recibió"
-	line "la TM27!@@"
+	line "la MT27!@@"
 
 _TM27ExplanationText::
 	db $0

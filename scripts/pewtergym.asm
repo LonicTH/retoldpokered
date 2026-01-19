@@ -98,6 +98,15 @@ PewterGymTrainerHeader0:
 	dw PewterGymEndBattleText1 ; TextEndBattle
 	dw PewterGymEndBattleText1 ; TextEndBattle
 
+PewterGymTrainerHeader1:
+	dbEventFlagBit EVENT_BEAT_PEWTER_GYM_TRAINER_0
+	db ($5 << 4) ; trainer's view range
+	dwEventFlagAddress EVENT_BEAT_PEWTER_GYM_TRAINER_0
+	dw PewterGymBattleText1F ; TextBeforeBattle
+	dw PewterGymAfterBattleText1 ; TextAfterBattle
+	dw PewterGymEndBattleText1 ; TextEndBattle
+	dw PewterGymEndBattleText1 ; TextEndBattle
+
 	db $ff
 
 PewterGymText1:
@@ -118,7 +127,12 @@ PewterGymText1:
 	and a
 	jr nz, .asm_5c46a
 ;;;;;;;
+	ld hl, PewterGymText_5c4a3F
+	ld a, [wUnusedD721]
+	bit 0, a	;check if girl
+	jr nz, .asm_5c462a
 	ld hl, PewterGymText_5c4a3
+.asm_5c462a
 	call PrintText
 	jr .asm_5c49b
 .asm_5c46a
@@ -156,6 +170,10 @@ PewterGymText_5c4a3:
 	TX_FAR _PewterGymText_5c4a3
 	db "@"
 
+PewterGymText_5c4a3F:
+	TX_FAR _PewterGymText_5c4a3F
+	db "@"
+
 PewterGymText4:
 	TX_FAR _TM34PreReceiveText
 	db "@"
@@ -179,12 +197,21 @@ PewterGymText_5c4bc:
 
 PewterGymText2:
 	TX_ASM
+	ld hl, PewterGymTrainerHeader1
+	ld a, [wUnusedD721]
+	bit 0, a	;check if girl
+	jr nz, .PewterGymText2a
 	ld hl, PewterGymTrainerHeader0
+.PewterGymText2a
 	call TalkToTrainer
 	jp TextScriptEnd
 
 PewterGymBattleText1:
 	TX_FAR _PewterGymBattleText1
+	db "@"
+
+PewterGymBattleText1F:
+	TX_FAR _PewterGymBattleText1F
 	db "@"
 
 PewterGymEndBattleText1:
@@ -200,7 +227,12 @@ PewterGymText3:
 	ld a, [wObtainedBadges];[wBeatGymFlags]
 	bit 0, a
 	jr nz, .asm_5c50c
+	ld hl, PewterGymText_5c515F
+	ld a, [wUnusedD721]
+	bit 0, a	;check if girl
+	jr nz, .PewterGymText3a
 	ld hl, PewterGymText_5c515
+.PewterGymText3a
 	call PrintText
 	call YesNoChoice
 	ld a, [wCurrentMenuItem]
@@ -217,13 +249,22 @@ PewterGymText3:
 	call PrintText
 	jr .asm_5c512
 .asm_5c50c
+	ld hl, PewterGymText_5c529F
+	ld a, [wUnusedD721]
+	bit 0, a	;check if girl
+	jr nz, .asm_5c50cA
 	ld hl, PewterGymText_5c529
+.asm_5c50cA
 	call PrintText
 .asm_5c512
 	jp TextScriptEnd
 
 PewterGymText_5c515:
 	TX_FAR _PewterGymText_5c515
+	db "@"
+
+PewterGymText_5c515F:
+	TX_FAR _PewterGymText_5c515F
 	db "@"
 
 PewterGymText_5c51a:
@@ -240,4 +281,8 @@ PewterGymText_5c524:
 
 PewterGymText_5c529:
 	TX_FAR _PewterGymText_5c529
+	db "@"
+
+PewterGymText_5c529F:
+	TX_FAR _PewterGymText_5c529F
 	db "@"

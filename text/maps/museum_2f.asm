@@ -1,54 +1,64 @@
 _Museum2FText1::
-	text "MOON STONE?"
+	text "¿Piedra Lunar?"
 
-	para "What's so special"
-	line "about it?"
+	para "¿Qué tiene de"
+	line "especial?"
 
 ;joenote - added text to hint at evolving kadabra
-	para "I heard that some"
-	line "GYM LEADER had a"
-	cont "KADABRA evolve by"
-	cont "meditating under"
-	cont "the MOON's light,"
-	cont "so why a STONE?"
+	para "Escuché que una"
+	line "Líder de Gimnasio"
+	cont "logró que un"
+	cont "Kadabra evolucio-"
+	cont "nara meditando"
+	cont "bajo la luz de la"
+	cont "Luna, ¿entonces"
+	cont "por qué hay una"
+	cont "Piedra?"
 
 	done
 
 _Museum2FText2::
-	text "July 20, 1969!"
+	text "¡20 de Julio 1969!"
 
-	para "The 1st lunar"
-	line "landing!"
+	para "¡El primer ate-"
+	line "rrizaje lunar!"
 
-	para "I bought a color"
-	line "TV to watch it!"
+	para "¡Compré una Tele"
+	line "a color para"
+	cont "verlo!"
 	done
 
 _Museum2FText3::
-	text "We have a space"
-	line "exhibit now."
+	text "Ahora tenemos"
+	line "una exibición"
+	cont "espacial."
 	done
 
 _Museum2FText4::
-	text "I want a PIKACHU!"
-	line "It's so cute!"
+	text "¡Quiero un"
+	line "Pikachu! ¡Son"
+	cont "tan lindos!"
 
-	para "I asked my Daddy"
-	line "to catch me one!"
+	para "¡Le pregunté a mi"
+	line "Papi si me atra-"
+	cont "para uno!"
 	done
 
 _Museum2FText5::
-	text "Yeah, a PIKACHU"
-	line "soon, I promise!"
+	text "Sí, tendrás un"
+	line "Pikachu pronto,"
+	cont "¡Lo prometo!"
 	done
 
 _Museum2FText6::
-	text "SPACE SHUTTLE"
-	line "COLUMBIA"
+	text "Transbordador"
+	line "Espacial"
+	cont "COLUMBIA"
 	done
 
 _Museum2FText7::
-	text "Meteorite that"
-	line "fell on MT.MOON."
-	cont "(MOON STONE?)"
+	text "Meteorito que"
+	line "cayó del Monte"
+	cont "Moon."
+	cont "(¿Piedra Lunar?)"
 	done
