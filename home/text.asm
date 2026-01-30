@@ -102,21 +102,19 @@ ENDM
 	dict $49, Char49 ; page
 	dict $52, Char52 ; player
 	dict $53, Char53 ; rival
-	dict $54, Char54 ; POKé
 	dict $5B, Char5B ; PC
 	dict $5E, Char5E ; ROCKET
 	dict $5C, Char5C ; TM
 	dict $5D, Char5D ; TRAINER
 	dict $55, Char55 ; cont
-	dict $56, Char56 ; 6 dots
 	dict $57, Char57 ; done
 	dict $58, Char58 ; prompt
 	dict $4A, Char4A ; PKMN
 	dict $5F, Char5F ; dex
 	dict $59, Char59 ; TARGET
 	dict $5A, Char5A ; USER
-  dict $60, Char60 ; o/a
-  dict $61, Char61 ; a?
+  	dict $60, Char60 ; o/a
+  	dict $61, Char61 ; a?
 
 	ld [hli], a
 	call PrintLetterDelay
@@ -166,16 +164,6 @@ Char5E:: ; ROCKET
 	ld de, Char5EText
 	jr FinishDTE
 
-Char54:: ; POKé
-	push de
-	ld de, Char54Text
-	jr FinishDTE
-
-Char56:: ; ……
-	push de
-	ld de, Char56Text
-	jr FinishDTE
-
 Char4A:: ; PKMN
 	push de
 	ld de, Char4AText
@@ -204,20 +192,6 @@ MonsterNameCharsCommon::
 	ld de, wBattleMonNick ; player active monster name
 	jr FinishDTE
 
-Char60:
-  push de
-  ld de, Char60Text
-  jp .checkGirl
-Char61:
-  push de
-.checkGirl
-  ld a, [wUnusedD721]
-  bit 0, a
-  jp z, FinishDTE
-  push de
-  ld de, Char61Text
-  jr FinishDTE
-
 .Enemy
 	; print “Enemy ”
 	ld de, Char5AText
@@ -234,6 +208,21 @@ FinishDTE::
 	inc de
 	jp PlaceNextChar
 
+Char60::
+  push de
+  ld de, Char60Text
+  jr Char60a
+Char61::
+  push de
+  jr Char60a
+Char60a::
+  ld a, [wUnusedD721]
+  bit 0, a
+  jp z, FinishDTE
+  push de
+  ld de, Char61Text
+  jr FinishDTE
+
 Char60Text::
   db "o@"
 Char61Text::
@@ -246,10 +235,6 @@ Char5BText::
 	db "PC@"
 Char5EText::
 	db "ROCKET@"
-Char54Text::
-	db "POKé@"
-Char56Text::
-	db "……@"
 Char5AText::
 	db "@ Enemigo"
 Char4AText::
