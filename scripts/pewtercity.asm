@@ -279,7 +279,12 @@ PewterCityText_19431:
 
 PewterCityText5:
 	TX_ASM
+	ld hl, PewterCityText_1945dF
+	ld a, [wUnusedD721]
+	bit 0, a	;check if girl
+	jr nz, .PewterCityText5a
 	ld hl, PewterCityText_1945d
+.PewterCityText5a
 	call PrintText
 	xor a
 	ld [hJoyHeld], a
@@ -297,6 +302,10 @@ PewterCityText5:
 
 PewterCityText_1945d:
 	TX_FAR _PewterCityText_1945d
+	db "@"
+
+PewterCityText_1945dF:
+	TX_FAR _PewterCityText_1945dF
 	db "@"
 
 PewterCityText14:
