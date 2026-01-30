@@ -115,6 +115,8 @@ ENDM
 	dict $5F, Char5F ; dex
 	dict $59, Char59 ; TARGET
 	dict $5A, Char5A ; USER
+  dict $60, Char60 ; o/a
+  dict $61, Char61 ; a?
 
 	ld [hli], a
 	call PrintLetterDelay
@@ -202,6 +204,20 @@ MonsterNameCharsCommon::
 	ld de, wBattleMonNick ; player active monster name
 	jr FinishDTE
 
+Char60:
+  push de
+  ld de, Char60Text
+  jp .checkGirl
+Char61:
+  push de
+.checkGirl
+  ld a, [wUnusedD721]
+  bit 0, a
+  jp z, FinishDTE
+  push de
+  ld de, Char61Text
+  jr FinishDTE
+
 .Enemy
 	; print “Enemy ”
 	ld de, Char5AText
@@ -218,6 +234,10 @@ FinishDTE::
 	inc de
 	jp PlaceNextChar
 
+Char60Text::
+  db "o@"
+Char61Text::
+  db "a@"
 Char5CText::
 	db "MT@"
 Char5DText::
